@@ -1,0 +1,226 @@
+test_id,window_months,filter_channel,filter_category,grain,entity,measure,expected,kind,tolerance
+B4-lifecycle-P0003,12,(all),(all),product,P0003,New Products Effect,2702.66,money,1.0
+B4-lifecycle-P0003-Price_Effect-zero,12,(all),(all),product,P0003,Price Effect,0.0,money,1.0
+B4-lifecycle-P0003-Cost_Effect-zero,12,(all),(all),product,P0003,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0003-Volume_Effect-zero,12,(all),(all),product,P0003,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0003-Mix_Effect-zero,12,(all),(all),product,P0003,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0005,12,(all),(all),product,P0005,New Products Effect,899.13,money,1.0
+B4-lifecycle-P0005-Price_Effect-zero,12,(all),(all),product,P0005,Price Effect,0.0,money,1.0
+B4-lifecycle-P0005-Cost_Effect-zero,12,(all),(all),product,P0005,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0005-Volume_Effect-zero,12,(all),(all),product,P0005,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0005-Mix_Effect-zero,12,(all),(all),product,P0005,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0011,12,(all),(all),product,P0011,Discontinued Effect,-2396.14,money,1.0
+B4-lifecycle-P0011-Price_Effect-zero,12,(all),(all),product,P0011,Price Effect,0.0,money,1.0
+B4-lifecycle-P0011-Cost_Effect-zero,12,(all),(all),product,P0011,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0011-Volume_Effect-zero,12,(all),(all),product,P0011,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0011-Mix_Effect-zero,12,(all),(all),product,P0011,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0016,12,(all),(all),product,P0016,Discontinued Effect,-2210.97,money,1.0
+B4-lifecycle-P0016-Price_Effect-zero,12,(all),(all),product,P0016,Price Effect,0.0,money,1.0
+B4-lifecycle-P0016-Cost_Effect-zero,12,(all),(all),product,P0016,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0016-Volume_Effect-zero,12,(all),(all),product,P0016,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0016-Mix_Effect-zero,12,(all),(all),product,P0016,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0017,12,(all),(all),product,P0017,Discontinued Effect,-1059.36,money,1.0
+B4-lifecycle-P0017-Price_Effect-zero,12,(all),(all),product,P0017,Price Effect,0.0,money,1.0
+B4-lifecycle-P0017-Cost_Effect-zero,12,(all),(all),product,P0017,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0017-Volume_Effect-zero,12,(all),(all),product,P0017,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0017-Mix_Effect-zero,12,(all),(all),product,P0017,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0018,12,(all),(all),product,P0018,New Products Effect,2443.77,money,1.0
+B4-lifecycle-P0018-Price_Effect-zero,12,(all),(all),product,P0018,Price Effect,0.0,money,1.0
+B4-lifecycle-P0018-Cost_Effect-zero,12,(all),(all),product,P0018,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0018-Volume_Effect-zero,12,(all),(all),product,P0018,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0018-Mix_Effect-zero,12,(all),(all),product,P0018,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0031,12,(all),(all),product,P0031,Discontinued Effect,-1118.25,money,1.0
+B4-lifecycle-P0031-Price_Effect-zero,12,(all),(all),product,P0031,Price Effect,0.0,money,1.0
+B4-lifecycle-P0031-Cost_Effect-zero,12,(all),(all),product,P0031,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0031-Volume_Effect-zero,12,(all),(all),product,P0031,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0031-Mix_Effect-zero,12,(all),(all),product,P0031,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0032,12,(all),(all),product,P0032,New Products Effect,589.83,money,1.0
+B4-lifecycle-P0032-Price_Effect-zero,12,(all),(all),product,P0032,Price Effect,0.0,money,1.0
+B4-lifecycle-P0032-Cost_Effect-zero,12,(all),(all),product,P0032,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0032-Volume_Effect-zero,12,(all),(all),product,P0032,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0032-Mix_Effect-zero,12,(all),(all),product,P0032,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0037,12,(all),(all),product,P0037,Discontinued Effect,-2734.03,money,1.0
+B4-lifecycle-P0037-Price_Effect-zero,12,(all),(all),product,P0037,Price Effect,0.0,money,1.0
+B4-lifecycle-P0037-Cost_Effect-zero,12,(all),(all),product,P0037,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0037-Volume_Effect-zero,12,(all),(all),product,P0037,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0037-Mix_Effect-zero,12,(all),(all),product,P0037,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0038,12,(all),(all),product,P0038,Discontinued Effect,-1156.67,money,1.0
+B4-lifecycle-P0038-Price_Effect-zero,12,(all),(all),product,P0038,Price Effect,0.0,money,1.0
+B4-lifecycle-P0038-Cost_Effect-zero,12,(all),(all),product,P0038,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0038-Volume_Effect-zero,12,(all),(all),product,P0038,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0038-Mix_Effect-zero,12,(all),(all),product,P0038,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0041,12,(all),(all),product,P0041,Discontinued Effect,-1127.12,money,1.0
+B4-lifecycle-P0041-Price_Effect-zero,12,(all),(all),product,P0041,Price Effect,0.0,money,1.0
+B4-lifecycle-P0041-Cost_Effect-zero,12,(all),(all),product,P0041,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0041-Volume_Effect-zero,12,(all),(all),product,P0041,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0041-Mix_Effect-zero,12,(all),(all),product,P0041,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0048,12,(all),(all),product,P0048,New Products Effect,2239.71,money,1.0
+B4-lifecycle-P0048-Price_Effect-zero,12,(all),(all),product,P0048,Price Effect,0.0,money,1.0
+B4-lifecycle-P0048-Cost_Effect-zero,12,(all),(all),product,P0048,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0048-Volume_Effect-zero,12,(all),(all),product,P0048,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0048-Mix_Effect-zero,12,(all),(all),product,P0048,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0053,12,(all),(all),product,P0053,Discontinued Effect,-1869.37,money,1.0
+B4-lifecycle-P0053-Price_Effect-zero,12,(all),(all),product,P0053,Price Effect,0.0,money,1.0
+B4-lifecycle-P0053-Cost_Effect-zero,12,(all),(all),product,P0053,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0053-Volume_Effect-zero,12,(all),(all),product,P0053,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0053-Mix_Effect-zero,12,(all),(all),product,P0053,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0054,12,(all),(all),product,P0054,New Products Effect,5185.87,money,1.0
+B4-lifecycle-P0054-Price_Effect-zero,12,(all),(all),product,P0054,Price Effect,0.0,money,1.0
+B4-lifecycle-P0054-Cost_Effect-zero,12,(all),(all),product,P0054,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0054-Volume_Effect-zero,12,(all),(all),product,P0054,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0054-Mix_Effect-zero,12,(all),(all),product,P0054,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0061,12,(all),(all),product,P0061,New Products Effect,2396.13,money,1.0
+B4-lifecycle-P0061-Price_Effect-zero,12,(all),(all),product,P0061,Price Effect,0.0,money,1.0
+B4-lifecycle-P0061-Cost_Effect-zero,12,(all),(all),product,P0061,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0061-Volume_Effect-zero,12,(all),(all),product,P0061,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0061-Mix_Effect-zero,12,(all),(all),product,P0061,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0066,12,(all),(all),product,P0066,Discontinued Effect,-1201.36,money,1.0
+B4-lifecycle-P0066-Price_Effect-zero,12,(all),(all),product,P0066,Price Effect,0.0,money,1.0
+B4-lifecycle-P0066-Cost_Effect-zero,12,(all),(all),product,P0066,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0066-Volume_Effect-zero,12,(all),(all),product,P0066,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0066-Mix_Effect-zero,12,(all),(all),product,P0066,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0098,12,(all),(all),product,P0098,Discontinued Effect,-2244.56,money,1.0
+B4-lifecycle-P0098-Price_Effect-zero,12,(all),(all),product,P0098,Price Effect,0.0,money,1.0
+B4-lifecycle-P0098-Cost_Effect-zero,12,(all),(all),product,P0098,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0098-Volume_Effect-zero,12,(all),(all),product,P0098,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0098-Mix_Effect-zero,12,(all),(all),product,P0098,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0116,12,(all),(all),product,P0116,New Products Effect,2904.55,money,1.0
+B4-lifecycle-P0116-Price_Effect-zero,12,(all),(all),product,P0116,Price Effect,0.0,money,1.0
+B4-lifecycle-P0116-Cost_Effect-zero,12,(all),(all),product,P0116,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0116-Volume_Effect-zero,12,(all),(all),product,P0116,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0116-Mix_Effect-zero,12,(all),(all),product,P0116,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0124,12,(all),(all),product,P0124,New Products Effect,5281.77,money,1.0
+B4-lifecycle-P0124-Price_Effect-zero,12,(all),(all),product,P0124,Price Effect,0.0,money,1.0
+B4-lifecycle-P0124-Cost_Effect-zero,12,(all),(all),product,P0124,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0124-Volume_Effect-zero,12,(all),(all),product,P0124,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0124-Mix_Effect-zero,12,(all),(all),product,P0124,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0134,12,(all),(all),product,P0134,Discontinued Effect,-3424.13,money,1.0
+B4-lifecycle-P0134-Price_Effect-zero,12,(all),(all),product,P0134,Price Effect,0.0,money,1.0
+B4-lifecycle-P0134-Cost_Effect-zero,12,(all),(all),product,P0134,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0134-Volume_Effect-zero,12,(all),(all),product,P0134,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0134-Mix_Effect-zero,12,(all),(all),product,P0134,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0139,12,(all),(all),product,P0139,New Products Effect,2700.14,money,1.0
+B4-lifecycle-P0139-Price_Effect-zero,12,(all),(all),product,P0139,Price Effect,0.0,money,1.0
+B4-lifecycle-P0139-Cost_Effect-zero,12,(all),(all),product,P0139,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0139-Volume_Effect-zero,12,(all),(all),product,P0139,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0139-Mix_Effect-zero,12,(all),(all),product,P0139,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0144,12,(all),(all),product,P0144,Discontinued Effect,-3164.18,money,1.0
+B4-lifecycle-P0144-Price_Effect-zero,12,(all),(all),product,P0144,Price Effect,0.0,money,1.0
+B4-lifecycle-P0144-Cost_Effect-zero,12,(all),(all),product,P0144,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0144-Volume_Effect-zero,12,(all),(all),product,P0144,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0144-Mix_Effect-zero,12,(all),(all),product,P0144,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0169,12,(all),(all),product,P0169,Discontinued Effect,-2106.94,money,1.0
+B4-lifecycle-P0169-Price_Effect-zero,12,(all),(all),product,P0169,Price Effect,0.0,money,1.0
+B4-lifecycle-P0169-Cost_Effect-zero,12,(all),(all),product,P0169,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0169-Volume_Effect-zero,12,(all),(all),product,P0169,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0169-Mix_Effect-zero,12,(all),(all),product,P0169,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0171,12,(all),(all),product,P0171,New Products Effect,5192.21,money,1.0
+B4-lifecycle-P0171-Price_Effect-zero,12,(all),(all),product,P0171,Price Effect,0.0,money,1.0
+B4-lifecycle-P0171-Cost_Effect-zero,12,(all),(all),product,P0171,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0171-Volume_Effect-zero,12,(all),(all),product,P0171,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0171-Mix_Effect-zero,12,(all),(all),product,P0171,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0177,12,(all),(all),product,P0177,Discontinued Effect,-3823.06,money,1.0
+B4-lifecycle-P0177-Price_Effect-zero,12,(all),(all),product,P0177,Price Effect,0.0,money,1.0
+B4-lifecycle-P0177-Cost_Effect-zero,12,(all),(all),product,P0177,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0177-Volume_Effect-zero,12,(all),(all),product,P0177,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0177-Mix_Effect-zero,12,(all),(all),product,P0177,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0183,12,(all),(all),product,P0183,New Products Effect,3410.68,money,1.0
+B4-lifecycle-P0183-Price_Effect-zero,12,(all),(all),product,P0183,Price Effect,0.0,money,1.0
+B4-lifecycle-P0183-Cost_Effect-zero,12,(all),(all),product,P0183,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0183-Volume_Effect-zero,12,(all),(all),product,P0183,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0183-Mix_Effect-zero,12,(all),(all),product,P0183,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0206,12,(all),(all),product,P0206,New Products Effect,1904.9,money,1.0
+B4-lifecycle-P0206-Price_Effect-zero,12,(all),(all),product,P0206,Price Effect,0.0,money,1.0
+B4-lifecycle-P0206-Cost_Effect-zero,12,(all),(all),product,P0206,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0206-Volume_Effect-zero,12,(all),(all),product,P0206,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0206-Mix_Effect-zero,12,(all),(all),product,P0206,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0207,12,(all),(all),product,P0207,Discontinued Effect,-2951.55,money,1.0
+B4-lifecycle-P0207-Price_Effect-zero,12,(all),(all),product,P0207,Price Effect,0.0,money,1.0
+B4-lifecycle-P0207-Cost_Effect-zero,12,(all),(all),product,P0207,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0207-Volume_Effect-zero,12,(all),(all),product,P0207,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0207-Mix_Effect-zero,12,(all),(all),product,P0207,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0219,12,(all),(all),product,P0219,New Products Effect,4838.37,money,1.0
+B4-lifecycle-P0219-Price_Effect-zero,12,(all),(all),product,P0219,Price Effect,0.0,money,1.0
+B4-lifecycle-P0219-Cost_Effect-zero,12,(all),(all),product,P0219,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0219-Volume_Effect-zero,12,(all),(all),product,P0219,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0219-Mix_Effect-zero,12,(all),(all),product,P0219,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0222,12,(all),(all),product,P0222,New Products Effect,1572.47,money,1.0
+B4-lifecycle-P0222-Price_Effect-zero,12,(all),(all),product,P0222,Price Effect,0.0,money,1.0
+B4-lifecycle-P0222-Cost_Effect-zero,12,(all),(all),product,P0222,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0222-Volume_Effect-zero,12,(all),(all),product,P0222,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0222-Mix_Effect-zero,12,(all),(all),product,P0222,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0223,12,(all),(all),product,P0223,New Products Effect,2795.61,money,1.0
+B4-lifecycle-P0223-Price_Effect-zero,12,(all),(all),product,P0223,Price Effect,0.0,money,1.0
+B4-lifecycle-P0223-Cost_Effect-zero,12,(all),(all),product,P0223,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0223-Volume_Effect-zero,12,(all),(all),product,P0223,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0223-Mix_Effect-zero,12,(all),(all),product,P0223,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0229,12,(all),(all),product,P0229,New Products Effect,3933.56,money,1.0
+B4-lifecycle-P0229-Price_Effect-zero,12,(all),(all),product,P0229,Price Effect,0.0,money,1.0
+B4-lifecycle-P0229-Cost_Effect-zero,12,(all),(all),product,P0229,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0229-Volume_Effect-zero,12,(all),(all),product,P0229,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0229-Mix_Effect-zero,12,(all),(all),product,P0229,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0231,12,(all),(all),product,P0231,Discontinued Effect,-2422.43,money,1.0
+B4-lifecycle-P0231-Price_Effect-zero,12,(all),(all),product,P0231,Price Effect,0.0,money,1.0
+B4-lifecycle-P0231-Cost_Effect-zero,12,(all),(all),product,P0231,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0231-Volume_Effect-zero,12,(all),(all),product,P0231,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0231-Mix_Effect-zero,12,(all),(all),product,P0231,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0233,12,(all),(all),product,P0233,New Products Effect,5283.83,money,1.0
+B4-lifecycle-P0233-Price_Effect-zero,12,(all),(all),product,P0233,Price Effect,0.0,money,1.0
+B4-lifecycle-P0233-Cost_Effect-zero,12,(all),(all),product,P0233,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0233-Volume_Effect-zero,12,(all),(all),product,P0233,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0233-Mix_Effect-zero,12,(all),(all),product,P0233,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0254,12,(all),(all),product,P0254,New Products Effect,8141.85,money,1.0
+B4-lifecycle-P0254-Price_Effect-zero,12,(all),(all),product,P0254,Price Effect,0.0,money,1.0
+B4-lifecycle-P0254-Cost_Effect-zero,12,(all),(all),product,P0254,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0254-Volume_Effect-zero,12,(all),(all),product,P0254,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0254-Mix_Effect-zero,12,(all),(all),product,P0254,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0261,12,(all),(all),product,P0261,New Products Effect,4636.93,money,1.0
+B4-lifecycle-P0261-Price_Effect-zero,12,(all),(all),product,P0261,Price Effect,0.0,money,1.0
+B4-lifecycle-P0261-Cost_Effect-zero,12,(all),(all),product,P0261,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0261-Volume_Effect-zero,12,(all),(all),product,P0261,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0261-Mix_Effect-zero,12,(all),(all),product,P0261,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0275,12,(all),(all),product,P0275,New Products Effect,5770.09,money,1.0
+B4-lifecycle-P0275-Price_Effect-zero,12,(all),(all),product,P0275,Price Effect,0.0,money,1.0
+B4-lifecycle-P0275-Cost_Effect-zero,12,(all),(all),product,P0275,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0275-Volume_Effect-zero,12,(all),(all),product,P0275,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0275-Mix_Effect-zero,12,(all),(all),product,P0275,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0277,12,(all),(all),product,P0277,Discontinued Effect,-3865.19,money,1.0
+B4-lifecycle-P0277-Price_Effect-zero,12,(all),(all),product,P0277,Price Effect,0.0,money,1.0
+B4-lifecycle-P0277-Cost_Effect-zero,12,(all),(all),product,P0277,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0277-Volume_Effect-zero,12,(all),(all),product,P0277,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0277-Mix_Effect-zero,12,(all),(all),product,P0277,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0278,12,(all),(all),product,P0278,Discontinued Effect,-6059.6,money,1.0
+B4-lifecycle-P0278-Price_Effect-zero,12,(all),(all),product,P0278,Price Effect,0.0,money,1.0
+B4-lifecycle-P0278-Cost_Effect-zero,12,(all),(all),product,P0278,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0278-Volume_Effect-zero,12,(all),(all),product,P0278,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0278-Mix_Effect-zero,12,(all),(all),product,P0278,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0279,12,(all),(all),product,P0279,Discontinued Effect,-2546.93,money,1.0
+B4-lifecycle-P0279-Price_Effect-zero,12,(all),(all),product,P0279,Price Effect,0.0,money,1.0
+B4-lifecycle-P0279-Cost_Effect-zero,12,(all),(all),product,P0279,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0279-Volume_Effect-zero,12,(all),(all),product,P0279,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0279-Mix_Effect-zero,12,(all),(all),product,P0279,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0285,12,(all),(all),product,P0285,Discontinued Effect,-4035.53,money,1.0
+B4-lifecycle-P0285-Price_Effect-zero,12,(all),(all),product,P0285,Price Effect,0.0,money,1.0
+B4-lifecycle-P0285-Cost_Effect-zero,12,(all),(all),product,P0285,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0285-Volume_Effect-zero,12,(all),(all),product,P0285,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0285-Mix_Effect-zero,12,(all),(all),product,P0285,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0288,12,(all),(all),product,P0288,New Products Effect,5098.83,money,1.0
+B4-lifecycle-P0288-Price_Effect-zero,12,(all),(all),product,P0288,Price Effect,0.0,money,1.0
+B4-lifecycle-P0288-Cost_Effect-zero,12,(all),(all),product,P0288,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0288-Volume_Effect-zero,12,(all),(all),product,P0288,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0288-Mix_Effect-zero,12,(all),(all),product,P0288,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0291,12,(all),(all),product,P0291,New Products Effect,6441.26,money,1.0
+B4-lifecycle-P0291-Price_Effect-zero,12,(all),(all),product,P0291,Price Effect,0.0,money,1.0
+B4-lifecycle-P0291-Cost_Effect-zero,12,(all),(all),product,P0291,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0291-Volume_Effect-zero,12,(all),(all),product,P0291,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0291-Mix_Effect-zero,12,(all),(all),product,P0291,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0296,12,(all),(all),product,P0296,New Products Effect,4079.49,money,1.0
+B4-lifecycle-P0296-Price_Effect-zero,12,(all),(all),product,P0296,Price Effect,0.0,money,1.0
+B4-lifecycle-P0296-Cost_Effect-zero,12,(all),(all),product,P0296,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0296-Volume_Effect-zero,12,(all),(all),product,P0296,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0296-Mix_Effect-zero,12,(all),(all),product,P0296,Mix Effect,0.0,money,1.0
+B4-lifecycle-P0297,12,(all),(all),product,P0297,New Products Effect,3804.15,money,1.0
+B4-lifecycle-P0297-Price_Effect-zero,12,(all),(all),product,P0297,Price Effect,0.0,money,1.0
+B4-lifecycle-P0297-Cost_Effect-zero,12,(all),(all),product,P0297,Cost Effect,0.0,money,1.0
+B4-lifecycle-P0297-Volume_Effect-zero,12,(all),(all),product,P0297,Volume Effect,0.0,money,1.0
+B4-lifecycle-P0297-Mix_Effect-zero,12,(all),(all),product,P0297,Mix Effect,0.0,money,1.0

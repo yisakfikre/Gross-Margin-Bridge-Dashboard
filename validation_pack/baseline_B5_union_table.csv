@@ -1,0 +1,211 @@
+test_id,window_months,filter_channel,filter_category,grain,entity,measure,expected,kind,tolerance
+B5-12m-(all)-(all)-rowcount,12,(all),(all),account,(row set),Union Row Count,13.0,count,0
+B5-12m-(all)-(all)-C0056,12,(all),(all),account,C0056,In Investigation List,1.0,count,0
+B5-12m-(all)-(all)-pressure,12,(all),(all),account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-12m-(all)-Commodity_Consumables-rowcount,12,(all),Commodity Consumables,account,(row set),Union Row Count,15.0,count,0
+B5-12m-(all)-Commodity_Consumables-C0056,12,(all),Commodity Consumables,account,C0056,In Investigation List,1.0,count,0
+B5-12m-(all)-Commodity_Consumables-pressure,12,(all),Commodity Consumables,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-12m-(all)-Electrical_Components-rowcount,12,(all),Electrical Components,account,(row set),Union Row Count,16.0,count,0
+B5-12m-(all)-Electrical_Components-C0056,12,(all),Electrical Components,account,C0056,In Investigation List,1.0,count,0
+B5-12m-(all)-Electrical_Components-pressure,12,(all),Electrical Components,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-12m-(all)-Fasteners_&_Fixings-rowcount,12,(all),Fasteners & Fixings,account,(row set),Union Row Count,19.0,count,0
+B5-12m-(all)-Fasteners_&_Fixings-C0056,12,(all),Fasteners & Fixings,account,C0056,In Investigation List,1.0,count,0
+B5-12m-(all)-Fasteners_&_Fixings-pressure,12,(all),Fasteners & Fixings,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-12m-(all)-Safety_&_PPE-rowcount,12,(all),Safety & PPE,account,(row set),Union Row Count,18.0,count,0
+B5-12m-(all)-Safety_&_PPE-C0056,12,(all),Safety & PPE,account,C0056,In Investigation List,1.0,count,0
+B5-12m-(all)-Safety_&_PPE-pressure,12,(all),Safety & PPE,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-12m-(all)-Specialty_Engineered-rowcount,12,(all),Specialty Engineered,account,(row set),Union Row Count,21.0,count,0
+B5-12m-(all)-Specialty_Engineered-C0056,12,(all),Specialty Engineered,account,C0056,In Investigation List,1.0,count,0
+B5-12m-(all)-Specialty_Engineered-pressure,12,(all),Specialty Engineered,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-12m-(all)-Tools_&_Equipment-rowcount,12,(all),Tools & Equipment,account,(row set),Union Row Count,17.0,count,0
+B5-12m-(all)-Tools_&_Equipment-C0056,12,(all),Tools & Equipment,account,C0056,In Investigation List,1.0,count,0
+B5-12m-(all)-Tools_&_Equipment-pressure,12,(all),Tools & Equipment,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-12m-Direct-(all)-rowcount,12,Direct,(all),account,(row set),Union Row Count,23.0,count,0
+B5-12m-Direct-(all)-pressure,12,Direct,(all),account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-12m-Direct-Commodity_Consumables-rowcount,12,Direct,Commodity Consumables,account,(row set),Union Row Count,22.0,count,0
+B5-12m-Direct-Commodity_Consumables-pressure,12,Direct,Commodity Consumables,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-12m-Direct-Electrical_Components-rowcount,12,Direct,Electrical Components,account,(row set),Union Row Count,12.0,count,0
+B5-12m-Direct-Electrical_Components-pressure,12,Direct,Electrical Components,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-12m-Direct-Fasteners_&_Fixings-rowcount,12,Direct,Fasteners & Fixings,account,(row set),Union Row Count,12.0,count,0
+B5-12m-Direct-Fasteners_&_Fixings-pressure,12,Direct,Fasteners & Fixings,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-12m-Direct-Safety_&_PPE-rowcount,12,Direct,Safety & PPE,account,(row set),Union Row Count,21.0,count,0
+B5-12m-Direct-Safety_&_PPE-pressure,12,Direct,Safety & PPE,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-12m-Direct-Specialty_Engineered-rowcount,12,Direct,Specialty Engineered,account,(row set),Union Row Count,20.0,count,0
+B5-12m-Direct-Specialty_Engineered-pressure,12,Direct,Specialty Engineered,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-12m-Direct-Tools_&_Equipment-rowcount,12,Direct,Tools & Equipment,account,(row set),Union Row Count,23.0,count,0
+B5-12m-Direct-Tools_&_Equipment-pressure,12,Direct,Tools & Equipment,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-12m-Distributor-(all)-rowcount,12,Distributor,(all),account,(row set),Union Row Count,13.0,count,0
+B5-12m-Distributor-(all)-C0056,12,Distributor,(all),account,C0056,In Investigation List,1.0,count,0
+B5-12m-Distributor-(all)-pressure,12,Distributor,(all),account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-12m-Distributor-Commodity_Consumables-rowcount,12,Distributor,Commodity Consumables,account,(row set),Union Row Count,13.0,count,0
+B5-12m-Distributor-Commodity_Consumables-C0056,12,Distributor,Commodity Consumables,account,C0056,In Investigation List,1.0,count,0
+B5-12m-Distributor-Commodity_Consumables-pressure,12,Distributor,Commodity Consumables,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-12m-Distributor-Electrical_Components-rowcount,12,Distributor,Electrical Components,account,(row set),Union Row Count,14.0,count,0
+B5-12m-Distributor-Electrical_Components-C0056,12,Distributor,Electrical Components,account,C0056,In Investigation List,1.0,count,0
+B5-12m-Distributor-Electrical_Components-pressure,12,Distributor,Electrical Components,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-12m-Distributor-Fasteners_&_Fixings-rowcount,12,Distributor,Fasteners & Fixings,account,(row set),Union Row Count,16.0,count,0
+B5-12m-Distributor-Fasteners_&_Fixings-C0056,12,Distributor,Fasteners & Fixings,account,C0056,In Investigation List,1.0,count,0
+B5-12m-Distributor-Fasteners_&_Fixings-pressure,12,Distributor,Fasteners & Fixings,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-12m-Distributor-Safety_&_PPE-rowcount,12,Distributor,Safety & PPE,account,(row set),Union Row Count,15.0,count,0
+B5-12m-Distributor-Safety_&_PPE-C0056,12,Distributor,Safety & PPE,account,C0056,In Investigation List,1.0,count,0
+B5-12m-Distributor-Safety_&_PPE-pressure,12,Distributor,Safety & PPE,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-12m-Distributor-Specialty_Engineered-rowcount,12,Distributor,Specialty Engineered,account,(row set),Union Row Count,20.0,count,0
+B5-12m-Distributor-Specialty_Engineered-C0056,12,Distributor,Specialty Engineered,account,C0056,In Investigation List,1.0,count,0
+B5-12m-Distributor-Specialty_Engineered-pressure,12,Distributor,Specialty Engineered,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-12m-Distributor-Tools_&_Equipment-rowcount,12,Distributor,Tools & Equipment,account,(row set),Union Row Count,16.0,count,0
+B5-12m-Distributor-Tools_&_Equipment-C0056,12,Distributor,Tools & Equipment,account,C0056,In Investigation List,1.0,count,0
+B5-12m-Distributor-Tools_&_Equipment-pressure,12,Distributor,Tools & Equipment,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-12m-Online-(all)-rowcount,12,Online,(all),account,(row set),Union Row Count,22.0,count,0
+B5-12m-Online-(all)-pressure,12,Online,(all),account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-12m-Online-Commodity_Consumables-rowcount,12,Online,Commodity Consumables,account,(row set),Union Row Count,23.0,count,0
+B5-12m-Online-Commodity_Consumables-pressure,12,Online,Commodity Consumables,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-12m-Online-Electrical_Components-rowcount,12,Online,Electrical Components,account,(row set),Union Row Count,12.0,count,0
+B5-12m-Online-Electrical_Components-pressure,12,Online,Electrical Components,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-12m-Online-Fasteners_&_Fixings-rowcount,12,Online,Fasteners & Fixings,account,(row set),Union Row Count,12.0,count,0
+B5-12m-Online-Fasteners_&_Fixings-pressure,12,Online,Fasteners & Fixings,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-12m-Online-Safety_&_PPE-rowcount,12,Online,Safety & PPE,account,(row set),Union Row Count,21.0,count,0
+B5-12m-Online-Safety_&_PPE-pressure,12,Online,Safety & PPE,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-12m-Online-Specialty_Engineered-rowcount,12,Online,Specialty Engineered,account,(row set),Union Row Count,21.0,count,0
+B5-12m-Online-Specialty_Engineered-pressure,12,Online,Specialty Engineered,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-12m-Online-Tools_&_Equipment-rowcount,12,Online,Tools & Equipment,account,(row set),Union Row Count,21.0,count,0
+B5-12m-Online-Tools_&_Equipment-pressure,12,Online,Tools & Equipment,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-6m-(all)-(all)-rowcount,6,(all),(all),account,(row set),Union Row Count,16.0,count,0
+B5-6m-(all)-(all)-C0056,6,(all),(all),account,C0056,In Investigation List,1.0,count,0
+B5-6m-(all)-(all)-pressure,6,(all),(all),account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-6m-(all)-Commodity_Consumables-rowcount,6,(all),Commodity Consumables,account,(row set),Union Row Count,17.0,count,0
+B5-6m-(all)-Commodity_Consumables-C0056,6,(all),Commodity Consumables,account,C0056,In Investigation List,1.0,count,0
+B5-6m-(all)-Commodity_Consumables-pressure,6,(all),Commodity Consumables,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-6m-(all)-Electrical_Components-rowcount,6,(all),Electrical Components,account,(row set),Union Row Count,19.0,count,0
+B5-6m-(all)-Electrical_Components-C0056,6,(all),Electrical Components,account,C0056,In Investigation List,1.0,count,0
+B5-6m-(all)-Electrical_Components-pressure,6,(all),Electrical Components,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-6m-(all)-Fasteners_&_Fixings-rowcount,6,(all),Fasteners & Fixings,account,(row set),Union Row Count,20.0,count,0
+B5-6m-(all)-Fasteners_&_Fixings-C0056,6,(all),Fasteners & Fixings,account,C0056,In Investigation List,1.0,count,0
+B5-6m-(all)-Fasteners_&_Fixings-pressure,6,(all),Fasteners & Fixings,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-6m-(all)-Safety_&_PPE-rowcount,6,(all),Safety & PPE,account,(row set),Union Row Count,20.0,count,0
+B5-6m-(all)-Safety_&_PPE-C0056,6,(all),Safety & PPE,account,C0056,In Investigation List,1.0,count,0
+B5-6m-(all)-Safety_&_PPE-pressure,6,(all),Safety & PPE,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-6m-(all)-Specialty_Engineered-rowcount,6,(all),Specialty Engineered,account,(row set),Union Row Count,21.0,count,0
+B5-6m-(all)-Specialty_Engineered-C0056,6,(all),Specialty Engineered,account,C0056,In Investigation List,1.0,count,0
+B5-6m-(all)-Specialty_Engineered-pressure,6,(all),Specialty Engineered,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-6m-(all)-Tools_&_Equipment-rowcount,6,(all),Tools & Equipment,account,(row set),Union Row Count,21.0,count,0
+B5-6m-(all)-Tools_&_Equipment-C0056,6,(all),Tools & Equipment,account,C0056,In Investigation List,1.0,count,0
+B5-6m-(all)-Tools_&_Equipment-pressure,6,(all),Tools & Equipment,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-6m-Direct-(all)-rowcount,6,Direct,(all),account,(row set),Union Row Count,23.0,count,0
+B5-6m-Direct-(all)-pressure,6,Direct,(all),account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-6m-Direct-Commodity_Consumables-rowcount,6,Direct,Commodity Consumables,account,(row set),Union Row Count,22.0,count,0
+B5-6m-Direct-Commodity_Consumables-pressure,6,Direct,Commodity Consumables,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-6m-Direct-Electrical_Components-rowcount,6,Direct,Electrical Components,account,(row set),Union Row Count,12.0,count,0
+B5-6m-Direct-Electrical_Components-pressure,6,Direct,Electrical Components,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-6m-Direct-Fasteners_&_Fixings-rowcount,6,Direct,Fasteners & Fixings,account,(row set),Union Row Count,12.0,count,0
+B5-6m-Direct-Fasteners_&_Fixings-pressure,6,Direct,Fasteners & Fixings,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-6m-Direct-Safety_&_PPE-rowcount,6,Direct,Safety & PPE,account,(row set),Union Row Count,22.0,count,0
+B5-6m-Direct-Safety_&_PPE-pressure,6,Direct,Safety & PPE,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-6m-Direct-Specialty_Engineered-rowcount,6,Direct,Specialty Engineered,account,(row set),Union Row Count,21.0,count,0
+B5-6m-Direct-Specialty_Engineered-pressure,6,Direct,Specialty Engineered,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-6m-Direct-Tools_&_Equipment-rowcount,6,Direct,Tools & Equipment,account,(row set),Union Row Count,21.0,count,0
+B5-6m-Direct-Tools_&_Equipment-pressure,6,Direct,Tools & Equipment,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-6m-Distributor-(all)-rowcount,6,Distributor,(all),account,(row set),Union Row Count,13.0,count,0
+B5-6m-Distributor-(all)-C0056,6,Distributor,(all),account,C0056,In Investigation List,1.0,count,0
+B5-6m-Distributor-(all)-pressure,6,Distributor,(all),account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-6m-Distributor-Commodity_Consumables-rowcount,6,Distributor,Commodity Consumables,account,(row set),Union Row Count,15.0,count,0
+B5-6m-Distributor-Commodity_Consumables-C0056,6,Distributor,Commodity Consumables,account,C0056,In Investigation List,1.0,count,0
+B5-6m-Distributor-Commodity_Consumables-pressure,6,Distributor,Commodity Consumables,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-6m-Distributor-Electrical_Components-rowcount,6,Distributor,Electrical Components,account,(row set),Union Row Count,16.0,count,0
+B5-6m-Distributor-Electrical_Components-C0056,6,Distributor,Electrical Components,account,C0056,In Investigation List,1.0,count,0
+B5-6m-Distributor-Electrical_Components-pressure,6,Distributor,Electrical Components,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-6m-Distributor-Fasteners_&_Fixings-rowcount,6,Distributor,Fasteners & Fixings,account,(row set),Union Row Count,17.0,count,0
+B5-6m-Distributor-Fasteners_&_Fixings-C0056,6,Distributor,Fasteners & Fixings,account,C0056,In Investigation List,1.0,count,0
+B5-6m-Distributor-Fasteners_&_Fixings-pressure,6,Distributor,Fasteners & Fixings,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-6m-Distributor-Safety_&_PPE-rowcount,6,Distributor,Safety & PPE,account,(row set),Union Row Count,16.0,count,0
+B5-6m-Distributor-Safety_&_PPE-C0056,6,Distributor,Safety & PPE,account,C0056,In Investigation List,1.0,count,0
+B5-6m-Distributor-Safety_&_PPE-pressure,6,Distributor,Safety & PPE,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-6m-Distributor-Specialty_Engineered-rowcount,6,Distributor,Specialty Engineered,account,(row set),Union Row Count,20.0,count,0
+B5-6m-Distributor-Specialty_Engineered-C0056,6,Distributor,Specialty Engineered,account,C0056,In Investigation List,1.0,count,0
+B5-6m-Distributor-Specialty_Engineered-pressure,6,Distributor,Specialty Engineered,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-6m-Distributor-Tools_&_Equipment-rowcount,6,Distributor,Tools & Equipment,account,(row set),Union Row Count,17.0,count,0
+B5-6m-Distributor-Tools_&_Equipment-C0056,6,Distributor,Tools & Equipment,account,C0056,In Investigation List,1.0,count,0
+B5-6m-Distributor-Tools_&_Equipment-pressure,6,Distributor,Tools & Equipment,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-6m-Online-(all)-rowcount,6,Online,(all),account,(row set),Union Row Count,21.0,count,0
+B5-6m-Online-(all)-pressure,6,Online,(all),account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-6m-Online-Commodity_Consumables-rowcount,6,Online,Commodity Consumables,account,(row set),Union Row Count,23.0,count,0
+B5-6m-Online-Commodity_Consumables-pressure,6,Online,Commodity Consumables,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-6m-Online-Electrical_Components-rowcount,6,Online,Electrical Components,account,(row set),Union Row Count,12.0,count,0
+B5-6m-Online-Electrical_Components-pressure,6,Online,Electrical Components,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-6m-Online-Fasteners_&_Fixings-rowcount,6,Online,Fasteners & Fixings,account,(row set),Union Row Count,12.0,count,0
+B5-6m-Online-Fasteners_&_Fixings-pressure,6,Online,Fasteners & Fixings,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-6m-Online-Safety_&_PPE-rowcount,6,Online,Safety & PPE,account,(row set),Union Row Count,21.0,count,0
+B5-6m-Online-Safety_&_PPE-pressure,6,Online,Safety & PPE,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-6m-Online-Specialty_Engineered-rowcount,6,Online,Specialty Engineered,account,(row set),Union Row Count,21.0,count,0
+B5-6m-Online-Specialty_Engineered-pressure,6,Online,Specialty Engineered,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-6m-Online-Tools_&_Equipment-rowcount,6,Online,Tools & Equipment,account,(row set),Union Row Count,23.0,count,0
+B5-6m-Online-Tools_&_Equipment-pressure,6,Online,Tools & Equipment,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-3m-(all)-(all)-rowcount,3,(all),(all),account,(row set),Union Row Count,15.0,count,0
+B5-3m-(all)-(all)-C0056,3,(all),(all),account,C0056,In Investigation List,1.0,count,0
+B5-3m-(all)-(all)-pressure,3,(all),(all),account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-3m-(all)-Commodity_Consumables-rowcount,3,(all),Commodity Consumables,account,(row set),Union Row Count,17.0,count,0
+B5-3m-(all)-Commodity_Consumables-C0056,3,(all),Commodity Consumables,account,C0056,In Investigation List,1.0,count,0
+B5-3m-(all)-Commodity_Consumables-pressure,3,(all),Commodity Consumables,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-3m-(all)-Electrical_Components-rowcount,3,(all),Electrical Components,account,(row set),Union Row Count,19.0,count,0
+B5-3m-(all)-Electrical_Components-C0056,3,(all),Electrical Components,account,C0056,In Investigation List,1.0,count,0
+B5-3m-(all)-Electrical_Components-pressure,3,(all),Electrical Components,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-3m-(all)-Fasteners_&_Fixings-rowcount,3,(all),Fasteners & Fixings,account,(row set),Union Row Count,18.0,count,0
+B5-3m-(all)-Fasteners_&_Fixings-C0056,3,(all),Fasteners & Fixings,account,C0056,In Investigation List,1.0,count,0
+B5-3m-(all)-Fasteners_&_Fixings-pressure,3,(all),Fasteners & Fixings,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-3m-(all)-Safety_&_PPE-rowcount,3,(all),Safety & PPE,account,(row set),Union Row Count,21.0,count,0
+B5-3m-(all)-Safety_&_PPE-C0056,3,(all),Safety & PPE,account,C0056,In Investigation List,1.0,count,0
+B5-3m-(all)-Safety_&_PPE-pressure,3,(all),Safety & PPE,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-3m-(all)-Specialty_Engineered-rowcount,3,(all),Specialty Engineered,account,(row set),Union Row Count,21.0,count,0
+B5-3m-(all)-Specialty_Engineered-C0056,3,(all),Specialty Engineered,account,C0056,In Investigation List,1.0,count,0
+B5-3m-(all)-Specialty_Engineered-pressure,3,(all),Specialty Engineered,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-3m-(all)-Tools_&_Equipment-rowcount,3,(all),Tools & Equipment,account,(row set),Union Row Count,22.0,count,0
+B5-3m-(all)-Tools_&_Equipment-C0056,3,(all),Tools & Equipment,account,C0056,In Investigation List,1.0,count,0
+B5-3m-(all)-Tools_&_Equipment-pressure,3,(all),Tools & Equipment,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-3m-Direct-(all)-rowcount,3,Direct,(all),account,(row set),Union Row Count,22.0,count,0
+B5-3m-Direct-(all)-pressure,3,Direct,(all),account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-3m-Direct-Commodity_Consumables-rowcount,3,Direct,Commodity Consumables,account,(row set),Union Row Count,20.0,count,0
+B5-3m-Direct-Commodity_Consumables-pressure,3,Direct,Commodity Consumables,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-3m-Direct-Electrical_Components-rowcount,3,Direct,Electrical Components,account,(row set),Union Row Count,12.0,count,0
+B5-3m-Direct-Electrical_Components-pressure,3,Direct,Electrical Components,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-3m-Direct-Fasteners_&_Fixings-rowcount,3,Direct,Fasteners & Fixings,account,(row set),Union Row Count,12.0,count,0
+B5-3m-Direct-Fasteners_&_Fixings-pressure,3,Direct,Fasteners & Fixings,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-3m-Direct-Safety_&_PPE-rowcount,3,Direct,Safety & PPE,account,(row set),Union Row Count,20.0,count,0
+B5-3m-Direct-Safety_&_PPE-pressure,3,Direct,Safety & PPE,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-3m-Direct-Specialty_Engineered-rowcount,3,Direct,Specialty Engineered,account,(row set),Union Row Count,21.0,count,0
+B5-3m-Direct-Specialty_Engineered-pressure,3,Direct,Specialty Engineered,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-3m-Direct-Tools_&_Equipment-rowcount,3,Direct,Tools & Equipment,account,(row set),Union Row Count,21.0,count,0
+B5-3m-Direct-Tools_&_Equipment-pressure,3,Direct,Tools & Equipment,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-3m-Distributor-(all)-rowcount,3,Distributor,(all),account,(row set),Union Row Count,14.0,count,0
+B5-3m-Distributor-(all)-C0056,3,Distributor,(all),account,C0056,In Investigation List,1.0,count,0
+B5-3m-Distributor-(all)-pressure,3,Distributor,(all),account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-3m-Distributor-Commodity_Consumables-rowcount,3,Distributor,Commodity Consumables,account,(row set),Union Row Count,15.0,count,0
+B5-3m-Distributor-Commodity_Consumables-C0056,3,Distributor,Commodity Consumables,account,C0056,In Investigation List,1.0,count,0
+B5-3m-Distributor-Commodity_Consumables-pressure,3,Distributor,Commodity Consumables,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-3m-Distributor-Electrical_Components-rowcount,3,Distributor,Electrical Components,account,(row set),Union Row Count,16.0,count,0
+B5-3m-Distributor-Electrical_Components-C0056,3,Distributor,Electrical Components,account,C0056,In Investigation List,1.0,count,0
+B5-3m-Distributor-Electrical_Components-pressure,3,Distributor,Electrical Components,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-3m-Distributor-Fasteners_&_Fixings-rowcount,3,Distributor,Fasteners & Fixings,account,(row set),Union Row Count,17.0,count,0
+B5-3m-Distributor-Fasteners_&_Fixings-C0056,3,Distributor,Fasteners & Fixings,account,C0056,In Investigation List,1.0,count,0
+B5-3m-Distributor-Fasteners_&_Fixings-pressure,3,Distributor,Fasteners & Fixings,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-3m-Distributor-Safety_&_PPE-rowcount,3,Distributor,Safety & PPE,account,(row set),Union Row Count,19.0,count,0
+B5-3m-Distributor-Safety_&_PPE-C0056,3,Distributor,Safety & PPE,account,C0056,In Investigation List,1.0,count,0
+B5-3m-Distributor-Safety_&_PPE-pressure,3,Distributor,Safety & PPE,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-3m-Distributor-Specialty_Engineered-rowcount,3,Distributor,Specialty Engineered,account,(row set),Union Row Count,19.0,count,0
+B5-3m-Distributor-Specialty_Engineered-C0056,3,Distributor,Specialty Engineered,account,C0056,In Investigation List,1.0,count,0
+B5-3m-Distributor-Specialty_Engineered-pressure,3,Distributor,Specialty Engineered,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-3m-Distributor-Tools_&_Equipment-rowcount,3,Distributor,Tools & Equipment,account,(row set),Union Row Count,19.0,count,0
+B5-3m-Distributor-Tools_&_Equipment-C0056,3,Distributor,Tools & Equipment,account,C0056,In Investigation List,1.0,count,0
+B5-3m-Distributor-Tools_&_Equipment-pressure,3,Distributor,Tools & Equipment,account,(pressure group),Pressure Accounts Captured,12.0,count,0
+B5-3m-Online-(all)-rowcount,3,Online,(all),account,(row set),Union Row Count,20.0,count,0
+B5-3m-Online-(all)-pressure,3,Online,(all),account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-3m-Online-Commodity_Consumables-rowcount,3,Online,Commodity Consumables,account,(row set),Union Row Count,22.0,count,0
+B5-3m-Online-Commodity_Consumables-pressure,3,Online,Commodity Consumables,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-3m-Online-Electrical_Components-rowcount,3,Online,Electrical Components,account,(row set),Union Row Count,12.0,count,0
+B5-3m-Online-Electrical_Components-pressure,3,Online,Electrical Components,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-3m-Online-Fasteners_&_Fixings-rowcount,3,Online,Fasteners & Fixings,account,(row set),Union Row Count,12.0,count,0
+B5-3m-Online-Fasteners_&_Fixings-pressure,3,Online,Fasteners & Fixings,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-3m-Online-Safety_&_PPE-rowcount,3,Online,Safety & PPE,account,(row set),Union Row Count,21.0,count,0
+B5-3m-Online-Safety_&_PPE-pressure,3,Online,Safety & PPE,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-3m-Online-Specialty_Engineered-rowcount,3,Online,Specialty Engineered,account,(row set),Union Row Count,22.0,count,0
+B5-3m-Online-Specialty_Engineered-pressure,3,Online,Specialty Engineered,account,(pressure group),Pressure Accounts Captured,0.0,count,0
+B5-3m-Online-Tools_&_Equipment-rowcount,3,Online,Tools & Equipment,account,(row set),Union Row Count,21.0,count,0
+B5-3m-Online-Tools_&_Equipment-pressure,3,Online,Tools & Equipment,account,(pressure group),Pressure Accounts Captured,0.0,count,0

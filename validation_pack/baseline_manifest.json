@@ -1,0 +1,51 @@
+{
+  "pack": "Gross Margin Bridge - Phase 4 acceptance baseline",
+  "frozen": "2026-10-11",
+  "dataset": "run7-accepted",
+  "dataset_hashes": {
+    "dim_customer.csv": "5c5306896f32dace7b5cd3f31d75407926f1d5dc189b45a10fc9399b1d77e2b1",
+    "dim_date.csv": "16d1888f7427c108885517480e5a7a508a642065cc50f8c7d9493965bc960f29",
+    "dim_product.csv": "d52d3e09521d30552eab26ef773d5254b27f13d974d11e07122f7593f867338c",
+    "fact_sales_line.csv": "7ff13b6d1496791116f1305db2dbd178b24487dba2414cd27636b6a4c7a4ac37"
+  },
+  "methodology_module": {
+    "file": "gmb_bridge.py",
+    "sha256": "82ac708d7523e508071e5337f97f9d4e28cb00a4fcc6a7d0e6488b1e038e14dd"
+  },
+  "rounding_convention": {
+    "computation": "IEEE 754 double, no intermediate rounding",
+    "storage": "6+ decimals of USD; 10 decimals of ratio",
+    "money_tolerance": "max(1.00, 1e-9 * |Gross Profit PP| of the selection)",
+    "ratio_tolerance": "1e-9 absolute, on the ratio not the percent",
+    "count_tolerance": "exact",
+    "forbidden": "3-decimal $m display values as test inputs (+/- $500 error vs a $1.00 tolerance)"
+  },
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5"
+  },
+  "files": {
+    "baseline_B1_totals.csv": {
+      "rows": 60,
+      "sha256": "e1dd354fa82578b82c342b35f47a70900c0dcf5892a311f21fdae9c9900c835b"
+    },
+    "baseline_B2_selection_matrix.csv": {
+      "rows": 756,
+      "sha256": "134ba18383802525666aa422d07f34ac6acf85701588eb76ff814f2e51315603"
+    },
+    "baseline_B3_grains.csv": {
+      "rows": 6624,
+      "sha256": "4c0f0bcadbeba3d29c83ee4eb72b41d96ac039792c592ec69e5f8ce43bc0d818"
+    },
+    "baseline_B4_lifecycle.csv": {
+      "rows": 225,
+      "sha256": "7a6138a71289953a5888f01307ef9bd0fe68e06f46f508becc3a8bd1587be84c"
+    },
+    "baseline_B5_union_table.csv": {
+      "rows": 210,
+      "sha256": "6b6c66fa96a65a34b3330f1a853fe807b3f00a3c50f96a96ed95953b407a41ce"
+    }
+  },
+  "total_expected_values": 7875
+}

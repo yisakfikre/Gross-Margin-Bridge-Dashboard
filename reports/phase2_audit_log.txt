@@ -1,0 +1,95 @@
+
+== A. Integrity ====================================================================================
+PASS  Fact row count inside the 60k-80k contract band                               exp 60,000-80,000                      obs 72,734
+PASS  SKU count                                                                     exp 300                                obs 300
+PASS  Customer count                                                                exp 400                                obs 400
+PASS  Category count                                                                exp 6                                  obs 6
+PASS  Channel count                                                                 exp 3                                  obs 3
+PASS  Primary key (invoice_no, line_no) unique                                      exp 0 duplicates                       obs 0
+PASS  line_no starts at 1 and is gapless within each invoice                        exp contiguous from 1                  obs verified on every invoice
+PASS  One invoice belongs to one customer and one date                              exp 1                                  obs 1
+PASS  product_id foreign key resolves                                               exp all resolve                        obs 0 orphans
+PASS  customer_id foreign key resolves                                              exp all resolve                        obs 0 orphans
+PASS  invoice_date foreign key resolves to dim_date                                 exp all resolve                        obs 0 orphans
+PASS  dim_product key unique                                                        exp unique                             obs unique
+PASS  dim_customer key unique                                                       exp unique                             obs unique
+PASS  dim_date key unique and complete                                              exp 730 unique days                    obs 730
+PASS  No nulls anywhere in the fact table                                           exp 0                                  obs 0
+PASS  No nulls in dim_customer or dim_date                                          exp 0                                  obs 0
+PASS  dim_product nulls confined to launch/discontinued columns                     exp 0 elsewhere                        obs 0 elsewhere
+PASS  quantity strictly positive integer                                            exp > 0, integer                       obs min 1
+PASS  gross_revenue strictly positive                                               exp > 0                                obs min 0.7900
+PASS  net_revenue strictly positive                                                 exp > 0                                obs min 0.6400
+PASS  unit_standard_cost strictly positive                                          exp > 0                                obs min 0.5887
+PASS  total_cost strictly positive                                                  exp > 0                                obs min 0.5900
+PASS  discount_amount >= 0 and < gross_revenue                                      exp 0 <= d < gross                     obs max rate 32.0%
+PASS  gross_revenue - discount_amount = net_revenue on every line                   exp <= $0.01                           obs max |err| $0.0000
+PASS  total_cost = quantity x unit_standard_cost on every line                      exp <= $0.01                           obs max |err| $0.0050
+PASS  Effective-dated list price: line price = the list in force at invoice_date    exp <= $0.01                           obs max |err| $0.0000
+PASS  Effective-dated standard cost: line cost = the cost in force at invoice_date  exp exact                              obs max |err| 0.00e+00
+PASS  Exactly one standard cost per SKU per cost year                               exp 1                                  obs 1
+PASS  period column on the fact agrees with dim_date                                exp identical                          obs identical
+PASS  Date coverage 2024-10-01 to 2026-09-30, no gaps                               exp 2024-10-01..2026-09-30             obs 2024-10-01..2026-09-30
+PASS  All 24 months carry sales                                                     exp 24                                 obs 24
+PASS  Both comparison periods are complete 12-month windows                         exp 12 months each                     obs PP 35,377 lines / CP 37,357 lines
+PASS  No SKU invoiced before its launch month                                       exp 0 lines                            obs 0
+PASS  No SKU invoiced after its discontinued month                                  exp 0 lines                            obs 0
+
+== B. Scenario =====================================================================================
+PASS  Target volume                                                                 exp +0.60 +/- 0.12 m                   obs +0.674 m   [miss +0.074]
+PASS  Target mix                                                                    exp -0.20 +/- 0.08 m                   obs -0.220 m   [miss -0.020]
+PASS  Target price                                                                  exp -0.40 +/- 0.12 m                   obs -0.404 m   [miss -0.004]
+PASS  Target list_sub                                                               exp +0.30 +/- 0.08 m                   obs +0.304 m   [miss +0.004]
+PASS  Target discount_sub                                                           exp -0.70 +/- 0.15 m                   obs -0.708 m   [miss -0.008]
+PASS  Target cost                                                                   exp -0.55 +/- 0.12 m                   obs -0.586 m   [miss -0.036]
+PASS  Target new                                                                    exp +0.10 +/- 0.05 m                   obs +0.091 m   [miss -0.009]
+PASS  Target disc                                                                   exp -0.05 +/- 0.03 m                   obs -0.050 m   [miss +0.000]
+PASS  Target net_range                                                              exp +0.05 +/- 0.06 m                   obs +0.041 m   [miss -0.009]
+PASS  Target dgp                                                                    exp -0.50 +/- 0.20 m                   obs -0.494 m   [miss +0.006]
+PASS  Residual is zero within the approved tolerance                                exp <= $1.00                           obs $0.000000
+PASS  Price sub-effects sum exactly to the price effect                             exp exact                              obs diff $-0.000000
+PASS  Volume index gamma                                                            exp 6.5% +/- 1.0pp                     obs 7.377%
+PASS  Revenue growth, computed from raw lines not from the bridge                   exp 6.0% +/- 1.0pp                     obs +6.80%   [$32.36m -> $34.56m]
+PASS  Gross-margin movement, computed from raw lines                                exp -317 +/- 60 bps                    obs -329 bps   [29.18% -> 25.90%]
+PASS  Raw gross profit matches the bridge's own GP figures                          exp < $0.50                            obs PP $0.0000, CP $-0.0000
+
+== C. Patterns =====================================================================================
+PASS  P1 cost revision concentrated in the two imported categories                  exp >= 70% of the cost effect          obs 85%   [$-0.500m of $-0.586m]
+PASS  P2 price under-recovery in those categories                                   exp 40%-70% of the cost movement recovered obs 61%   [list +$0.304m vs cost $-0.500m]
+PASS  P3 discount widening concentrated in the Distributor channel                  exp >= 80% of the discount sub-effect  obs 97%   [Direct $-0.038m; Distributor $-0.685m; Online $-0.016m]
+PASS  P3 Distributor discount rate widens, others roughly flat                      exp Distributor +3pp or more, others < 1pp obs Direct 7.0%->7.2%; Distributor 12.0%->16.1%; Online 4.1%->4.3%
+PASS  P4 adverse mix driven by the low-margin category                              exp total mix negative, Commodity its own driver obs total $-0.220m; Commodity in-category mix $+0.001m   [category mixes are selection-relative and do not sum to the total]
+PASS  P4 revenue growth skewed to Commodity, Specialty shrinking                    exp Commodity > +15%, Specialty negative obs Commodity Consumables +30.6%; Electrical Components -0.3%; Fasteners & Fixings +2.9%; Safety & PPE +2.4%; Specialty Engineered -6.2%; Tools & Equipment +7.3%
+PASS  P5 volume effect favourable while profit falls                                exp volume positive, dGP negative      obs volume +$0.674m, dGP $-0.494m
+PASS  P6 range churn immaterial                                                     exp <= 15% of |dGP|                    obs 8.4%   [25 new, 20 discontinued, 255 comparable]
+FAIL  P7 adverse movement concentrated in a few accounts                            exp 60% +/- 10pp carried by the top 12 obs 46%   [193 accounts adverse of 400; top 12 $-0.68m of $-1.46m]
+
+== D. Realism ======================================================================================
+PASS  Customer concentration plausible for a distributor                            exp top 10% of accounts hold 35%-70%   obs 43%   [HHI 87; largest account 5.6%]
+PASS  No single account dominates                                                   exp < 10%                              obs 5.6%
+PASS  Every account trades in both periods or is explainable                        exp reported                           obs 400 PP-active, 400 CP-active
+PASS  Category revenue shares land near the designed mix                            exp each 10%-25%                       obs Commodity 20%; Electrical 14%; Fasteners 15%; Safety 13%; Specialty 21%; Tools 18%
+PASS  Channel revenue shares land near the designed mix                             exp Distributor 45% +/- 6pp            obs Direct 36%; Distributor 43%; Online 21%
+PASS  SKU revenue is long-tailed, not uniform                                       exp top 30 SKUs > 25% of revenue       obs 33%; bottom 100 SKUs 7.0%
+PASS  Invoice sizes are realistic                                                   exp median 1-6 lines                   obs median 1, mean 1.3, max 13
+PASS  Order quantities are heavy-tailed, not flat                                   exp p95/median > 3                     obs median 12, p95 173, max 3064
+PASS  Line values span several orders of magnitude                                  exp max/median > 50                    obs median $401, p99 $7,074, max $23,105
+PASS  Seasonality present but not extreme                                           exp monthly index 0.70-1.35            obs min 0.78 (2024-12), max 1.17 (2026-03)
+PASS  The two years are not identical copies                                        exp year-on-year monthly pattern varies obs verified
+PASS  Discount rates sit in a believable band                                       exp median < 20%, max < 45%            obs median 8.0%, p95 21.4%, max 32.0%
+PASS  Account-level discount varies within every channel                            exp coefficient of variation > 0.08 in each channel obs Direct 0.12; Distributor 0.27; Online 0.12
+
+== E. Reproducibility ==============================================================================
+PASS  fact_sales_line.csv hash matches the run manifest                             exp 34305e4929bb09cd...                obs 34305e4929bb09cd...   [72,734 rows]
+PASS  dim_product.csv hash matches the run manifest                                 exp 56aeb73a81e861db...                obs 56aeb73a81e861db...   [300 rows]
+PASS  dim_customer.csv hash matches the run manifest                                exp c05a6ea2623a2c07...                obs c05a6ea2623a2c07...   [400 rows]
+PASS  dim_date.csv hash matches the run manifest                                    exp 16d1888f7427c108...                obs 16d1888f7427c108...   [730 rows]
+PASS  Seed recorded                                                                 exp present                            obs 20261010
+PASS  Environment recorded                                                          exp present                            obs python 3.13.16, numpy 2.5.3, pandas 3.0.5
+
+--------------------------------------------------------------------------------------------------------------
+78 checks, 77 pass, 1 fail   (run: run4-accepted)
+
+BRIDGE  dGP -0.494m = volume +0.674 | mix -0.220 | price -0.404 | cost -0.586 | new +0.091 | disc -0.050   gamma 7.377%  residual $0.000000
+PRICE   list +0.304m, discount -0.708m
+RAW     revenue $32.36m -> $34.56m (+6.80%), GM 29.18% -> 25.90% (-329 bps), GP $9.44m -> $8.95m

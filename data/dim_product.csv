@@ -1,0 +1,301 @@
+product_id,product_name,category,sub_category,brand,list_price_fy25,list_price_fy26,std_cost_fy25,std_cost_fy26,launch_month,discontinued_month,lifecycle
+P0001,COMM-001,Commodity Consumables,Commodity Consumables / Group A,Brand A,28.82,28.82,21.67,21.7784,,,Continuing
+P0002,COMM-002,Commodity Consumables,Commodity Consumables / Group B,Brand B,16.57,16.57,13.0765,13.1419,,,Continuing
+P0003,COMM-003,Commodity Consumables,Commodity Consumables / Group C,Brand C,5.9,5.9,3.9703,3.9902,2025-10-01,,New in CP
+P0004,COMM-004,Commodity Consumables,Commodity Consumables / Group D,Brand D,167.57,167.57,115.216,115.7921,,,Continuing
+P0005,COMM-005,Commodity Consumables,Commodity Consumables / Group A,Brand E,7.82,7.82,5.8921,5.9216,2025-11-01,,New in CP
+P0006,COMM-006,Commodity Consumables,Commodity Consumables / Group B,Brand F,36.79,36.79,27.3738,27.5107,,,Continuing
+P0007,COMM-007,Commodity Consumables,Commodity Consumables / Group C,Brand G,14.53,14.53,10.9955,11.0505,,,Continuing
+P0008,COMM-008,Commodity Consumables,Commodity Consumables / Group D,Brand H,20.54,20.54,14.7747,14.8486,,,Continuing
+P0009,COMM-009,Commodity Consumables,Commodity Consumables / Group A,Brand I,19.01,19.01,14.1375,14.2082,,,Continuing
+P0010,COMM-010,Commodity Consumables,Commodity Consumables / Group B,Brand J,0.79,0.79,0.5929,0.5959,,,Continuing
+P0011,COMM-011,Commodity Consumables,Commodity Consumables / Group C,Brand K,9.63,9.63,7.0525,7.0878,,2025-04-01,Discontinued in PP
+P0012,COMM-012,Commodity Consumables,Commodity Consumables / Group D,Brand L,6.9,6.9,4.9668,4.9916,,,Continuing
+P0013,COMM-013,Commodity Consumables,Commodity Consumables / Group A,Brand A,4.67,4.67,3.0916,3.1071,,,Continuing
+P0014,COMM-014,Commodity Consumables,Commodity Consumables / Group B,Brand B,32.53,32.53,26.5967,26.7297,,,Continuing
+P0015,COMM-015,Commodity Consumables,Commodity Consumables / Group C,Brand C,35.53,35.53,26.6967,26.8302,,,Continuing
+P0016,COMM-016,Commodity Consumables,Commodity Consumables / Group D,Brand D,14.71,14.71,10.6747,10.7281,,2025-09-01,Discontinued in PP
+P0017,COMM-017,Commodity Consumables,Commodity Consumables / Group A,Brand E,24.4,24.4,18.8841,18.9785,,2025-04-01,Discontinued in PP
+P0018,COMM-018,Commodity Consumables,Commodity Consumables / Group B,Brand F,3.42,3.42,2.4985,2.511,2026-01-01,,New in CP
+P0019,COMM-019,Commodity Consumables,Commodity Consumables / Group C,Brand G,43.04,43.04,30.5999,30.7529,,,Continuing
+P0020,COMM-020,Commodity Consumables,Commodity Consumables / Group D,Brand H,32.92,32.92,23.713,23.8316,,,Continuing
+P0021,COMM-021,Commodity Consumables,Commodity Consumables / Group A,Brand I,31.12,31.12,21.7121,21.8207,,,Continuing
+P0022,COMM-022,Commodity Consumables,Commodity Consumables / Group B,Brand J,5.26,5.26,4.309,4.3305,,,Continuing
+P0023,COMM-023,Commodity Consumables,Commodity Consumables / Group C,Brand K,14.28,14.28,10.8353,10.8895,,,Continuing
+P0024,COMM-024,Commodity Consumables,Commodity Consumables / Group D,Brand L,57.04,57.04,45.1753,45.4012,,,Continuing
+P0025,COMM-025,Commodity Consumables,Commodity Consumables / Group A,Brand A,31.32,31.32,25.6759,25.8043,,,Continuing
+P0026,COMM-026,Commodity Consumables,Commodity Consumables / Group B,Brand B,13.07,13.07,9.7476,9.7963,,,Continuing
+P0027,COMM-027,Commodity Consumables,Commodity Consumables / Group C,Brand C,29.22,29.22,23.8137,23.9328,,,Continuing
+P0028,COMM-028,Commodity Consumables,Commodity Consumables / Group D,Brand D,34.05,34.05,25.7041,25.8326,,,Continuing
+P0029,COMM-029,Commodity Consumables,Commodity Consumables / Group A,Brand E,21.65,21.65,14.4939,14.5664,,,Continuing
+P0030,COMM-030,Commodity Consumables,Commodity Consumables / Group B,Brand F,48.32,48.32,35.4003,35.5773,,,Continuing
+P0031,COMM-031,Commodity Consumables,Commodity Consumables / Group C,Brand G,28.22,28.22,20.595,20.698,,2025-03-01,Discontinued in PP
+P0032,COMM-032,Commodity Consumables,Commodity Consumables / Group D,Brand H,14.9,14.9,12.5078,12.5703,2025-12-01,,New in CP
+P0033,COMM-033,Commodity Consumables,Commodity Consumables / Group A,Brand I,14.45,14.45,12.2012,12.2622,,,Continuing
+P0034,COMM-034,Commodity Consumables,Commodity Consumables / Group B,Brand J,11.42,11.42,8.7982,8.8422,,,Continuing
+P0035,COMM-035,Commodity Consumables,Commodity Consumables / Group C,Brand K,13.63,13.63,9.7341,9.7828,,,Continuing
+P0036,COMM-036,Commodity Consumables,Commodity Consumables / Group D,Brand L,6.51,6.51,4.3612,4.383,,,Continuing
+P0037,COMM-037,Commodity Consumables,Commodity Consumables / Group A,Brand A,13.09,13.09,9.0972,9.1427,,2025-05-01,Discontinued in PP
+P0038,COMM-038,Commodity Consumables,Commodity Consumables / Group B,Brand B,11.49,11.49,8.2106,8.2517,,2025-05-01,Discontinued in PP
+P0039,COMM-039,Commodity Consumables,Commodity Consumables / Group C,Brand C,23.13,23.13,16.927,17.0116,,,Continuing
+P0040,COMM-040,Commodity Consumables,Commodity Consumables / Group D,Brand D,5.86,5.86,4.3521,4.3739,,,Continuing
+P0041,COMM-041,Commodity Consumables,Commodity Consumables / Group A,Brand E,10.95,10.95,8.2087,8.2497,,2025-03-01,Discontinued in PP
+P0042,COMM-042,Commodity Consumables,Commodity Consumables / Group B,Brand F,12.76,12.76,10.2375,10.2887,,,Continuing
+P0043,COMM-043,Commodity Consumables,Commodity Consumables / Group C,Brand G,24.18,24.18,18.1447,18.2354,,,Continuing
+P0044,COMM-044,Commodity Consumables,Commodity Consumables / Group D,Brand H,37.12,37.12,28.1619,28.3027,,,Continuing
+P0045,COMM-045,Commodity Consumables,Commodity Consumables / Group A,Brand I,6.61,6.61,4.9302,4.9549,,,Continuing
+P0046,COMM-046,Commodity Consumables,Commodity Consumables / Group B,Brand J,15.63,15.63,11.5121,11.5697,,,Continuing
+P0047,COMM-047,Commodity Consumables,Commodity Consumables / Group C,Brand K,34.69,34.69,24.4034,24.5254,,,Continuing
+P0048,COMM-048,Commodity Consumables,Commodity Consumables / Group D,Brand L,18.1,18.1,13.0639,13.1292,2025-12-01,,New in CP
+P0049,COMM-049,Commodity Consumables,Commodity Consumables / Group A,Brand A,37.8,37.8,29.1851,29.331,,,Continuing
+P0050,COMM-050,Commodity Consumables,Commodity Consumables / Group B,Brand B,8.22,8.22,6.7836,6.8175,,,Continuing
+P0051,FAST-001,Fasteners & Fixings,Fasteners & Fixings / Group A,Brand H,53.28,54.88,34.5433,37.134,,,Continuing
+P0052,FAST-002,Fasteners & Fixings,Fasteners & Fixings / Group B,Brand I,6.65,6.85,4.0146,4.3157,,,Continuing
+P0053,FAST-003,Fasteners & Fixings,Fasteners & Fixings / Group C,Brand J,66.26,68.25,42.9196,46.1386,,2025-05-01,Discontinued in PP
+P0054,FAST-004,Fasteners & Fixings,Fasteners & Fixings / Group D,Brand K,3.42,3.52,2.159,2.3209,2025-11-01,,New in CP
+P0055,FAST-005,Fasteners & Fixings,Fasteners & Fixings / Group A,Brand L,57.63,59.36,32.9475,35.4186,,,Continuing
+P0056,FAST-006,Fasteners & Fixings,Fasteners & Fixings / Group B,Brand A,23.49,24.19,14.7107,15.814,,,Continuing
+P0057,FAST-007,Fasteners & Fixings,Fasteners & Fixings / Group C,Brand B,21.96,22.62,12.0193,12.9207,,,Continuing
+P0058,FAST-008,Fasteners & Fixings,Fasteners & Fixings / Group D,Brand C,8.3,8.55,6.1774,6.6407,,,Continuing
+P0059,FAST-009,Fasteners & Fixings,Fasteners & Fixings / Group A,Brand D,29.31,30.19,19.3392,20.7896,,,Continuing
+P0060,FAST-010,Fasteners & Fixings,Fasteners & Fixings / Group B,Brand E,23.0,23.69,15.1962,16.3359,,,Continuing
+P0061,FAST-011,Fasteners & Fixings,Fasteners & Fixings / Group C,Brand F,20.38,20.99,14.229,15.2962,2025-12-01,,New in CP
+P0062,FAST-012,Fasteners & Fixings,Fasteners & Fixings / Group D,Brand G,26.83,27.63,18.3417,19.7173,,,Continuing
+P0063,FAST-013,Fasteners & Fixings,Fasteners & Fixings / Group A,Brand H,35.61,36.68,21.9337,23.5787,,,Continuing
+P0064,FAST-014,Fasteners & Fixings,Fasteners & Fixings / Group B,Brand I,13.4,13.8,8.4613,9.0959,,,Continuing
+P0065,FAST-015,Fasteners & Fixings,Fasteners & Fixings / Group C,Brand J,18.24,18.79,13.1007,14.0833,,,Continuing
+P0066,FAST-016,Fasteners & Fixings,Fasteners & Fixings / Group D,Brand K,12.81,13.19,9.5009,10.2135,,2025-04-01,Discontinued in PP
+P0067,FAST-017,Fasteners & Fixings,Fasteners & Fixings / Group A,Brand L,6.11,6.29,4.1921,4.5065,,,Continuing
+P0068,FAST-018,Fasteners & Fixings,Fasteners & Fixings / Group B,Brand A,18.48,19.03,10.9466,11.7676,,,Continuing
+P0069,FAST-019,Fasteners & Fixings,Fasteners & Fixings / Group C,Brand B,14.65,15.09,9.9697,10.7174,,,Continuing
+P0070,FAST-020,Fasteners & Fixings,Fasteners & Fixings / Group D,Brand C,7.61,7.84,5.1927,5.5822,,,Continuing
+P0071,FAST-021,Fasteners & Fixings,Fasteners & Fixings / Group A,Brand D,23.24,23.94,14.4827,15.5689,,,Continuing
+P0072,FAST-022,Fasteners & Fixings,Fasteners & Fixings / Group B,Brand E,4.37,4.5,3.0277,3.2548,,,Continuing
+P0073,FAST-023,Fasteners & Fixings,Fasteners & Fixings / Group C,Brand F,24.79,25.53,16.0305,17.2328,,,Continuing
+P0074,FAST-024,Fasteners & Fixings,Fasteners & Fixings / Group D,Brand G,67.44,69.46,39.3006,42.2481,,,Continuing
+P0075,FAST-025,Fasteners & Fixings,Fasteners & Fixings / Group A,Brand H,29.22,30.1,19.7241,21.2034,,,Continuing
+P0076,FAST-026,Fasteners & Fixings,Fasteners & Fixings / Group B,Brand I,6.74,6.94,4.0886,4.3952,,,Continuing
+P0077,FAST-027,Fasteners & Fixings,Fasteners & Fixings / Group C,Brand J,36.4,37.49,27.8266,29.9136,,,Continuing
+P0078,FAST-028,Fasteners & Fixings,Fasteners & Fixings / Group D,Brand K,25.4,26.16,19.31,20.7582,,,Continuing
+P0079,FAST-029,Fasteners & Fixings,Fasteners & Fixings / Group A,Brand L,19.81,20.4,11.7974,12.6822,,,Continuing
+P0080,FAST-030,Fasteners & Fixings,Fasteners & Fixings / Group B,Brand A,13.49,13.89,8.6501,9.2989,,,Continuing
+P0081,FAST-031,Fasteners & Fixings,Fasteners & Fixings / Group C,Brand B,20.17,20.78,11.966,12.8634,,,Continuing
+P0082,FAST-032,Fasteners & Fixings,Fasteners & Fixings / Group D,Brand C,30.33,31.24,17.552,18.8684,,,Continuing
+P0083,FAST-033,Fasteners & Fixings,Fasteners & Fixings / Group A,Brand D,10.28,10.59,6.8165,7.3277,,,Continuing
+P0084,FAST-034,Fasteners & Fixings,Fasteners & Fixings / Group B,Brand E,37.07,38.18,24.3341,26.1592,,,Continuing
+P0085,FAST-035,Fasteners & Fixings,Fasteners & Fixings / Group C,Brand F,55.34,57.0,38.794,41.7035,,,Continuing
+P0086,FAST-036,Fasteners & Fixings,Fasteners & Fixings / Group D,Brand G,28.59,29.45,19.3033,20.751,,,Continuing
+P0087,FAST-037,Fasteners & Fixings,Fasteners & Fixings / Group A,Brand H,20.41,21.02,15.089,16.2207,,,Continuing
+P0088,FAST-038,Fasteners & Fixings,Fasteners & Fixings / Group B,Brand I,22.95,23.64,16.071,17.2763,,,Continuing
+P0089,FAST-039,Fasteners & Fixings,Fasteners & Fixings / Group C,Brand J,23.78,24.49,16.6989,17.9513,,,Continuing
+P0090,FAST-040,Fasteners & Fixings,Fasteners & Fixings / Group D,Brand K,46.43,47.82,34.1048,36.6627,,,Continuing
+P0091,FAST-041,Fasteners & Fixings,Fasteners & Fixings / Group A,Brand L,38.55,39.71,24.0244,25.8262,,,Continuing
+P0092,FAST-042,Fasteners & Fixings,Fasteners & Fixings / Group B,Brand A,6.3,6.49,4.2124,4.5283,,,Continuing
+P0093,FAST-043,Fasteners & Fixings,Fasteners & Fixings / Group C,Brand B,25.27,26.03,18.1089,19.4671,,,Continuing
+P0094,FAST-044,Fasteners & Fixings,Fasteners & Fixings / Group D,Brand C,17.88,18.42,12.7981,13.758,,,Continuing
+P0095,FAST-045,Fasteners & Fixings,Fasteners & Fixings / Group A,Brand D,19.7,20.29,14.1345,15.1946,,,Continuing
+P0096,FAST-046,Fasteners & Fixings,Fasteners & Fixings / Group B,Brand E,16.29,16.78,11.5313,12.3961,,,Continuing
+P0097,FAST-047,Fasteners & Fixings,Fasteners & Fixings / Group C,Brand F,43.04,44.33,25.907,27.85,,,Continuing
+P0098,FAST-048,Fasteners & Fixings,Fasteners & Fixings / Group D,Brand G,8.31,8.56,5.3049,5.7028,,2025-09-01,Discontinued in PP
+P0099,FAST-049,Fasteners & Fixings,Fasteners & Fixings / Group A,Brand H,23.6,24.31,18.0165,19.3677,,,Continuing
+P0100,FAST-050,Fasteners & Fixings,Fasteners & Fixings / Group B,Brand I,12.03,12.39,8.598,9.2428,,,Continuing
+P0101,ELEC-001,Electrical Components,Electrical Components / Group A,Brand C,18.15,18.69,11.286,12.1324,,,Continuing
+P0102,ELEC-002,Electrical Components,Electrical Components / Group B,Brand D,30.5,31.42,19.0895,20.5212,,,Continuing
+P0103,ELEC-003,Electrical Components,Electrical Components / Group C,Brand E,37.89,39.03,25.276,27.1717,,,Continuing
+P0104,ELEC-004,Electrical Components,Electrical Components / Group D,Brand F,22.02,22.68,16.4064,17.6369,,,Continuing
+P0105,ELEC-005,Electrical Components,Electrical Components / Group A,Brand G,144.6,148.94,87.8015,94.3866,,,Continuing
+P0106,ELEC-006,Electrical Components,Electrical Components / Group B,Brand H,27.46,28.28,17.7937,19.1282,,,Continuing
+P0107,ELEC-007,Electrical Components,Electrical Components / Group C,Brand I,28.72,29.58,18.4281,19.8102,,,Continuing
+P0108,ELEC-008,Electrical Components,Electrical Components / Group D,Brand J,95.75,98.62,64.4851,69.3215,,,Continuing
+P0109,ELEC-009,Electrical Components,Electrical Components / Group A,Brand K,52.19,53.76,33.1954,35.6851,,,Continuing
+P0110,ELEC-010,Electrical Components,Electrical Components / Group B,Brand L,110.13,113.43,61.8584,66.4978,,,Continuing
+P0111,ELEC-011,Electrical Components,Electrical Components / Group C,Brand A,152.11,156.67,107.0881,115.1197,,,Continuing
+P0112,ELEC-012,Electrical Components,Electrical Components / Group D,Brand B,27.67,28.5,17.1387,18.4241,,,Continuing
+P0113,ELEC-013,Electrical Components,Electrical Components / Group A,Brand C,123.85,127.57,76.2569,81.9762,,,Continuing
+P0114,ELEC-014,Electrical Components,Electrical Components / Group B,Brand D,21.32,21.96,14.699,15.8014,,,Continuing
+P0115,ELEC-015,Electrical Components,Electrical Components / Group C,Brand E,25.66,26.43,17.094,18.376,,,Continuing
+P0116,ELEC-016,Electrical Components,Electrical Components / Group D,Brand F,7.36,7.58,4.9817,5.3553,2025-10-01,,New in CP
+P0117,ELEC-017,Electrical Components,Electrical Components / Group A,Brand G,24.34,25.07,15.0392,16.1671,,,Continuing
+P0118,ELEC-018,Electrical Components,Electrical Components / Group B,Brand H,39.67,40.86,27.822,29.9086,,,Continuing
+P0119,ELEC-019,Electrical Components,Electrical Components / Group C,Brand I,25.7,26.47,15.788,16.9721,,,Continuing
+P0120,ELEC-020,Electrical Components,Electrical Components / Group D,Brand J,114.37,117.8,73.5728,79.0908,,,Continuing
+P0121,ELEC-021,Electrical Components,Electrical Components / Group A,Brand K,35.7,36.77,24.7741,26.6322,,,Continuing
+P0122,ELEC-022,Electrical Components,Electrical Components / Group B,Brand L,166.78,171.78,110.8537,119.1677,,,Continuing
+P0123,ELEC-023,Electrical Components,Electrical Components / Group C,Brand A,66.03,68.01,44.8544,48.2185,,,Continuing
+P0124,ELEC-024,Electrical Components,Electrical Components / Group D,Brand B,84.79,87.33,51.6306,55.5029,2025-12-01,,New in CP
+P0125,ELEC-025,Electrical Components,Electrical Components / Group A,Brand C,107.88,111.12,64.9214,69.7905,,,Continuing
+P0126,ELEC-026,Electrical Components,Electrical Components / Group B,Brand D,19.76,20.35,12.7863,13.7453,,,Continuing
+P0127,ELEC-027,Electrical Components,Electrical Components / Group C,Brand E,196.41,202.3,132.0815,141.9876,,,Continuing
+P0128,ELEC-028,Electrical Components,Electrical Components / Group D,Brand F,25.92,26.7,18.2568,19.6261,,,Continuing
+P0129,ELEC-029,Electrical Components,Electrical Components / Group A,Brand G,128.53,132.39,82.7727,88.9807,,,Continuing
+P0130,ELEC-030,Electrical Components,Electrical Components / Group B,Brand H,38.93,40.1,21.9547,23.6013,,,Continuing
+P0131,ELEC-031,Electrical Components,Electrical Components / Group C,Brand I,67.97,70.01,47.0493,50.578,,,Continuing
+P0132,ELEC-032,Electrical Components,Electrical Components / Group D,Brand J,42.35,43.62,26.0984,28.0558,,,Continuing
+P0133,ELEC-033,Electrical Components,Electrical Components / Group A,Brand K,25.33,26.09,16.2763,17.497,,,Continuing
+P0134,ELEC-034,Electrical Components,Electrical Components / Group B,Brand L,46.42,47.81,29.3693,31.572,,2025-07-01,Discontinued in PP
+P0135,ELEC-035,Electrical Components,Electrical Components / Group C,Brand A,100.26,103.27,63.7216,68.5007,,,Continuing
+P0136,ELEC-036,Electrical Components,Electrical Components / Group D,Brand B,154.83,159.47,95.007,102.1325,,,Continuing
+P0137,ELEC-037,Electrical Components,Electrical Components / Group A,Brand C,47.91,49.35,27.573,29.641,,,Continuing
+P0138,ELEC-038,Electrical Components,Electrical Components / Group B,Brand D,53.23,54.83,40.1612,43.1733,,,Continuing
+P0139,ELEC-039,Electrical Components,Electrical Components / Group C,Brand E,39.99,41.19,26.1506,28.1119,2025-10-01,,New in CP
+P0140,ELEC-040,Electrical Components,Electrical Components / Group D,Brand F,73.27,75.47,49.0,52.675,,,Continuing
+P0141,ELEC-041,Electrical Components,Electrical Components / Group A,Brand G,67.23,69.25,42.0956,45.2528,,,Continuing
+P0142,ELEC-042,Electrical Components,Electrical Components / Group B,Brand H,76.42,78.71,48.0048,51.6052,,,Continuing
+P0143,ELEC-043,Electrical Components,Electrical Components / Group C,Brand I,72.1,74.26,46.3058,49.7787,,,Continuing
+P0144,ELEC-044,Electrical Components,Electrical Components / Group D,Brand J,75.91,78.19,46.2451,49.7135,,2025-04-01,Discontinued in PP
+P0145,ELEC-045,Electrical Components,Electrical Components / Group A,Brand K,170.11,175.21,105.5528,113.4693,,,Continuing
+P0146,ELEC-046,Electrical Components,Electrical Components / Group B,Brand L,30.82,31.74,19.1068,20.5398,,,Continuing
+P0147,ELEC-047,Electrical Components,Electrical Components / Group C,Brand A,40.1,41.3,24.742,26.5976,,,Continuing
+P0148,ELEC-048,Electrical Components,Electrical Components / Group D,Brand B,16.9,17.41,11.5732,12.4412,,,Continuing
+P0149,ELEC-049,Electrical Components,Electrical Components / Group A,Brand C,84.67,87.21,56.3375,60.5628,,,Continuing
+P0150,ELEC-050,Electrical Components,Electrical Components / Group B,Brand D,115.2,118.66,82.9432,89.1639,,,Continuing
+P0151,TOOL-001,Tools & Equipment,Tools & Equipment / Group A,Brand J,108.99,108.99,61.6719,62.2886,,,Continuing
+P0152,TOOL-002,Tools & Equipment,Tools & Equipment / Group B,Brand K,41.8,41.8,26.5097,26.7748,,,Continuing
+P0153,TOOL-003,Tools & Equipment,Tools & Equipment / Group C,Brand L,163.54,163.54,93.3782,94.312,,,Continuing
+P0154,TOOL-004,Tools & Equipment,Tools & Equipment / Group D,Brand A,113.99,113.99,83.0291,83.8594,,,Continuing
+P0155,TOOL-005,Tools & Equipment,Tools & Equipment / Group A,Brand B,233.35,233.35,146.8935,148.3624,,,Continuing
+P0156,TOOL-006,Tools & Equipment,Tools & Equipment / Group B,Brand C,80.53,80.53,46.4763,46.9411,,,Continuing
+P0157,TOOL-007,Tools & Equipment,Tools & Equipment / Group C,Brand D,47.01,47.01,28.1869,28.4688,,,Continuing
+P0158,TOOL-008,Tools & Equipment,Tools & Equipment / Group D,Brand E,219.9,219.9,131.7445,133.0619,,,Continuing
+P0159,TOOL-009,Tools & Equipment,Tools & Equipment / Group A,Brand F,360.02,360.02,222.2948,224.5177,,,Continuing
+P0160,TOOL-010,Tools & Equipment,Tools & Equipment / Group B,Brand G,51.89,51.89,30.0527,30.3532,,,Continuing
+P0161,TOOL-011,Tools & Equipment,Tools & Equipment / Group C,Brand H,272.68,272.68,160.0853,161.6862,,,Continuing
+P0162,TOOL-012,Tools & Equipment,Tools & Equipment / Group D,Brand I,152.17,152.17,98.2595,99.2421,,,Continuing
+P0163,TOOL-013,Tools & Equipment,Tools & Equipment / Group A,Brand J,272.11,272.11,173.7895,175.5274,,,Continuing
+P0164,TOOL-014,Tools & Equipment,Tools & Equipment / Group B,Brand K,322.37,322.37,206.0684,208.1291,,,Continuing
+P0165,TOOL-015,Tools & Equipment,Tools & Equipment / Group C,Brand L,61.02,61.02,37.0631,37.4337,,,Continuing
+P0166,TOOL-016,Tools & Equipment,Tools & Equipment / Group D,Brand A,151.95,151.95,114.2972,115.4402,,,Continuing
+P0167,TOOL-017,Tools & Equipment,Tools & Equipment / Group A,Brand B,125.79,125.79,71.8212,72.5394,,,Continuing
+P0168,TOOL-018,Tools & Equipment,Tools & Equipment / Group B,Brand C,314.69,314.69,215.4856,217.6405,,,Continuing
+P0169,TOOL-019,Tools & Equipment,Tools & Equipment / Group C,Brand D,458.86,458.86,312.1243,315.2455,,2025-04-01,Discontinued in PP
+P0170,TOOL-020,Tools & Equipment,Tools & Equipment / Group D,Brand E,442.92,442.92,254.4127,256.9568,,,Continuing
+P0171,TOOL-021,Tools & Equipment,Tools & Equipment / Group A,Brand F,719.7,719.7,422.053,426.2735,2026-02-01,,New in CP
+P0172,TOOL-022,Tools & Equipment,Tools & Equipment / Group B,Brand G,159.92,159.92,107.8872,108.9661,,,Continuing
+P0173,TOOL-023,Tools & Equipment,Tools & Equipment / Group C,Brand H,151.09,151.09,88.4148,89.2989,,,Continuing
+P0174,TOOL-024,Tools & Equipment,Tools & Equipment / Group D,Brand I,245.39,245.39,158.1025,159.6835,,,Continuing
+P0175,TOOL-025,Tools & Equipment,Tools & Equipment / Group A,Brand J,144.2,144.2,93.5844,94.5202,,,Continuing
+P0176,TOOL-026,Tools & Equipment,Tools & Equipment / Group B,Brand K,343.96,343.96,223.9581,226.1977,,,Continuing
+P0177,TOOL-027,Tools & Equipment,Tools & Equipment / Group C,Brand L,132.56,132.56,76.3664,77.1301,,2025-05-01,Discontinued in PP
+P0178,TOOL-028,Tools & Equipment,Tools & Equipment / Group D,Brand A,78.72,78.72,54.2758,54.8186,,,Continuing
+P0179,TOOL-029,Tools & Equipment,Tools & Equipment / Group A,Brand B,166.89,166.89,104.5014,105.5464,,,Continuing
+P0180,TOOL-030,Tools & Equipment,Tools & Equipment / Group B,Brand C,41.52,41.52,25.7474,26.0049,,,Continuing
+P0181,TOOL-031,Tools & Equipment,Tools & Equipment / Group C,Brand D,131.28,131.28,83.0488,83.8793,,,Continuing
+P0182,TOOL-032,Tools & Equipment,Tools & Equipment / Group D,Brand E,107.35,107.35,64.0992,64.7402,,,Continuing
+P0183,TOOL-033,Tools & Equipment,Tools & Equipment / Group A,Brand F,164.62,164.62,106.4682,107.5329,2026-03-01,,New in CP
+P0184,TOOL-034,Tools & Equipment,Tools & Equipment / Group B,Brand G,98.19,98.19,50.2321,50.7344,,,Continuing
+P0185,TOOL-035,Tools & Equipment,Tools & Equipment / Group C,Brand H,95.58,95.58,54.7486,55.2961,,,Continuing
+P0186,TOOL-036,Tools & Equipment,Tools & Equipment / Group D,Brand I,89.46,89.46,57.0538,57.6243,,,Continuing
+P0187,TOOL-037,Tools & Equipment,Tools & Equipment / Group A,Brand J,165.76,165.76,100.9736,101.9833,,,Continuing
+P0188,TOOL-038,Tools & Equipment,Tools & Equipment / Group B,Brand K,258.69,258.69,170.7284,172.4357,,,Continuing
+P0189,TOOL-039,Tools & Equipment,Tools & Equipment / Group C,Brand L,160.3,160.3,98.9228,99.912,,,Continuing
+P0190,TOOL-040,Tools & Equipment,Tools & Equipment / Group D,Brand A,42.76,42.76,26.6116,26.8777,,,Continuing
+P0191,TOOL-041,Tools & Equipment,Tools & Equipment / Group A,Brand B,202.72,202.72,124.7361,125.9835,,,Continuing
+P0192,TOOL-042,Tools & Equipment,Tools & Equipment / Group B,Brand C,226.84,226.84,136.6291,137.9954,,,Continuing
+P0193,TOOL-043,Tools & Equipment,Tools & Equipment / Group C,Brand D,44.76,44.76,28.0611,28.3417,,,Continuing
+P0194,TOOL-044,Tools & Equipment,Tools & Equipment / Group D,Brand E,664.44,664.44,362.5686,366.1943,,,Continuing
+P0195,TOOL-045,Tools & Equipment,Tools & Equipment / Group A,Brand F,53.88,53.88,36.085,36.4458,,,Continuing
+P0196,TOOL-046,Tools & Equipment,Tools & Equipment / Group B,Brand G,385.36,385.36,246.7772,249.245,,,Continuing
+P0197,TOOL-047,Tools & Equipment,Tools & Equipment / Group C,Brand H,380.79,380.79,216.2268,218.3891,,,Continuing
+P0198,TOOL-048,Tools & Equipment,Tools & Equipment / Group D,Brand I,368.92,368.92,257.1525,259.724,,,Continuing
+P0199,TOOL-049,Tools & Equipment,Tools & Equipment / Group A,Brand J,360.33,360.33,232.9311,235.2604,,,Continuing
+P0200,TOOL-050,Tools & Equipment,Tools & Equipment / Group B,Brand K,357.74,357.74,247.4784,249.9532,,,Continuing
+P0201,SAFE-001,Safety & PPE,Safety & PPE / Group A,Brand E,9.05,9.05,5.8461,5.8753,,,Continuing
+P0202,SAFE-002,Safety & PPE,Safety & PPE / Group B,Brand F,47.95,47.95,27.416,27.5531,,,Continuing
+P0203,SAFE-003,Safety & PPE,Safety & PPE / Group C,Brand G,14.01,14.01,8.2801,8.3215,,,Continuing
+P0204,SAFE-004,Safety & PPE,Safety & PPE / Group D,Brand H,110.85,110.85,63.0646,63.3799,,,Continuing
+P0205,SAFE-005,Safety & PPE,Safety & PPE / Group A,Brand I,7.4,7.4,4.6519,4.6752,,,Continuing
+P0206,SAFE-006,Safety & PPE,Safety & PPE / Group B,Brand J,38.06,38.06,26.1256,26.2562,2025-10-01,,New in CP
+P0207,SAFE-007,Safety & PPE,Safety & PPE / Group C,Brand K,75.32,75.32,47.3436,47.5803,,2025-05-01,Discontinued in PP
+P0208,SAFE-008,Safety & PPE,Safety & PPE / Group D,Brand L,26.33,26.33,15.7136,15.7922,,,Continuing
+P0209,SAFE-009,Safety & PPE,Safety & PPE / Group A,Brand A,30.51,30.51,18.3002,18.3917,,,Continuing
+P0210,SAFE-010,Safety & PPE,Safety & PPE / Group B,Brand B,23.32,23.32,12.424,12.4861,,,Continuing
+P0211,SAFE-011,Safety & PPE,Safety & PPE / Group C,Brand C,204.87,204.87,129.2595,129.9058,,,Continuing
+P0212,SAFE-012,Safety & PPE,Safety & PPE / Group D,Brand D,39.81,39.81,26.3969,26.5289,,,Continuing
+P0213,SAFE-013,Safety & PPE,Safety & PPE / Group A,Brand E,8.45,8.45,5.4199,5.447,,,Continuing
+P0214,SAFE-014,Safety & PPE,Safety & PPE / Group B,Brand F,79.66,79.66,46.1635,46.3943,,,Continuing
+P0215,SAFE-015,Safety & PPE,Safety & PPE / Group C,Brand G,42.53,42.53,25.4589,25.5862,,,Continuing
+P0216,SAFE-016,Safety & PPE,Safety & PPE / Group D,Brand H,69.12,69.12,42.6137,42.8268,,,Continuing
+P0217,SAFE-017,Safety & PPE,Safety & PPE / Group A,Brand I,7.31,7.31,4.316,4.3376,,,Continuing
+P0218,SAFE-018,Safety & PPE,Safety & PPE / Group B,Brand J,81.28,81.28,51.8497,52.1089,,,Continuing
+P0219,SAFE-019,Safety & PPE,Safety & PPE / Group C,Brand K,49.13,49.13,29.2984,29.4449,2026-03-01,,New in CP
+P0220,SAFE-020,Safety & PPE,Safety & PPE / Group D,Brand L,114.42,114.42,69.2026,69.5486,,,Continuing
+P0221,SAFE-021,Safety & PPE,Safety & PPE / Group A,Brand A,58.39,58.39,39.987,40.1869,,,Continuing
+P0222,SAFE-022,Safety & PPE,Safety & PPE / Group B,Brand B,17.58,17.58,9.739,9.7877,2025-10-01,,New in CP
+P0223,SAFE-023,Safety & PPE,Safety & PPE / Group C,Brand C,29.1,29.1,18.8437,18.9379,2025-11-01,,New in CP
+P0224,SAFE-024,Safety & PPE,Safety & PPE / Group D,Brand D,13.06,13.06,8.5008,8.5433,,,Continuing
+P0225,SAFE-025,Safety & PPE,Safety & PPE / Group A,Brand E,59.94,59.94,33.3208,33.4874,,,Continuing
+P0226,SAFE-026,Safety & PPE,Safety & PPE / Group B,Brand F,61.53,61.53,37.3258,37.5124,,,Continuing
+P0227,SAFE-027,Safety & PPE,Safety & PPE / Group C,Brand G,15.38,15.38,9.5604,9.6082,,,Continuing
+P0228,SAFE-028,Safety & PPE,Safety & PPE / Group D,Brand H,12.43,12.43,8.3782,8.4201,,,Continuing
+P0229,SAFE-029,Safety & PPE,Safety & PPE / Group A,Brand I,43.04,43.04,25.4523,25.5796,2026-03-01,,New in CP
+P0230,SAFE-030,Safety & PPE,Safety & PPE / Group B,Brand J,21.1,21.1,11.6115,11.6696,,,Continuing
+P0231,SAFE-031,Safety & PPE,Safety & PPE / Group C,Brand K,35.26,35.26,22.3174,22.429,,2025-07-01,Discontinued in PP
+P0232,SAFE-032,Safety & PPE,Safety & PPE / Group D,Brand L,29.93,29.93,17.4713,17.5587,,,Continuing
+P0233,SAFE-033,Safety & PPE,Safety & PPE / Group A,Brand A,11.96,11.96,7.0619,7.0972,2025-12-01,,New in CP
+P0234,SAFE-034,Safety & PPE,Safety & PPE / Group B,Brand B,80.67,80.67,48.1001,48.3406,,,Continuing
+P0235,SAFE-035,Safety & PPE,Safety & PPE / Group C,Brand C,40.88,40.88,22.1629,22.2737,,,Continuing
+P0236,SAFE-036,Safety & PPE,Safety & PPE / Group D,Brand D,22.97,22.97,16.2212,16.3023,,,Continuing
+P0237,SAFE-037,Safety & PPE,Safety & PPE / Group A,Brand E,9.7,9.7,6.2071,6.2381,,,Continuing
+P0238,SAFE-038,Safety & PPE,Safety & PPE / Group B,Brand F,17.6,17.6,10.4173,10.4694,,,Continuing
+P0239,SAFE-039,Safety & PPE,Safety & PPE / Group C,Brand G,18.74,18.74,11.1286,11.1842,,,Continuing
+P0240,SAFE-040,Safety & PPE,Safety & PPE / Group D,Brand H,33.35,33.35,19.8046,19.9036,,,Continuing
+P0241,SAFE-041,Safety & PPE,Safety & PPE / Group A,Brand I,25.63,25.63,13.3263,13.3929,,,Continuing
+P0242,SAFE-042,Safety & PPE,Safety & PPE / Group B,Brand J,31.45,31.45,18.2229,18.314,,,Continuing
+P0243,SAFE-043,Safety & PPE,Safety & PPE / Group C,Brand K,13.49,13.49,8.4423,8.4845,,,Continuing
+P0244,SAFE-044,Safety & PPE,Safety & PPE / Group D,Brand L,125.85,125.85,82.3045,82.716,,,Continuing
+P0245,SAFE-045,Safety & PPE,Safety & PPE / Group A,Brand A,22.34,22.34,12.4998,12.5623,,,Continuing
+P0246,SAFE-046,Safety & PPE,Safety & PPE / Group B,Brand B,192.61,192.61,132.5206,133.1832,,,Continuing
+P0247,SAFE-047,Safety & PPE,Safety & PPE / Group C,Brand C,17.75,17.75,10.4126,10.4647,,,Continuing
+P0248,SAFE-048,Safety & PPE,Safety & PPE / Group D,Brand D,13.14,13.14,8.2981,8.3396,,,Continuing
+P0249,SAFE-049,Safety & PPE,Safety & PPE / Group A,Brand E,17.32,17.32,9.8405,9.8897,,,Continuing
+P0250,SAFE-050,Safety & PPE,Safety & PPE / Group B,Brand F,73.86,73.86,48.3613,48.6031,,,Continuing
+P0251,SPEC-001,Specialty Engineered,Specialty Engineered / Group A,Brand L,511.09,511.09,286.6627,286.6627,,,Continuing
+P0252,SPEC-002,Specialty Engineered,Specialty Engineered / Group B,Brand A,154.48,154.48,95.3749,95.3749,,,Continuing
+P0253,SPEC-003,Specialty Engineered,Specialty Engineered / Group C,Brand B,202.41,202.41,136.1389,136.1389,,,Continuing
+P0254,SPEC-004,Specialty Engineered,Specialty Engineered / Group D,Brand C,495.73,495.73,247.7281,247.7281,2026-03-01,,New in CP
+P0255,SPEC-005,Specialty Engineered,Specialty Engineered / Group A,Brand D,300.06,300.06,183.9213,183.9213,,,Continuing
+P0256,SPEC-006,Specialty Engineered,Specialty Engineered / Group B,Brand E,276.44,276.44,158.5298,158.5298,,,Continuing
+P0257,SPEC-007,Specialty Engineered,Specialty Engineered / Group C,Brand F,1032.7,1032.7,547.775,547.775,,,Continuing
+P0258,SPEC-008,Specialty Engineered,Specialty Engineered / Group D,Brand G,305.7,305.7,198.0287,198.0287,,,Continuing
+P0259,SPEC-009,Specialty Engineered,Specialty Engineered / Group A,Brand H,313.71,313.71,194.5262,194.5262,,,Continuing
+P0260,SPEC-010,Specialty Engineered,Specialty Engineered / Group B,Brand I,168.54,168.54,91.5657,91.5657,,,Continuing
+P0261,SPEC-011,Specialty Engineered,Specialty Engineered / Group C,Brand J,336.62,336.62,183.606,183.606,2025-12-01,,New in CP
+P0262,SPEC-012,Specialty Engineered,Specialty Engineered / Group D,Brand K,787.23,787.23,426.8529,426.8529,,,Continuing
+P0263,SPEC-013,Specialty Engineered,Specialty Engineered / Group A,Brand L,141.59,141.59,89.6495,89.6495,,,Continuing
+P0264,SPEC-014,Specialty Engineered,Specialty Engineered / Group B,Brand A,340.45,340.45,209.9929,209.9929,,,Continuing
+P0265,SPEC-015,Specialty Engineered,Specialty Engineered / Group C,Brand B,224.31,224.31,115.385,115.385,,,Continuing
+P0266,SPEC-016,Specialty Engineered,Specialty Engineered / Group D,Brand C,2312.67,2312.67,1373.2246,1373.2246,,,Continuing
+P0267,SPEC-017,Specialty Engineered,Specialty Engineered / Group A,Brand D,357.46,357.46,229.5148,229.5148,,,Continuing
+P0268,SPEC-018,Specialty Engineered,Specialty Engineered / Group B,Brand E,1185.09,1185.09,623.9413,623.9413,,,Continuing
+P0269,SPEC-019,Specialty Engineered,Specialty Engineered / Group C,Brand F,342.6,342.6,175.1572,175.1572,,,Continuing
+P0270,SPEC-020,Specialty Engineered,Specialty Engineered / Group D,Brand G,245.13,245.13,143.0463,143.0463,,,Continuing
+P0271,SPEC-021,Specialty Engineered,Specialty Engineered / Group A,Brand H,1790.65,1790.65,1162.5337,1162.5337,,,Continuing
+P0272,SPEC-022,Specialty Engineered,Specialty Engineered / Group B,Brand I,503.98,503.98,292.3196,292.3196,,,Continuing
+P0273,SPEC-023,Specialty Engineered,Specialty Engineered / Group C,Brand J,801.3,801.3,509.2745,509.2745,,,Continuing
+P0274,SPEC-024,Specialty Engineered,Specialty Engineered / Group D,Brand K,680.36,680.36,400.368,400.368,,,Continuing
+P0275,SPEC-025,Specialty Engineered,Specialty Engineered / Group A,Brand L,136.76,136.76,75.2395,75.2395,2026-02-01,,New in CP
+P0276,SPEC-026,Specialty Engineered,Specialty Engineered / Group B,Brand A,511.03,511.03,293.567,293.567,,,Continuing
+P0277,SPEC-027,Specialty Engineered,Specialty Engineered / Group C,Brand B,681.42,681.42,369.8483,369.8483,,2025-03-01,Discontinued in PP
+P0278,SPEC-028,Specialty Engineered,Specialty Engineered / Group D,Brand C,406.88,406.88,197.2773,197.2773,,2025-05-01,Discontinued in PP
+P0279,SPEC-029,Specialty Engineered,Specialty Engineered / Group A,Brand D,380.36,380.36,243.4547,243.4547,,2025-09-01,Discontinued in PP
+P0280,SPEC-030,Specialty Engineered,Specialty Engineered / Group B,Brand E,223.57,223.57,122.1076,122.1076,,,Continuing
+P0281,SPEC-031,Specialty Engineered,Specialty Engineered / Group C,Brand F,1671.6,1671.6,950.0118,950.0118,,,Continuing
+P0282,SPEC-032,Specialty Engineered,Specialty Engineered / Group D,Brand G,1200.32,1200.32,823.244,823.244,,,Continuing
+P0283,SPEC-033,Specialty Engineered,Specialty Engineered / Group A,Brand H,197.17,197.17,119.2062,119.2062,,,Continuing
+P0284,SPEC-034,Specialty Engineered,Specialty Engineered / Group B,Brand I,260.13,260.13,160.1977,160.1977,,,Continuing
+P0285,SPEC-035,Specialty Engineered,Specialty Engineered / Group C,Brand J,415.12,415.12,231.6339,231.6339,,2025-05-01,Discontinued in PP
+P0286,SPEC-036,Specialty Engineered,Specialty Engineered / Group D,Brand K,852.85,852.85,497.4798,497.4798,,,Continuing
+P0287,SPEC-037,Specialty Engineered,Specialty Engineered / Group A,Brand L,189.6,189.6,96.7275,96.7275,,,Continuing
+P0288,SPEC-038,Specialty Engineered,Specialty Engineered / Group B,Brand A,510.06,510.06,245.167,245.167,2026-01-01,,New in CP
+P0289,SPEC-039,Specialty Engineered,Specialty Engineered / Group C,Brand B,335.72,335.72,197.5952,197.5952,,,Continuing
+P0290,SPEC-040,Specialty Engineered,Specialty Engineered / Group D,Brand C,523.23,523.23,298.5715,298.5715,,,Continuing
+P0291,SPEC-041,Specialty Engineered,Specialty Engineered / Group A,Brand D,338.57,338.57,171.2273,171.2273,2025-11-01,,New in CP
+P0292,SPEC-042,Specialty Engineered,Specialty Engineered / Group B,Brand E,238.14,238.14,141.1856,141.1856,,,Continuing
+P0293,SPEC-043,Specialty Engineered,Specialty Engineered / Group C,Brand F,713.87,713.87,466.8545,466.8545,,,Continuing
+P0294,SPEC-044,Specialty Engineered,Specialty Engineered / Group D,Brand G,1317.91,1317.91,834.5861,834.5861,,,Continuing
+P0295,SPEC-045,Specialty Engineered,Specialty Engineered / Group A,Brand H,1956.25,1956.25,1062.5079,1062.5079,,,Continuing
+P0296,SPEC-046,Specialty Engineered,Specialty Engineered / Group B,Brand I,123.55,123.55,76.5766,76.5766,2026-01-01,,New in CP
+P0297,SPEC-047,Specialty Engineered,Specialty Engineered / Group C,Brand J,161.09,161.09,90.7052,90.7052,2025-10-01,,New in CP
+P0298,SPEC-048,Specialty Engineered,Specialty Engineered / Group D,Brand K,455.52,455.52,284.393,284.393,,,Continuing
+P0299,SPEC-049,Specialty Engineered,Specialty Engineered / Group A,Brand L,999.16,999.16,593.4356,593.4356,,,Continuing
+P0300,SPEC-050,Specialty Engineered,Specialty Engineered / Group B,Brand A,341.46,341.46,179.9248,179.9248,,,Continuing

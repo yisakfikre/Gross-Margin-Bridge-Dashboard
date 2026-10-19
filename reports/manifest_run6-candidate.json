@@ -1,0 +1,158 @@
+{
+  "params": {
+    "seed": 20261010,
+    "run_label": "run6-candidate",
+    "pp_start": "2024-10-01",
+    "pp_end": "2025-09-30",
+    "cp_start": "2025-10-01",
+    "cp_end": "2026-09-30",
+    "cost_revision_effective": "1 October each year",
+    "target_pp_net_revenue_musd": 32.0,
+    "n_customers": 400,
+    "n_skus": 300,
+    "n_new_skus": 25,
+    "n_discontinued_skus": 20,
+    "categories": {
+      "Commodity Consumables": {
+        "share": 0.2,
+        "gm": 0.19,
+        "cost_up": 0.005,
+        "list_up": 0.0,
+        "vol_growth": 0.225,
+        "avg_price": 18.0,
+        "line_qty": 80
+      },
+      "Fasteners & Fixings": {
+        "share": 0.15,
+        "gm": 0.28,
+        "cost_up": 0.075,
+        "list_up": 0.03,
+        "vol_growth": 0.035,
+        "avg_price": 25.0,
+        "line_qty": 64
+      },
+      "Electrical Components": {
+        "share": 0.14,
+        "gm": 0.29,
+        "cost_up": 0.075,
+        "list_up": 0.03,
+        "vol_growth": 0.025,
+        "avg_price": 70.0,
+        "line_qty": 19
+      },
+      "Tools & Equipment": {
+        "share": 0.18,
+        "gm": 0.32,
+        "cost_up": 0.01,
+        "list_up": 0.0,
+        "vol_growth": 0.065,
+        "avg_price": 200.0,
+        "line_qty": 8
+      },
+      "Safety & PPE": {
+        "share": 0.13,
+        "gm": 0.34,
+        "cost_up": 0.005,
+        "list_up": 0.0,
+        "vol_growth": 0.055,
+        "avg_price": 45.0,
+        "line_qty": 30
+      },
+      "Specialty Engineered": {
+        "share": 0.2,
+        "gm": 0.37,
+        "cost_up": 0.0,
+        "list_up": 0.0,
+        "vol_growth": -0.015,
+        "avg_price": 600.0,
+        "line_qty": 4
+      }
+    },
+    "channels": {
+      "Distributor": {
+        "share": 0.45,
+        "n": 120,
+        "disc_fy25": 0.12,
+        "disc_fy26": 0.12
+      },
+      "Direct": {
+        "share": 0.35,
+        "n": 130,
+        "disc_fy25": 0.07,
+        "disc_fy26": 0.072
+      },
+      "Online": {
+        "share": 0.2,
+        "n": 150,
+        "disc_fy25": 0.04,
+        "disc_fy26": 0.042
+      }
+    },
+    "pressure_accounts": {
+      "n": 12,
+      "channel": "Distributor",
+      "rank_from": 0,
+      "rank_to": 11,
+      "disc_fy26": 0.235
+    },
+    "new_sku_cp_revenue_share": 0.0105,
+    "disc_sku_pp_revenue_share": 0.0055,
+    "sku_weight_sigma": 0.8,
+    "customer_weight_sigma": 1.05,
+    "customer_discount_sigma": 0.12,
+    "sku_growth_noise_sigma": 0.1,
+    "month_noise_sigma": 0.07,
+    "seasonality": [
+      1.05,
+      1.02,
+      0.82,
+      0.9,
+      0.98,
+      1.12,
+      1.06,
+      1.04,
+      1.08,
+      0.92,
+      0.95,
+      1.06
+    ],
+    "typical_discount_for_costing": 0.08,
+    "sku_price_sigma": 0.8,
+    "line_split_alpha": 0.65,
+    "basket_target_lines": 4.0,
+    "basket_rng_offset": 1,
+    "sku_gm_sigma": 0.05,
+    "within_category_margin_tilt": 0.035
+  },
+  "files": {
+    "fact_sales_line.csv": {
+      "rows": 72154,
+      "cols": 12,
+      "sha256": "9b41784c1c661711e1d3db2bc5e3f32ae64fad8b9f6c3b5904125d99d19756b8",
+      "bytes": 5484540
+    },
+    "dim_product.csv": {
+      "rows": 300,
+      "cols": 12,
+      "sha256": "d52d3e09521d30552eab26ef773d5254b27f13d974d11e07122f7593f867338c",
+      "bytes": 34630
+    },
+    "dim_customer.csv": {
+      "rows": 400,
+      "cols": 7,
+      "sha256": "5c5306896f32dace7b5cd3f31d75407926f1d5dc189b45a10fc9399b1d77e2b1",
+      "bytes": 20885
+    },
+    "dim_date.csv": {
+      "rows": 730,
+      "cols": 12,
+      "sha256": "16d1888f7427c108885517480e5a7a508a642065cc50f8c7d9493965bc960f29",
+      "bytes": 46498
+    }
+  },
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5"
+  }
+}

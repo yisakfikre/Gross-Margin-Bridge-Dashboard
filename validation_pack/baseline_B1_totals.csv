@@ -1,0 +1,61 @@
+test_id,window_months,filter_channel,filter_category,grain,entity,measure,expected,kind,tolerance
+B1-12m-Net_Revenue_PP,12,(all),(all),total,(total),Net Revenue PP,32382903.619999997,money,1.0
+B1-12m-Net_Revenue_CP,12,(all),(all),total,(total),Net Revenue CP,34384318.769999996,money,1.0
+B1-12m-Gross_Profit_PP,12,(all),(all),total,(total),Gross Profit PP,9401950.780000001,money,1.0
+B1-12m-Gross_Profit_CP,12,(all),(all),total,(total),Gross Profit CP,8865953.02,money,1.0
+B1-12m-Gross_Profit_Delta,12,(all),(all),total,(total),Gross Profit Delta,-535997.7600000016,money,1.0
+B1-12m-Gross_Margin_PP,12,(all),(all),total,(total),Gross Margin PP,0.290336867,ratio,1e-09
+B1-12m-Gross_Margin_CP,12,(all),(all),total,(total),Gross Margin CP,0.2578487327,ratio,1e-09
+B1-12m-Price_Effect,12,(all),(all),total,(total),Price Effect,-442405.5464291539,money,1.0
+B1-12m-Cost_Effect,12,(all),(all),total,(total),Cost Effect,-595085.3051418035,money,1.0
+B1-12m-Volume_Effect,12,(all),(all),total,(total),Volume Effect,628587.4509649606,money,1.0
+B1-12m-Mix_Effect,12,(all),(all),total,(total),Mix Effect,-169824.7793940031,money,1.0
+B1-12m-New_Products_Effect,12,(all),(all),total,(total),New Products Effect,94247.79,money,1.0
+B1-12m-Discontinued_Effect,12,(all),(all),total,(total),Discontinued Effect,-51517.37,money,1.0
+B1-12m-List_Price_Sub-effect,12,(all),(all),total,(total),List Price Sub-effect,309982.8649999998,money,1.0
+B1-12m-Discount_Sub-effect,12,(all),(all),total,(total),Discount Sub-effect,-752388.4114291536,money,1.0
+B1-12m-Volume_Index_Gamma,12,(all),(all),total,(total),Volume Index Gamma,0.0692413318,ratio,1e-09
+B1-12m-Bridge_Residual,12,(all),(all),total,(total),Bridge Residual,-1.7e-09,money,1.0
+B1-12m-Comparable_SKUs,12,(all),(all),total,(total),Comparable SKU Count,255.0,count,0.0
+B1-12m-New_SKUs,12,(all),(all),total,(total),New SKU Count,25.0,count,0.0
+B1-12m-Discontinued_SKUs,12,(all),(all),total,(total),Discontinued SKU Count,20.0,count,0.0
+B1-6m-Net_Revenue_PP,6,(all),(all),total,(total),Net Revenue PP,16649296.59,money,1.0
+B1-6m-Net_Revenue_CP,6,(all),(all),total,(total),Net Revenue CP,17707660.89,money,1.0
+B1-6m-Gross_Profit_PP,6,(all),(all),total,(total),Gross Profit PP,4834916.32,money,1.0
+B1-6m-Gross_Profit_CP,6,(all),(all),total,(total),Gross Profit CP,4569610.42,money,1.0
+B1-6m-Gross_Profit_Delta,6,(all),(all),total,(total),Gross Profit Delta,-265305.9000000004,money,1.0
+B1-6m-Gross_Margin_PP,6,(all),(all),total,(total),Gross Margin PP,0.2903976329,ratio,1e-09
+B1-6m-Gross_Margin_CP,6,(all),(all),total,(total),Gross Margin CP,0.2580583877,ratio,1e-09
+B1-6m-Price_Effect,6,(all),(all),total,(total),Price Effect,-235975.5722456558,money,1.0
+B1-6m-Cost_Effect,6,(all),(all),total,(total),Cost Effect,-306255.8912610012,money,1.0
+B1-6m-Volume_Effect,6,(all),(all),total,(total),Volume Effect,309333.0883771499,money,1.0
+B1-6m-Mix_Effect,6,(all),(all),total,(total),Mix Effect,-80511.3948704932,money,1.0
+B1-6m-New_Products_Effect,6,(all),(all),total,(total),New Products Effect,61588.07,money,1.0
+B1-6m-Discontinued_Effect,6,(all),(all),total,(total),Discontinued Effect,-13484.2,money,1.0
+B1-6m-List_Price_Sub-effect,6,(all),(all),total,(total),List Price Sub-effect,159551.2250000002,money,1.0
+B1-6m-Discount_Sub-effect,6,(all),(all),total,(total),Discount Sub-effect,-395526.797245656,money,1.0
+B1-6m-Volume_Index_Gamma,6,(all),(all),total,(total),Volume Index Gamma,0.0661988898,ratio,1e-09
+B1-6m-Bridge_Residual,6,(all),(all),total,(total),Bridge Residual,-2e-10,money,1.0
+B1-6m-Comparable_SKUs,6,(all),(all),total,(total),Comparable SKU Count,255.0,count,0.0
+B1-6m-New_SKUs,6,(all),(all),total,(total),New SKU Count,25.0,count,0.0
+B1-6m-Discontinued_SKUs,6,(all),(all),total,(total),Discontinued SKU Count,17.0,count,0.0
+B1-3m-Net_Revenue_PP,3,(all),(all),total,(total),Net Revenue PP,7951344.0200000005,money,1.0
+B1-3m-Net_Revenue_CP,3,(all),(all),total,(total),Net Revenue CP,8446635.24,money,1.0
+B1-3m-Gross_Profit_PP,3,(all),(all),total,(total),Gross Profit PP,2311076.2,money,1.0
+B1-3m-Gross_Profit_CP,3,(all),(all),total,(total),Gross Profit CP,2181065.3899999997,money,1.0
+B1-3m-Gross_Profit_Delta,3,(all),(all),total,(total),Gross Profit Delta,-130010.8100000005,money,1.0
+B1-3m-Gross_Margin_PP,3,(all),(all),total,(total),Gross Margin PP,0.2906522714,ratio,1e-09
+B1-3m-Gross_Margin_CP,3,(all),(all),total,(total),Gross Margin CP,0.2582170685,ratio,1e-09
+B1-3m-Price_Effect,3,(all),(all),total,(total),Price Effect,-113402.0343045601,money,1.0
+B1-3m-Cost_Effect,3,(all),(all),total,(total),Cost Effect,-146347.2516157559,money,1.0
+B1-3m-Volume_Effect,3,(all),(all),total,(total),Volume Effect,141818.5895541091,money,1.0
+B1-3m-Mix_Effect,3,(all),(all),total,(total),Mix Effect,-38983.653633793,money,1.0
+B1-3m-New_Products_Effect,3,(all),(all),total,(total),New Products Effect,29182.15,money,1.0
+B1-3m-Discontinued_Effect,3,(all),(all),total,(total),Discontinued Effect,-2278.61,money,1.0
+B1-3m-List_Price_Sub-effect,3,(all),(all),total,(total),List Price Sub-effect,76280.5300000001,money,1.0
+B1-3m-Discount_Sub-effect,3,(all),(all),total,(total),Discount Sub-effect,-189682.5643045602,money,1.0
+B1-3m-Volume_Index_Gamma,3,(all),(all),total,(total),Volume Index Gamma,0.0634752037,ratio,1e-09
+B1-3m-Bridge_Residual,3,(all),(all),total,(total),Bridge Residual,-6e-10,money,1.0
+B1-3m-Comparable_SKUs,3,(all),(all),total,(total),Comparable SKU Count,255.0,count,0.0
+B1-3m-New_SKUs,3,(all),(all),total,(total),New SKU Count,25.0,count,0.0
+B1-3m-Discontinued_SKUs,3,(all),(all),total,(total),Discontinued SKU Count,5.0,count,0.0

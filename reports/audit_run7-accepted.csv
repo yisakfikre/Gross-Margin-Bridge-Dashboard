@@ -1,0 +1,88 @@
+section,test,result,expected,observed,note
+A. Integrity,Fact row count inside the 60k-80k contract band,PASS,"60,000-80,000","72,511",
+A. Integrity,SKU count,PASS,300,300,
+A. Integrity,Customer count,PASS,400,400,
+A. Integrity,Category count,PASS,6,6,
+A. Integrity,Channel count,PASS,3,3,
+A. Integrity,"Primary key (invoice_no, line_no) unique",PASS,0 duplicates,0,
+A. Integrity,line_no starts at 1 and is gapless within each invoice,PASS,contiguous from 1,verified on every invoice,
+A. Integrity,One invoice belongs to one customer and one date,PASS,1,1,
+A. Integrity,product_id foreign key resolves,PASS,all resolve,0 orphans,
+A. Integrity,customer_id foreign key resolves,PASS,all resolve,0 orphans,
+A. Integrity,invoice_date foreign key resolves to dim_date,PASS,all resolve,0 orphans,
+A. Integrity,dim_product key unique,PASS,unique,unique,
+A. Integrity,dim_customer key unique,PASS,unique,unique,
+A. Integrity,dim_date key unique and complete,PASS,730 unique days,730,
+A. Integrity,No nulls anywhere in the fact table,PASS,0,0,
+A. Integrity,No nulls in dim_customer or dim_date,PASS,0,0,
+A. Integrity,dim_product nulls confined to launch/discontinued columns,PASS,0 elsewhere,0 elsewhere,
+A. Integrity,quantity strictly positive integer,PASS,"> 0, integer",min 1,
+A. Integrity,gross_revenue strictly positive,PASS,> 0,min 0.7900,
+A. Integrity,net_revenue strictly positive,PASS,> 0,min 0.6000,
+A. Integrity,unit_standard_cost strictly positive,PASS,> 0,min 0.5929,
+A. Integrity,total_cost strictly positive,PASS,> 0,min 0.5900,
+A. Integrity,discount_amount >= 0 and < gross_revenue,PASS,0 <= d < gross,max rate 31.8%,
+A. Integrity,gross_revenue - discount_amount = net_revenue on every line,PASS,<= $0.01,max |err| $0.0000,
+A. Integrity,total_cost = quantity x unit_standard_cost on every line,PASS,<= $0.01,max |err| $0.0050,
+A. Integrity,Effective-dated list price: line price = the list in force at invoice_date,PASS,<= $0.01,max |err| $0.0000,
+A. Integrity,Effective-dated standard cost: line cost = the cost in force at invoice_date,PASS,exact,max |err| 0.00e+00,
+A. Integrity,Exactly one standard cost per SKU per cost year,PASS,1,1,
+A. Integrity,period column on the fact agrees with dim_date,PASS,identical,identical,
+A. Integrity,"Date coverage 2024-10-01 to 2026-09-30, no gaps",PASS,2024-10-01..2026-09-30,2024-10-01..2026-09-30,
+A. Integrity,All 24 months carry sales,PASS,24,24,
+A. Integrity,Both comparison periods are complete 12-month windows,PASS,12 months each,"PP 35,001 lines / CP 37,510 lines",
+A. Integrity,No SKU invoiced before its launch month,PASS,0 lines,0,
+A. Integrity,No SKU invoiced after its discontinued month,PASS,0 lines,0,
+B. Scenario,Target volume,PASS,+0.60 +/- 0.12 m,+0.629 m,miss +0.029
+B. Scenario,Target mix,PASS,-0.20 +/- 0.08 m,-0.170 m,miss +0.030
+B. Scenario,Target price,PASS,-0.40 +/- 0.12 m,-0.442 m,miss -0.042
+B. Scenario,Target list_sub,PASS,+0.30 +/- 0.08 m,+0.310 m,miss +0.010
+B. Scenario,Target discount_sub,PASS,-0.70 +/- 0.15 m,-0.752 m,miss -0.052
+B. Scenario,Target cost,PASS,-0.55 +/- 0.12 m,-0.595 m,miss -0.045
+B. Scenario,Target new,PASS,+0.10 +/- 0.05 m,+0.094 m,miss -0.006
+B. Scenario,Target disc,PASS,-0.05 +/- 0.03 m,-0.052 m,miss -0.002
+B. Scenario,Target net_range,PASS,+0.05 +/- 0.06 m,+0.043 m,miss -0.007
+B. Scenario,Target dgp,PASS,-0.50 +/- 0.20 m,-0.536 m,miss -0.036
+B. Scenario,Residual is zero within the approved tolerance,PASS,<= $1.00,$-0.000000,
+B. Scenario,Price sub-effects sum exactly to the price effect,PASS,exact,diff $0.000000,
+B. Scenario,Volume index gamma,PASS,6.5% +/- 1.0pp,6.924%,
+B. Scenario,"Revenue growth, computed from raw lines not from the bridge",PASS,6.0% +/- 1.0pp,+6.18%,$32.38m -> $34.38m
+B. Scenario,"Gross-margin movement, computed from raw lines",PASS,-317 +/- 60 bps,-325 bps,29.03% -> 25.78%
+B. Scenario,Raw gross profit matches the bridge's own GP figures,PASS,< $0.50,"PP $-0.0000, CP $-0.0000",
+C. Patterns,P1 cost revision concentrated in the two imported categories,PASS,>= 70% of the cost effect,86%,$-0.510m of $-0.595m
+C. Patterns,P2 price under-recovery in those categories,PASS,40%-70% of the cost movement recovered,61%,list +$0.310m vs cost $-0.510m
+C. Patterns,P3 discount widening concentrated in the Distributor channel,PASS,>= 80% of the discount sub-effect,95%,Direct $-0.034m; Distributor $-0.716m; Online $-0.020m
+C. Patterns,"P3 Distributor discount rate widens, others roughly flat",PASS,"Distributor +3pp or more, others < 1pp",Direct 6.9%->7.1%; Distributor 12.2%->16.5%; Online 4.0%->4.2%,
+C. Patterns,P4 mix effect adverse and material,PASS,<= -$0.05m (Phase 1 contradiction criterion),$-0.170m,"CORRECTED TEST. Runs 1-6 tested 'Commodity in-category mix > 0', a selection-relative figure the Phase 1 design never specified; it passed on rounding noise. The Phase 1 criterion is the magnitude of the total mix effect."
+C. Patterns,"P4 revenue growth skewed to Commodity, Specialty shrinking",PASS,"Commodity > +15%, Specialty flat (<= +1%)",Commodity Consumables +17.8%; Electrical Components +3.6%; Fasteners & Fixings +5.8%; Safety & PPE +5.2%; Specialty Engineered -3.2%; Tools & Equipment +7.0%,
+C. Patterns,P5 volume effect favourable while profit falls,PASS,"volume positive, dGP negative","volume +$0.629m, dGP $-0.536m",
+C. Patterns,P6 range churn immaterial,PASS,<= 15% of |dGP|,8.0%,"25 new, 20 discontinued, 255 comparable"
+C. Patterns,"P7 ORIGINAL concentration test (retained, not re-thresholded)",FAIL,60% +/- 10pp carried by the top 12,46.5%,historical Phase 2 test; kept at its original threshold
+C. Patterns,P7a pressure-group identification: the 12 worst accounts ARE the designed group,FAIL,"set identity, ranked dGP asc / CP revenue desc / id asc",11/12 match,"designed-group ranks [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 26]"
+C. Patterns,"P7a tie handling: rank 12 and rank 13 are separated, so the set is unambiguous",PASS,no tie at the 12/13 boundary,"$1,711 gap","rank12 $-19,780, rank13 $-18,069"
+C. Patterns,P7b top-12 share of total adverse movement,REPORT,"reported, no threshold",46.5%,$-0.692m of $-1.489m across 200 adverse accounts
+C. Patterns,P7c top-15 share of total adverse movement,REPORT,"reported, no threshold",50.0%,$-0.744m of $-1.489m
+C. Patterns,"P7a-alt identification by discount sub-effect ranking (PROPOSED, awaiting approval)",REPORT,set identity on the discount sub-effect,12/12 match,"designed-group ranks [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]; rank 12 $-21,535 vs rank 13 $-869, a 25x separation"
+C. Patterns,P7d accounts needed to reach half of all adverse movement,REPORT,"reported, no threshold",16 accounts,of 400 total accounts
+C. Patterns,Mix decomposition identity: within + between = total mix,PASS,exact,diff $-0.000000,
+C. Patterns,Within-category mix is analytically meaningful under a category filter,PASS,>= 15% of total mix,27.0%,"within $-0.046m, between $-0.124m"
+D. Realism,Customer concentration plausible for a distributor,PASS,top 10% of accounts hold 35%-70%,41%,HHI 99; largest account 7.2%
+D. Realism,No single account dominates,PASS,< 10%,7.2%,
+D. Realism,Every account trades in both periods or is explainable,PASS,reported,"399 PP-active, 400 CP-active",
+D. Realism,Category revenue shares land near the designed mix,PASS,each 10%-25%,Commodity 20%; Electrical 14%; Fasteners 15%; Safety 13%; Specialty 20%; Tools 18%,
+D. Realism,Channel revenue shares land near the designed mix,PASS,Distributor 45% +/- 6pp,Direct 37%; Distributor 43%; Online 21%,
+D. Realism,"SKU revenue is long-tailed, not uniform",PASS,top 30 SKUs > 25% of revenue,34%; bottom 100 SKUs 6.7%,
+D. Realism,Invoice sizes are realistic for a distributor,PASS,mean 2.5-8 lines per invoice,"mean 3.99, median 3, p90 7, max 42","18,152 invoices"
+D. Realism,Benchmark eligibility survives the invoice grouping,PASS,>= 300 eligible customer x category pairs,413 of 2316,1 pairs fail on invoice count alone; eligible pairs cover 57% of CP revenue
+D. Realism,"Order quantities are heavy-tailed, not flat",PASS,p95/median > 3,"median 12, p95 170, max 2728",
+D. Realism,Line values span several orders of magnitude,PASS,max/median > 50,"median $405, p99 $7,132, max $24,881",
+D. Realism,Seasonality present but not extreme,PASS,monthly index 0.70-1.35,"min 0.79 (2024-12), max 1.17 (2026-03)",
+D. Realism,The two years are not identical copies,PASS,year-on-year monthly pattern varies,verified,
+D. Realism,Discount rates sit in a believable band,PASS,"median < 20%, max < 45%","median 8.1%, p95 21.0%, max 31.8%",
+D. Realism,Account-level discount varies within every channel,PASS,coefficient of variation > 0.08 in each channel,Direct 0.12; Distributor 0.27; Online 0.12,
+E. Reproducibility,fact_sales_line.csv hash matches the run manifest,PASS,7ff13b6d14967911...,7ff13b6d14967911...,"72,511 rows"
+E. Reproducibility,dim_product.csv hash matches the run manifest,PASS,d52d3e09521d3055...,d52d3e09521d3055...,300 rows
+E. Reproducibility,dim_customer.csv hash matches the run manifest,PASS,5c5306896f32dace...,5c5306896f32dace...,400 rows
+E. Reproducibility,dim_date.csv hash matches the run manifest,PASS,16d1888f7427c108...,16d1888f7427c108...,730 rows
+E. Reproducibility,Seed recorded,PASS,present,20261010,
+E. Reproducibility,Environment recorded,PASS,present,"python 3.13.16, numpy 2.5.3, pandas 3.0.5",

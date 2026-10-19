@@ -1,0 +1,210 @@
+// =====================================================================
+// Gross Margin Bridge - Phase 4 measure definitions
+// Target: 25 measures. Paste into Tabular Editor, or create individually
+// in Power BI Desktop. Names must match exactly - the export queries and
+// the reconciler key on them.
+//
+// MODEL PREREQUISITES
+//   Tables:  fact_sales_line, dim_product, dim_customer, dim_date
+//   Relationships (all single-direction, single-key, active):
+//     dim_date[date]            1 -> * fact_sales_line[invoice_date]
+//     dim_product[product_id]   1 -> * fact_sales_line[product_id]
+//     dim_customer[customer_id] 1 -> * fact_sales_line[customer_id]
+//   dim_date marked as the model date table.
+//   Two calculated tables, both DISCONNECTED (no relationships):
+//     dim_period  = DATATABLE("period_key",INTEGER,"label",STRING,"months",INTEGER,
+//                     {{1,"Last 12 months vs prior year",12},
+//                      {2,"Last 6 months vs prior year",6},
+//                      {3,"Last 3 months vs prior year",3}})
+//     BridgeStep  = DATATABLE("step",STRING,"step_order",INTEGER,
+//                     {{"Price",3},{"Cost",4},{"Volume",1},{"Mix",2},
+//                      {"New",5},{"Disc",6}})
+// =====================================================================
+
+// ---- LAYER 1: BASE (4) ----------------------------------------------
+Net Revenue = SUM ( fact_sales_line[net_revenue] )
+
+Total Cost = SUM ( fact_sales_line[total_cost] )
+
+Gross Profit = [Net Revenue] - [Total Cost]
+
+Gross Margin % = DIVIDE ( [Gross Profit], [Net Revenue] )
+
+
+// ---- LAYER 2: PERIOD RESOLUTION (5) ---------------------------------
+// Helper. Reads the disconnected selector; defaults to 12 when nothing is picked.
+Selected Months = SELECTEDVALUE ( dim_period[months], 12 )
+
+Net Revenue CP =
+VAR M = [Selected Months]
+RETURN CALCULATE ( [Net Revenue],
+    FILTER ( ALL ( dim_date ),
+        dim_date[months_from_cp_end] >= 0 && dim_date[months_from_cp_end] < M ) )
+
+Net Revenue PP =
+VAR M = [Selected Months]
+RETURN CALCULATE ( [Net Revenue],
+    FILTER ( ALL ( dim_date ),
+        dim_date[months_from_cp_end] >= 12 && dim_date[months_from_cp_end] < 12 + M ) )
+
+Gross Profit CP =
+VAR M = [Selected Months]
+RETURN CALCULATE ( [Gross Profit],
+    FILTER ( ALL ( dim_date ),
+        dim_date[months_from_cp_end] >= 0 && dim_date[months_from_cp_end] < M ) )
+
+Gross Profit PP =
+VAR M = [Selected Months]
+RETURN CALCULATE ( [Gross Profit],
+    FILTER ( ALL ( dim_date ),
+        dim_date[months_from_cp_end] >= 12 && dim_date[months_from_cp_end] < 12 + M ) )
+
+
+// ---- LAYER 3: KPI DELTAS (3) ----------------------------------------
+Net Revenue Delta = [Net Revenue CP] - [Net Revenue PP]
+
+Gross Profit Delta = [Gross Profit CP] - [Gross Profit PP]
+
+Gross Margin Delta bps =
+VAR C = DIVIDE ( [Gross Profit CP], [Net Revenue CP] )
+VAR P = DIVIDE ( [Gross Profit PP], [Net Revenue PP] )
+RETURN IF ( ISBLANK ( C ) || ISBLANK ( P ), BLANK (), ( C - P ) * 10000 )
+
+
+// ---- LAYER 4: THE BRIDGE (9) ----------------------------------------
+// _Bridge Table is a helper expression repeated inside the measures below.
+// It is NOT a measure (DAX cannot return a table from one); it is inlined.
+// VALUES(dim_product[product_id]) respects product-side filters (category)
+// and is unaffected by customer-side filters at total level - which is the
+// behaviour test F2 checks.
+
+Volume Index Gamma =
+VAR M   = [Selected Months]
+VAR CPd = FILTER ( ALL ( dim_date ), dim_date[months_from_cp_end] >= 0  && dim_date[months_from_cp_end] < M )
+VAR PPd = FILTER ( ALL ( dim_date ), dim_date[months_from_cp_end] >= 12 && dim_date[months_from_cp_end] < 12 + M )
+VAR T =
+    ADDCOLUMNS ( VALUES ( dim_product[product_id] ),
+        "@q0", CALCULATE ( SUM ( fact_sales_line[quantity]    ), PPd ),
+        "@r0", CALCULATE ( SUM ( fact_sales_line[net_revenue] ), PPd ),
+        "@q1", CALCULATE ( SUM ( fact_sales_line[quantity]    ), CPd ),
+        "@r1", CALCULATE ( SUM ( fact_sales_line[net_revenue] ), CPd ) )
+VAR C = FILTER ( T, [@q0] > 0 && [@q1] > 0 )
+VAR B = ADDCOLUMNS ( C,
+        "@qbar", DIVIDE ( [@q0] + [@q1], 2 ),
+        "@pbar", DIVIDE ( DIVIDE ( [@r0], [@q0] ) + DIVIDE ( [@r1], [@q1] ), 2 ),
+        "@dq",   [@q1] - [@q0] )
+VAR Den = SUMX ( B, [@pbar] * [@qbar] )
+RETURN IF ( Den = 0, 0, DIVIDE ( SUMX ( B, [@pbar] * [@dq] ), Den ) )
+
+// The single implementation. The six named effects are thin wrappers so the
+// decomposition exists in exactly one place in the model.
+Bridge Component =
+VAR M    = [Selected Months]
+VAR CPd  = FILTER ( ALL ( dim_date ), dim_date[months_from_cp_end] >= 0  && dim_date[months_from_cp_end] < M )
+VAR PPd  = FILTER ( ALL ( dim_date ), dim_date[months_from_cp_end] >= 12 && dim_date[months_from_cp_end] < 12 + M )
+VAR T =
+    ADDCOLUMNS ( VALUES ( dim_product[product_id] ),
+        "@q0", CALCULATE ( SUM ( fact_sales_line[quantity]    ), PPd ),
+        "@r0", CALCULATE ( SUM ( fact_sales_line[net_revenue] ), PPd ),
+        "@k0", CALCULATE ( SUM ( fact_sales_line[total_cost]  ), PPd ),
+        "@q1", CALCULATE ( SUM ( fact_sales_line[quantity]    ), CPd ),
+        "@r1", CALCULATE ( SUM ( fact_sales_line[net_revenue] ), CPd ),
+        "@k1", CALCULATE ( SUM ( fact_sales_line[total_cost]  ), CPd ) )
+VAR C = FILTER ( T, [@q0] > 0 && [@q1] > 0 )
+VAR B =
+    ADDCOLUMNS ( C,
+        "@qbar", DIVIDE ( [@q0] + [@q1], 2 ),
+        "@pbar", DIVIDE ( DIVIDE ( [@r0], [@q0] ) + DIVIDE ( [@r1], [@q1] ), 2 ),
+        "@mbar", DIVIDE ( DIVIDE ( [@r0] - [@k0], [@q0] ) + DIVIDE ( [@r1] - [@k1], [@q1] ), 2 ),
+        "@dq",   [@q1] - [@q0] )
+VAR Den   = SUMX ( B, [@pbar] * [@qbar] )
+VAR Gamma = IF ( Den = 0, 0, DIVIDE ( SUMX ( B, [@pbar] * [@dq] ), Den ) )
+VAR Step  = SELECTEDVALUE ( BridgeStep[step] )
+VAR HasComparable = COUNTROWS ( C ) > 0
+RETURN
+    SWITCH ( Step,
+        "Price",  IF ( HasComparable, SUMX ( B, [@qbar] * ( DIVIDE ( [@r1], [@q1] ) - DIVIDE ( [@r0], [@q0] ) ) ), BLANK () ),
+        "Cost",   IF ( HasComparable, SUMX ( B, -[@qbar] * ( DIVIDE ( [@k1], [@q1] ) - DIVIDE ( [@k0], [@q0] ) ) ), BLANK () ),
+        "Volume", IF ( HasComparable, SUMX ( B, [@mbar] * [@qbar] * Gamma ), BLANK () ),
+        "Mix",    IF ( HasComparable, SUMX ( B, [@mbar] * ( [@dq] - [@qbar] * Gamma ) ), BLANK () ),
+        "New",    SUMX ( FILTER ( T, [@q0] = 0 && [@q1] > 0 ), [@r1] - [@k1] ),
+        "Disc",   SUMX ( FILTER ( T, [@q0] > 0 && [@q1] = 0 ), -( [@r0] - [@k0] ) ),
+        BLANK () )
+
+Price Effect        = CALCULATE ( [Bridge Component], BridgeStep[step] = "Price" )
+Cost Effect         = CALCULATE ( [Bridge Component], BridgeStep[step] = "Cost" )
+Volume Effect       = CALCULATE ( [Bridge Component], BridgeStep[step] = "Volume" )
+Mix Effect          = CALCULATE ( [Bridge Component], BridgeStep[step] = "Mix" )
+New Products Effect = CALCULATE ( [Bridge Component], BridgeStep[step] = "New" )
+Discontinued Effect = CALCULATE ( [Bridge Component], BridgeStep[step] = "Disc" )
+
+Bridge Residual =
+[Gross Profit Delta]
+    - ( [Price Effect] + [Cost Effect] + [Volume Effect]
+      + [Mix Effect] + [New Products Effect] + [Discontinued Effect] )
+
+
+// ---- LAYER 5: STATUS (1) --------------------------------------------
+Reconciliation Status =
+VAR R   = ABS ( [Bridge Residual] )
+VAR Tol = MAX ( 1.00, 0.000000001 * ABS ( [Gross Profit PP] ) )
+RETURN
+    IF ( ISBLANK ( [Gross Profit Delta] ), BLANK (),
+        IF ( R <= Tol,
+            "Residual $0 - reconciles",
+            "Residual " & FORMAT ( [Bridge Residual], "$#,0.00" ) & " - DOES NOT RECONCILE" ) )
+
+
+// ---- LAYER 6: PRICE SUB-SPLIT (2) -----------------------------------
+// gross_revenue carries list price x quantity, so the list sub-effect reads
+// list prices straight off the fact table. list + discount = Price Effect.
+
+List Price Sub-effect =
+VAR M   = [Selected Months]
+VAR CPd = FILTER ( ALL ( dim_date ), dim_date[months_from_cp_end] >= 0  && dim_date[months_from_cp_end] < M )
+VAR PPd = FILTER ( ALL ( dim_date ), dim_date[months_from_cp_end] >= 12 && dim_date[months_from_cp_end] < 12 + M )
+VAR T =
+    ADDCOLUMNS ( VALUES ( dim_product[product_id] ),
+        "@q0", CALCULATE ( SUM ( fact_sales_line[quantity]      ), PPd ),
+        "@g0", CALCULATE ( SUM ( fact_sales_line[gross_revenue] ), PPd ),
+        "@q1", CALCULATE ( SUM ( fact_sales_line[quantity]      ), CPd ),
+        "@g1", CALCULATE ( SUM ( fact_sales_line[gross_revenue] ), CPd ) )
+VAR C = FILTER ( T, [@q0] > 0 && [@q1] > 0 )
+RETURN IF ( COUNTROWS ( C ) > 0,
+    SUMX ( C, DIVIDE ( [@q0] + [@q1], 2 ) * ( DIVIDE ( [@g1], [@q1] ) - DIVIDE ( [@g0], [@q0] ) ) ),
+    BLANK () )
+
+Discount Sub-effect = [Price Effect] - [List Price Sub-effect]
+
+
+// ---- LAYER 7: INVESTIGATION TABLE (1) -------------------------------
+// SP-03 union rule. Returns 1 for rows that belong in the table, else BLANK.
+// Ranking: measure ascending, ties by Net Revenue CP descending, then key
+// ascending. RANKX with Skip would leave gaps on ties; the explicit tie-break
+// column makes the order total, so ties cannot occur in practice.
+
+In Investigation List =
+VAR N = 12
+VAR Ents =
+    ADDCOLUMNS ( VALUES ( dim_customer[customer_id] ),
+        "@dgp",   [Gross Profit Delta],
+        "@price", [Price Effect],
+        "@rev",   [Net Revenue CP] )
+VAR Adverse = FILTER ( Ents, [@dgp] < 0 || [@price] < 0 )
+VAR ByDgp =
+    TOPN ( N, FILTER ( Adverse, [@dgp] < 0 ), [@dgp], ASC, [@rev], DESC, [customer_id], ASC )
+VAR ByPrice =
+    TOPN ( N, FILTER ( Adverse, [@price] < 0 ), [@price], ASC, [@rev], DESC, [customer_id], ASC )
+VAR Keep = DISTINCT ( UNION ( SELECTCOLUMNS ( ByDgp,   "k", [customer_id] ),
+                              SELECTCOLUMNS ( ByPrice, "k", [customer_id] ) ) )
+VAR This = SELECTEDVALUE ( dim_customer[customer_id] )
+RETURN IF ( NOT ISBLANK ( This ) && This IN Keep, 1, BLANK () )
+
+// =====================================================================
+// COUNT: 25 measures.
+//   4 base + 5 period (1 of which, Selected Months, is a helper)
+// + 3 deltas + 9 bridge (1 of which, Bridge Component, is a helper)
+// + 1 status + 2 sub-split + 1 table = 25
+// Helpers not shown on the page: Selected Months, Bridge Component.
+// Page-facing: 23.
+// =====================================================================

@@ -1,0 +1,757 @@
+test_id,window_months,filter_channel,filter_category,grain,entity,measure,expected,kind,tolerance
+B2-12m-(all)-(all)-Gross_Profit_Delta,12,(all),(all),total,(total),Gross Profit Delta,-535997.7600000016,money,1.0
+B2-12m-(all)-(all)-Price_Effect,12,(all),(all),total,(total),Price Effect,-442405.5464291539,money,1.0
+B2-12m-(all)-(all)-Cost_Effect,12,(all),(all),total,(total),Cost Effect,-595085.3051418035,money,1.0
+B2-12m-(all)-(all)-Volume_Effect,12,(all),(all),total,(total),Volume Effect,628587.4509649606,money,1.0
+B2-12m-(all)-(all)-Mix_Effect,12,(all),(all),total,(total),Mix Effect,-169824.7793940031,money,1.0
+B2-12m-(all)-(all)-New_Products_Effect,12,(all),(all),total,(total),New Products Effect,94247.79,money,1.0
+B2-12m-(all)-(all)-Discontinued_Effect,12,(all),(all),total,(total),Discontinued Effect,-51517.37,money,1.0
+B2-12m-(all)-(all)-Volume_Index_Gamma,12,(all),(all),total,(total),Volume Index Gamma,0.0692413318,ratio,1e-09
+B2-12m-(all)-(all)-Bridge_Residual,12,(all),(all),total,(total),Bridge Residual,-1.7e-09,money,1.0
+B2-12m-(all)-Commodity_Consumables-Gross_Profit_Delta,12,(all),Commodity Consumables,total,(total),Gross Profit Delta,28673.8200000001,money,1.0
+B2-12m-(all)-Commodity_Consumables-Price_Effect,12,(all),Commodity Consumables,total,(total),Price Effect,-151326.3444953526,money,1.0
+B2-12m-(all)-Commodity_Consumables-Cost_Effect,12,(all),Commodity Consumables,total,(total),Cost Effect,-28897.3588423566,money,1.0
+B2-12m-(all)-Commodity_Consumables-Volume_Effect,12,(all),Commodity Consumables,total,(total),Volume Effect,221144.6398135112,money,1.0
+B2-12m-(all)-Commodity_Consumables-Mix_Effect,12,(all),Commodity Consumables,total,(total),Mix Effect,-9319.6764758021,money,1.0
+B2-12m-(all)-Commodity_Consumables-New_Products_Effect,12,(all),Commodity Consumables,total,(total),New Products Effect,8875.1,money,1.0
+B2-12m-(all)-Commodity_Consumables-Discontinued_Effect,12,(all),Commodity Consumables,total,(total),Discontinued Effect,-11802.54,money,1.0
+B2-12m-(all)-Commodity_Consumables-Volume_Index_Gamma,12,(all),Commodity Consumables,total,(total),Volume Index Gamma,0.1869481467,ratio,1e-09
+B2-12m-(all)-Commodity_Consumables-Bridge_Residual,12,(all),Commodity Consumables,total,(total),Bridge Residual,1e-10,money,1.0
+B2-12m-(all)-Electrical_Components-Gross_Profit_Delta,12,(all),Electrical Components,total,(total),Gross Profit Delta,-189177.4199999995,money,1.0
+B2-12m-(all)-Electrical_Components-Price_Effect,12,(all),Electrical Components,total,(total),Price Effect,36493.7149549496,money,1.0
+B2-12m-(all)-Electrical_Components-Cost_Effect,12,(all),Electrical Components,total,(total),Cost Effect,-244039.753218616,money,1.0
+B2-12m-(all)-Electrical_Components-Volume_Effect,12,(all),Electrical Components,total,(total),Volume Effect,26389.5386139064,money,1.0
+B2-12m-(all)-Electrical_Components-Mix_Effect,12,(all),Electrical Components,total,(total),Mix Effect,-12319.07035024,money,1.0
+B2-12m-(all)-Electrical_Components-New_Products_Effect,12,(all),Electrical Components,total,(total),New Products Effect,10886.46,money,1.0
+B2-12m-(all)-Electrical_Components-Discontinued_Effect,12,(all),Electrical Components,total,(total),Discontinued Effect,-6588.31,money,1.0
+B2-12m-(all)-Electrical_Components-Volume_Index_Gamma,12,(all),Electrical Components,total,(total),Volume Index Gamma,0.0223192631,ratio,1e-09
+B2-12m-(all)-Electrical_Components-Bridge_Residual,12,(all),Electrical Components,total,(total),Bridge Residual,6e-10,money,1.0
+B2-12m-(all)-Fasteners_&_Fixings-Gross_Profit_Delta,12,(all),Fasteners & Fixings,total,(total),Gross Profit Delta,-178024.21,money,1.0
+B2-12m-(all)-Fasteners_&_Fixings-Price_Effect,12,(all),Fasteners & Fixings,total,(total),Price Effect,36786.1128038409,money,1.0
+B2-12m-(all)-Fasteners_&_Fixings-Cost_Effect,12,(all),Fasteners & Fixings,total,(total),Cost Effect,-266287.8786552757,money,1.0
+B2-12m-(all)-Fasteners_&_Fixings-Volume_Effect,12,(all),Fasteners & Fixings,total,(total),Volume Effect,56502.6977702448,money,1.0
+B2-12m-(all)-Fasteners_&_Fixings-Mix_Effect,12,(all),Fasteners & Fixings,total,(total),Mix Effect,-7291.85191881,money,1.0
+B2-12m-(all)-Fasteners_&_Fixings-New_Products_Effect,12,(all),Fasteners & Fixings,total,(total),New Products Effect,7582.0,money,1.0
+B2-12m-(all)-Fasteners_&_Fixings-Discontinued_Effect,12,(all),Fasteners & Fixings,total,(total),Discontinued Effect,-5315.29,money,1.0
+B2-12m-(all)-Fasteners_&_Fixings-Volume_Index_Gamma,12,(all),Fasteners & Fixings,total,(total),Volume Index Gamma,0.0460239062,ratio,1e-09
+B2-12m-(all)-Fasteners_&_Fixings-Bridge_Residual,12,(all),Fasteners & Fixings,total,(total),Bridge Residual,1e-10,money,1.0
+B2-12m-(all)-Safety_&_PPE-Gross_Profit_Delta,12,(all),Safety & PPE,total,(total),Gross Profit Delta,-16865.0299999998,money,1.0
+B2-12m-(all)-Safety_&_PPE-Price_Effect,12,(all),Safety & PPE,total,(total),Price Effect,-97097.276954121,money,1.0
+B2-12m-(all)-Safety_&_PPE-Cost_Effect,12,(all),Safety & PPE,total,(total),Cost Effect,-14260.168268836,money,1.0
+B2-12m-(all)-Safety_&_PPE-Volume_Effect,12,(all),Safety & PPE,total,(total),Volume Effect,86240.6362369106,money,1.0
+B2-12m-(all)-Safety_&_PPE-Mix_Effect,12,(all),Safety & PPE,total,(total),Mix Effect,-6702.9810139534,money,1.0
+B2-12m-(all)-Safety_&_PPE-New_Products_Effect,12,(all),Safety & PPE,total,(total),New Products Effect,20328.74,money,1.0
+B2-12m-(all)-Safety_&_PPE-Discontinued_Effect,12,(all),Safety & PPE,total,(total),Discontinued Effect,-5373.98,money,1.0
+B2-12m-(all)-Safety_&_PPE-Volume_Index_Gamma,12,(all),Safety & PPE,total,(total),Volume Index Gamma,0.0624802666,ratio,1e-09
+B2-12m-(all)-Safety_&_PPE-Bridge_Residual,12,(all),Safety & PPE,total,(total),Bridge Residual,0.0,money,1.0
+B2-12m-(all)-Specialty_Engineered-Gross_Profit_Delta,12,(all),Specialty Engineered,total,(total),Gross Profit Delta,-166691.6200000001,money,1.0
+B2-12m-(all)-Specialty_Engineered-Price_Effect,12,(all),Specialty Engineered,total,(total),Price Effect,-143050.7048691329,money,1.0
+B2-12m-(all)-Specialty_Engineered-Cost_Effect,12,(all),Specialty Engineered,total,(total),Cost Effect,-0.5389522446,money,1.0
+B2-12m-(all)-Specialty_Engineered-Volume_Effect,12,(all),Specialty Engineered,total,(total),Volume Effect,-43947.1694336264,money,1.0
+B2-12m-(all)-Specialty_Engineered-Mix_Effect,12,(all),Specialty Engineered,total,(total),Mix Effect,-1158.5567449961,money,1.0
+B2-12m-(all)-Specialty_Engineered-New_Products_Effect,12,(all),Specialty Engineered,total,(total),New Products Effect,37972.6,money,1.0
+B2-12m-(all)-Specialty_Engineered-Discontinued_Effect,12,(all),Specialty Engineered,total,(total),Discontinued Effect,-16507.25,money,1.0
+B2-12m-(all)-Specialty_Engineered-Volume_Index_Gamma,12,(all),Specialty Engineered,total,(total),Volume Index Gamma,-0.0192159515,ratio,1e-09
+B2-12m-(all)-Specialty_Engineered-Bridge_Residual,12,(all),Specialty Engineered,total,(total),Bridge Residual,-1e-10,money,1.0
+B2-12m-(all)-Tools_&_Equipment-Gross_Profit_Delta,12,(all),Tools & Equipment,total,(total),Gross Profit Delta,-13913.2999999996,money,1.0
+B2-12m-(all)-Tools_&_Equipment-Price_Effect,12,(all),Tools & Equipment,total,(total),Price Effect,-124211.0478693379,money,1.0
+B2-12m-(all)-Tools_&_Equipment-Cost_Effect,12,(all),Tools & Equipment,total,(total),Cost Effect,-41599.6072044748,money,1.0
+B2-12m-(all)-Tools_&_Equipment-Volume_Effect,12,(all),Tools & Equipment,total,(total),Volume Effect,158297.8102063384,money,1.0
+B2-12m-(all)-Tools_&_Equipment-Mix_Effect,12,(all),Tools & Equipment,total,(total),Mix Effect,-9073.3451325257,money,1.0
+B2-12m-(all)-Tools_&_Equipment-New_Products_Effect,12,(all),Tools & Equipment,total,(total),New Products Effect,8602.89,money,1.0
+B2-12m-(all)-Tools_&_Equipment-Discontinued_Effect,12,(all),Tools & Equipment,total,(total),Discontinued Effect,-5930.0,money,1.0
+B2-12m-(all)-Tools_&_Equipment-Volume_Index_Gamma,12,(all),Tools & Equipment,total,(total),Volume Index Gamma,0.0870752203,ratio,1e-09
+B2-12m-(all)-Tools_&_Equipment-Bridge_Residual,12,(all),Tools & Equipment,total,(total),Bridge Residual,4e-10,money,1.0
+B2-12m-Direct-(all)-Gross_Profit_Delta,12,Direct,(all),total,(total),Gross Profit Delta,-55784.5499999993,money,1.0
+B2-12m-Direct-(all)-Price_Effect,12,Direct,(all),total,(total),Price Effect,73525.0140817384,money,1.0
+B2-12m-Direct-(all)-Cost_Effect,12,Direct,(all),total,(total),Cost Effect,-206767.6930132519,money,1.0
+B2-12m-Direct-(all)-Volume_Effect,12,Direct,(all),total,(total),Volume Effect,117372.6357284464,money,1.0
+B2-12m-Direct-(all)-Mix_Effect,12,Direct,(all),total,(total),Mix Effect,-52744.8767969329,money,1.0
+B2-12m-Direct-(all)-New_Products_Effect,12,Direct,(all),total,(total),New Products Effect,32541.86,money,1.0
+B2-12m-Direct-(all)-Discontinued_Effect,12,Direct,(all),total,(total),Discontinued Effect,-19711.49,money,1.0
+B2-12m-Direct-(all)-Volume_Index_Gamma,12,Direct,(all),total,(total),Volume Index Gamma,0.0331139142,ratio,1e-09
+B2-12m-Direct-(all)-Bridge_Residual,12,Direct,(all),total,(total),Bridge Residual,7e-10,money,1.0
+B2-12m-Direct-Commodity_Consumables-Gross_Profit_Delta,12,Direct,Commodity Consumables,total,(total),Gross Profit Delta,61988.09,money,1.0
+B2-12m-Direct-Commodity_Consumables-Price_Effect,12,Direct,Commodity Consumables,total,(total),Price Effect,-6258.0807714132,money,1.0
+B2-12m-Direct-Commodity_Consumables-Cost_Effect,12,Direct,Commodity Consumables,total,(total),Cost Effect,-9874.7046916791,money,1.0
+B2-12m-Direct-Commodity_Consumables-Volume_Effect,12,Direct,Commodity Consumables,total,(total),Volume Effect,73798.3697856382,money,1.0
+B2-12m-Direct-Commodity_Consumables-Mix_Effect,12,Direct,Commodity Consumables,total,(total),Mix Effect,4974.0356774542,money,1.0
+B2-12m-Direct-Commodity_Consumables-New_Products_Effect,12,Direct,Commodity Consumables,total,(total),New Products Effect,3655.82,money,1.0
+B2-12m-Direct-Commodity_Consumables-Discontinued_Effect,12,Direct,Commodity Consumables,total,(total),Discontinued Effect,-4307.35,money,1.0
+B2-12m-Direct-Commodity_Consumables-Volume_Index_Gamma,12,Direct,Commodity Consumables,total,(total),Volume Index Gamma,0.1547869413,ratio,1e-09
+B2-12m-Direct-Commodity_Consumables-Bridge_Residual,12,Direct,Commodity Consumables,total,(total),Bridge Residual,0.0,money,1.0
+B2-12m-Direct-Electrical_Components-Gross_Profit_Delta,12,Direct,Electrical Components,total,(total),Gross Profit Delta,-45382.7199999999,money,1.0
+B2-12m-Direct-Electrical_Components-Price_Effect,12,Direct,Electrical Components,total,(total),Price Effect,43811.6691964362,money,1.0
+B2-12m-Direct-Electrical_Components-Cost_Effect,12,Direct,Electrical Components,total,(total),Cost Effect,-83425.907925348,money,1.0
+B2-12m-Direct-Electrical_Components-Volume_Effect,12,Direct,Electrical Components,total,(total),Volume Effect,-2295.5734600609,money,1.0
+B2-12m-Direct-Electrical_Components-Mix_Effect,12,Direct,Electrical Components,total,(total),Mix Effect,-4525.9978110272,money,1.0
+B2-12m-Direct-Electrical_Components-New_Products_Effect,12,Direct,Electrical Components,total,(total),New Products Effect,3535.83,money,1.0
+B2-12m-Direct-Electrical_Components-Discontinued_Effect,12,Direct,Electrical Components,total,(total),Discontinued Effect,-2482.74,money,1.0
+B2-12m-Direct-Electrical_Components-Volume_Index_Gamma,12,Direct,Electrical Components,total,(total),Volume Index Gamma,-0.0051244251,ratio,1e-09
+B2-12m-Direct-Electrical_Components-Bridge_Residual,12,Direct,Electrical Components,total,(total),Bridge Residual,0.0,money,1.0
+B2-12m-Direct-Fasteners_&_Fixings-Gross_Profit_Delta,12,Direct,Fasteners & Fixings,total,(total),Gross Profit Delta,-39109.23,money,1.0
+B2-12m-Direct-Fasteners_&_Fixings-Price_Effect,12,Direct,Fasteners & Fixings,total,(total),Price Effect,48138.7111539359,money,1.0
+B2-12m-Direct-Fasteners_&_Fixings-Cost_Effect,12,Direct,Fasteners & Fixings,total,(total),Cost Effect,-93143.9740741731,money,1.0
+B2-12m-Direct-Fasteners_&_Fixings-Volume_Effect,12,Direct,Fasteners & Fixings,total,(total),Volume Effect,11653.3840128896,money,1.0
+B2-12m-Direct-Fasteners_&_Fixings-Mix_Effect,12,Direct,Fasteners & Fixings,total,(total),Mix Effect,-6549.2010926523,money,1.0
+B2-12m-Direct-Fasteners_&_Fixings-New_Products_Effect,12,Direct,Fasteners & Fixings,total,(total),New Products Effect,2852.85,money,1.0
+B2-12m-Direct-Fasteners_&_Fixings-Discontinued_Effect,12,Direct,Fasteners & Fixings,total,(total),Discontinued Effect,-2061.0,money,1.0
+B2-12m-Direct-Fasteners_&_Fixings-Volume_Index_Gamma,12,Direct,Fasteners & Fixings,total,(total),Volume Index Gamma,0.0243620796,ratio,1e-09
+B2-12m-Direct-Fasteners_&_Fixings-Bridge_Residual,12,Direct,Fasteners & Fixings,total,(total),Bridge Residual,0.0,money,1.0
+B2-12m-Direct-Safety_&_PPE-Gross_Profit_Delta,12,Direct,Safety & PPE,total,(total),Gross Profit Delta,-1536.0500000002,money,1.0
+B2-12m-Direct-Safety_&_PPE-Price_Effect,12,Direct,Safety & PPE,total,(total),Price Effect,-2489.32054911,money,1.0
+B2-12m-Direct-Safety_&_PPE-Cost_Effect,12,Direct,Safety & PPE,total,(total),Cost Effect,-5149.844658133,money,1.0
+B2-12m-Direct-Safety_&_PPE-Volume_Effect,12,Direct,Safety & PPE,total,(total),Volume Effect,-1933.3904234855,money,1.0
+B2-12m-Direct-Safety_&_PPE-Mix_Effect,12,Direct,Safety & PPE,total,(total),Mix Effect,3872.8756307284,money,1.0
+B2-12m-Direct-Safety_&_PPE-New_Products_Effect,12,Direct,Safety & PPE,total,(total),New Products Effect,6806.79,money,1.0
+B2-12m-Direct-Safety_&_PPE-Discontinued_Effect,12,Direct,Safety & PPE,total,(total),Discontinued Effect,-2643.16,money,1.0
+B2-12m-Direct-Safety_&_PPE-Volume_Index_Gamma,12,Direct,Safety & PPE,total,(total),Volume Index Gamma,-0.003584136,ratio,1e-09
+B2-12m-Direct-Safety_&_PPE-Bridge_Residual,12,Direct,Safety & PPE,total,(total),Bridge Residual,-1e-10,money,1.0
+B2-12m-Direct-Specialty_Engineered-Gross_Profit_Delta,12,Direct,Specialty Engineered,total,(total),Gross Profit Delta,-60758.9099999998,money,1.0
+B2-12m-Direct-Specialty_Engineered-Price_Effect,12,Direct,Specialty Engineered,total,(total),Price Effect,-3641.135071961,money,1.0
+B2-12m-Direct-Specialty_Engineered-Cost_Effect,12,Direct,Specialty Engineered,total,(total),Cost Effect,0.0320253168,money,1.0
+B2-12m-Direct-Specialty_Engineered-Volume_Effect,12,Direct,Specialty Engineered,total,(total),Volume Effect,-62338.9970800666,money,1.0
+B2-12m-Direct-Specialty_Engineered-Mix_Effect,12,Direct,Specialty Engineered,total,(total),Mix Effect,-1926.7798732892,money,1.0
+B2-12m-Direct-Specialty_Engineered-New_Products_Effect,12,Direct,Specialty Engineered,total,(total),New Products Effect,13980.94,money,1.0
+B2-12m-Direct-Specialty_Engineered-Discontinued_Effect,12,Direct,Specialty Engineered,total,(total),Discontinued Effect,-6832.97,money,1.0
+B2-12m-Direct-Specialty_Engineered-Volume_Index_Gamma,12,Direct,Specialty Engineered,total,(total),Volume Index Gamma,-0.0712575478,ratio,1e-09
+B2-12m-Direct-Specialty_Engineered-Bridge_Residual,12,Direct,Specialty Engineered,total,(total),Bridge Residual,2e-10,money,1.0
+B2-12m-Direct-Tools_&_Equipment-Gross_Profit_Delta,12,Direct,Tools & Equipment,total,(total),Gross Profit Delta,29014.2699999999,money,1.0
+B2-12m-Direct-Tools_&_Equipment-Price_Effect,12,Direct,Tools & Equipment,total,(total),Price Effect,-6036.8298761495,money,1.0
+B2-12m-Direct-Tools_&_Equipment-Cost_Effect,12,Direct,Tools & Equipment,total,(total),Cost Effect,-15173.2936892355,money,1.0
+B2-12m-Direct-Tools_&_Equipment-Volume_Effect,12,Direct,Tools & Equipment,total,(total),Volume Effect,50414.8788907373,money,1.0
+B2-12m-Direct-Tools_&_Equipment-Mix_Effect,12,Direct,Tools & Equipment,total,(total),Mix Effect,-515.8453253525,money,1.0
+B2-12m-Direct-Tools_&_Equipment-New_Products_Effect,12,Direct,Tools & Equipment,total,(total),New Products Effect,1709.63,money,1.0
+B2-12m-Direct-Tools_&_Equipment-Discontinued_Effect,12,Direct,Tools & Equipment,total,(total),Discontinued Effect,-1384.27,money,1.0
+B2-12m-Direct-Tools_&_Equipment-Volume_Index_Gamma,12,Direct,Tools & Equipment,total,(total),Volume Index Gamma,0.069331351,ratio,1e-09
+B2-12m-Direct-Tools_&_Equipment-Bridge_Residual,12,Direct,Tools & Equipment,total,(total),Bridge Residual,-0.0,money,1.0
+B2-12m-Distributor-(all)-Gross_Profit_Delta,12,Distributor,(all),total,(total),Gross Profit Delta,-664450.8199999998,money,1.0
+B2-12m-Distributor-(all)-Price_Effect,12,Distributor,(all),total,(total),Price Effect,-578004.6098851933,money,1.0
+B2-12m-Distributor-(all)-Cost_Effect,12,Distributor,(all),total,(total),Cost Effect,-264109.4456146559,money,1.0
+B2-12m-Distributor-(all)-Volume_Effect,12,Distributor,(all),total,(total),Volume Effect,218923.2601139735,money,1.0
+B2-12m-Distributor-(all)-Mix_Effect,12,Distributor,(all),total,(total),Mix Effect,-61126.3246141242,money,1.0
+B2-12m-Distributor-(all)-New_Products_Effect,12,Distributor,(all),total,(total),New Products Effect,37831.09,money,1.0
+B2-12m-Distributor-(all)-Discontinued_Effect,12,Distributor,(all),total,(total),Discontinued Effect,-17964.79,money,1.0
+B2-12m-Distributor-(all)-Volume_Index_Gamma,12,Distributor,(all),total,(total),Volume Index Gamma,0.0669600746,ratio,1e-09
+B2-12m-Distributor-(all)-Bridge_Residual,12,Distributor,(all),total,(total),Bridge Residual,1e-10,money,1.0
+B2-12m-Distributor-Commodity_Consumables-Gross_Profit_Delta,12,Distributor,Commodity Consumables,total,(total),Gross Profit Delta,-116047.68,money,1.0
+B2-12m-Distributor-Commodity_Consumables-Price_Effect,12,Distributor,Commodity Consumables,total,(total),Price Effect,-150739.2500579918,money,1.0
+B2-12m-Distributor-Commodity_Consumables-Cost_Effect,12,Distributor,Commodity Consumables,total,(total),Cost Effect,-13231.8684131923,money,1.0
+B2-12m-Distributor-Commodity_Consumables-Volume_Effect,12,Distributor,Commodity Consumables,total,(total),Volume Effect,62473.685790055,money,1.0
+B2-12m-Distributor-Commodity_Consumables-Mix_Effect,12,Distributor,Commodity Consumables,total,(total),Mix Effect,-13362.4473188708,money,1.0
+B2-12m-Distributor-Commodity_Consumables-New_Products_Effect,12,Distributor,Commodity Consumables,total,(total),New Products Effect,2601.78,money,1.0
+B2-12m-Distributor-Commodity_Consumables-Discontinued_Effect,12,Distributor,Commodity Consumables,total,(total),Discontinued Effect,-3789.58,money,1.0
+B2-12m-Distributor-Commodity_Consumables-Volume_Index_Gamma,12,Distributor,Commodity Consumables,total,(total),Volume Index Gamma,0.164812166,ratio,1e-09
+B2-12m-Distributor-Commodity_Consumables-Bridge_Residual,12,Distributor,Commodity Consumables,total,(total),Bridge Residual,-1e-10,money,1.0
+B2-12m-Distributor-Electrical_Components-Gross_Profit_Delta,12,Distributor,Electrical Components,total,(total),Gross Profit Delta,-133319.52,money,1.0
+B2-12m-Distributor-Electrical_Components-Price_Effect,12,Distributor,Electrical Components,total,(total),Price Effect,-34506.918119704,money,1.0
+B2-12m-Distributor-Electrical_Components-Cost_Effect,12,Distributor,Electrical Components,total,(total),Cost Effect,-107849.489574461,money,1.0
+B2-12m-Distributor-Electrical_Components-Volume_Effect,12,Distributor,Electrical Components,total,(total),Volume Effect,11684.0048531419,money,1.0
+B2-12m-Distributor-Electrical_Components-Mix_Effect,12,Distributor,Electrical Components,total,(total),Mix Effect,-4391.7471589769,money,1.0
+B2-12m-Distributor-Electrical_Components-New_Products_Effect,12,Distributor,Electrical Components,total,(total),New Products Effect,3674.99,money,1.0
+B2-12m-Distributor-Electrical_Components-Discontinued_Effect,12,Distributor,Electrical Components,total,(total),Discontinued Effect,-1930.36,money,1.0
+B2-12m-Distributor-Electrical_Components-Volume_Index_Gamma,12,Distributor,Electrical Components,total,(total),Volume Index Gamma,0.0277710491,ratio,1e-09
+B2-12m-Distributor-Electrical_Components-Bridge_Residual,12,Distributor,Electrical Components,total,(total),Bridge Residual,0.0,money,1.0
+B2-12m-Distributor-Fasteners_&_Fixings-Gross_Profit_Delta,12,Distributor,Fasteners & Fixings,total,(total),Gross Profit Delta,-132831.41,money,1.0
+B2-12m-Distributor-Fasteners_&_Fixings-Price_Effect,12,Distributor,Fasteners & Fixings,total,(total),Price Effect,-41096.0980813944,money,1.0
+B2-12m-Distributor-Fasteners_&_Fixings-Cost_Effect,12,Distributor,Fasteners & Fixings,total,(total),Cost Effect,-118512.5153420713,money,1.0
+B2-12m-Distributor-Fasteners_&_Fixings-Volume_Effect,12,Distributor,Fasteners & Fixings,total,(total),Volume Effect,21530.5709738255,money,1.0
+B2-12m-Distributor-Fasteners_&_Fixings-Mix_Effect,12,Distributor,Fasteners & Fixings,total,(total),Mix Effect,5289.8924496402,money,1.0
+B2-12m-Distributor-Fasteners_&_Fixings-New_Products_Effect,12,Distributor,Fasteners & Fixings,total,(total),New Products Effect,2442.67,money,1.0
+B2-12m-Distributor-Fasteners_&_Fixings-Discontinued_Effect,12,Distributor,Fasteners & Fixings,total,(total),Discontinued Effect,-2485.93,money,1.0
+B2-12m-Distributor-Fasteners_&_Fixings-Volume_Index_Gamma,12,Distributor,Fasteners & Fixings,total,(total),Volume Index Gamma,0.0495148948,ratio,1e-09
+B2-12m-Distributor-Fasteners_&_Fixings-Bridge_Residual,12,Distributor,Fasteners & Fixings,total,(total),Bridge Residual,0.0,money,1.0
+B2-12m-Distributor-Safety_&_PPE-Gross_Profit_Delta,12,Distributor,Safety & PPE,total,(total),Gross Profit Delta,-45325.2999999999,money,1.0
+B2-12m-Distributor-Safety_&_PPE-Price_Effect,12,Distributor,Safety & PPE,total,(total),Price Effect,-89013.2295179419,money,1.0
+B2-12m-Distributor-Safety_&_PPE-Cost_Effect,12,Distributor,Safety & PPE,total,(total),Cost Effect,-6229.730029577,money,1.0
+B2-12m-Distributor-Safety_&_PPE-Volume_Effect,12,Distributor,Safety & PPE,total,(total),Volume Effect,47257.7749507746,money,1.0
+B2-12m-Distributor-Safety_&_PPE-Mix_Effect,12,Distributor,Safety & PPE,total,(total),Mix Effect,-3953.2054032557,money,1.0
+B2-12m-Distributor-Safety_&_PPE-New_Products_Effect,12,Distributor,Safety & PPE,total,(total),New Products Effect,8445.67,money,1.0
+B2-12m-Distributor-Safety_&_PPE-Discontinued_Effect,12,Distributor,Safety & PPE,total,(total),Discontinued Effect,-1832.58,money,1.0
+B2-12m-Distributor-Safety_&_PPE-Volume_Index_Gamma,12,Distributor,Safety & PPE,total,(total),Volume Index Gamma,0.0927724435,ratio,1e-09
+B2-12m-Distributor-Safety_&_PPE-Bridge_Residual,12,Distributor,Safety & PPE,total,(total),Bridge Residual,0.0,money,1.0
+B2-12m-Distributor-Specialty_Engineered-Gross_Profit_Delta,12,Distributor,Specialty Engineered,total,(total),Gross Profit Delta,-132135.2799999999,money,1.0
+B2-12m-Distributor-Specialty_Engineered-Price_Effect,12,Distributor,Specialty Engineered,total,(total),Price Effect,-137404.0844128036,money,1.0
+B2-12m-Distributor-Specialty_Engineered-Cost_Effect,12,Distributor,Specialty Engineered,total,(total),Cost Effect,-0.3041816535,money,1.0
+B2-12m-Distributor-Specialty_Engineered-Volume_Effect,12,Distributor,Specialty Engineered,total,(total),Volume Effect,-7635.5118339353,money,1.0
+B2-12m-Distributor-Specialty_Engineered-Mix_Effect,12,Distributor,Specialty Engineered,total,(total),Mix Effect,2833.6504283923,money,1.0
+B2-12m-Distributor-Specialty_Engineered-New_Products_Effect,12,Distributor,Specialty Engineered,total,(total),New Products Effect,15760.85,money,1.0
+B2-12m-Distributor-Specialty_Engineered-Discontinued_Effect,12,Distributor,Specialty Engineered,total,(total),Discontinued Effect,-5689.88,money,1.0
+B2-12m-Distributor-Specialty_Engineered-Volume_Index_Gamma,12,Distributor,Specialty Engineered,total,(total),Volume Index Gamma,-0.0088356994,ratio,1e-09
+B2-12m-Distributor-Specialty_Engineered-Bridge_Residual,12,Distributor,Specialty Engineered,total,(total),Bridge Residual,1e-10,money,1.0
+B2-12m-Distributor-Tools_&_Equipment-Gross_Profit_Delta,12,Distributor,Tools & Equipment,total,(total),Gross Profit Delta,-104791.6299999998,money,1.0
+B2-12m-Distributor-Tools_&_Equipment-Price_Effect,12,Distributor,Tools & Equipment,total,(total),Price Effect,-125245.0296953577,money,1.0
+B2-12m-Distributor-Tools_&_Equipment-Cost_Effect,12,Distributor,Tools & Equipment,total,(total),Cost Effect,-18285.5380737007,money,1.0
+B2-12m-Distributor-Tools_&_Equipment-Volume_Effect,12,Distributor,Tools & Equipment,total,(total),Volume Effect,37461.7671352106,money,1.0
+B2-12m-Distributor-Tools_&_Equipment-Mix_Effect,12,Distributor,Tools & Equipment,total,(total),Mix Effect,-1391.499366152,money,1.0
+B2-12m-Distributor-Tools_&_Equipment-New_Products_Effect,12,Distributor,Tools & Equipment,total,(total),New Products Effect,4905.13,money,1.0
+B2-12m-Distributor-Tools_&_Equipment-Discontinued_Effect,12,Distributor,Tools & Equipment,total,(total),Discontinued Effect,-2236.46,money,1.0
+B2-12m-Distributor-Tools_&_Equipment-Volume_Index_Gamma,12,Distributor,Tools & Equipment,total,(total),Volume Index Gamma,0.0566501453,ratio,1e-09
+B2-12m-Distributor-Tools_&_Equipment-Bridge_Residual,12,Distributor,Tools & Equipment,total,(total),Bridge Residual,2e-10,money,1.0
+B2-12m-Online-(all)-Gross_Profit_Delta,12,Online,(all),total,(total),Gross Profit Delta,184237.6099999999,money,1.0
+B2-12m-Online-(all)-Price_Effect,12,Online,(all),total,(total),Price Effect,45465.1835954715,money,1.0
+B2-12m-Online-(all)-Cost_Effect,12,Online,(all),total,(total),Cost Effect,-124077.0626292816,money,1.0
+B2-12m-Online-(all)-Volume_Effect,12,Online,(all),total,(total),Volume Effect,305890.4192294166,money,1.0
+B2-12m-Online-(all)-Mix_Effect,12,Online,(all),total,(total),Mix Effect,-55234.5001956064,money,1.0
+B2-12m-Online-(all)-New_Products_Effect,12,Online,(all),total,(total),New Products Effect,28689.71,money,1.0
+B2-12m-Online-(all)-Discontinued_Effect,12,Online,(all),total,(total),Discontinued Effect,-16496.14,money,1.0
+B2-12m-Online-(all)-Volume_Index_Gamma,12,Online,(all),total,(total),Volume Index Gamma,0.1353189589,ratio,1e-09
+B2-12m-Online-(all)-Bridge_Residual,12,Online,(all),total,(total),Bridge Residual,-2e-10,money,1.0
+B2-12m-Online-Commodity_Consumables-Gross_Profit_Delta,12,Online,Commodity Consumables,total,(total),Gross Profit Delta,82733.4100000001,money,1.0
+B2-12m-Online-Commodity_Consumables-Price_Effect,12,Online,Commodity Consumables,total,(total),Price Effect,-3947.7526325359,money,1.0
+B2-12m-Online-Commodity_Consumables-Cost_Effect,12,Online,Commodity Consumables,total,(total),Cost Effect,-5790.8012961981,money,1.0
+B2-12m-Online-Commodity_Consumables-Volume_Effect,12,Online,Commodity Consumables,total,(total),Volume Effect,95384.4472816095,money,1.0
+B2-12m-Online-Commodity_Consumables-Mix_Effect,12,Online,Commodity Consumables,total,(total),Mix Effect,-1824.3733528755,money,1.0
+B2-12m-Online-Commodity_Consumables-New_Products_Effect,12,Online,Commodity Consumables,total,(total),New Products Effect,2617.5,money,1.0
+B2-12m-Online-Commodity_Consumables-Discontinued_Effect,12,Online,Commodity Consumables,total,(total),Discontinued Effect,-3705.61,money,1.0
+B2-12m-Online-Commodity_Consumables-Volume_Index_Gamma,12,Online,Commodity Consumables,total,(total),Volume Index Gamma,0.2915967847,ratio,1e-09
+B2-12m-Online-Commodity_Consumables-Bridge_Residual,12,Online,Commodity Consumables,total,(total),Bridge Residual,1e-10,money,1.0
+B2-12m-Online-Electrical_Components-Gross_Profit_Delta,12,Online,Electrical Components,total,(total),Gross Profit Delta,-10475.18,money,1.0
+B2-12m-Online-Electrical_Components-Price_Effect,12,Online,Electrical Components,total,(total),Price Effect,28012.6784440583,money,1.0
+B2-12m-Online-Electrical_Components-Cost_Effect,12,Online,Electrical Components,total,(total),Cost Effect,-52764.3346643165,money,1.0
+B2-12m-Online-Electrical_Components-Volume_Effect,12,Online,Electrical Components,total,(total),Volume Effect,16874.456921935,money,1.0
+B2-12m-Online-Electrical_Components-Mix_Effect,12,Online,Electrical Components,total,(total),Mix Effect,-4098.4107016767,money,1.0
+B2-12m-Online-Electrical_Components-New_Products_Effect,12,Online,Electrical Components,total,(total),New Products Effect,3675.64,money,1.0
+B2-12m-Online-Electrical_Components-Discontinued_Effect,12,Online,Electrical Components,total,(total),Discontinued Effect,-2175.21,money,1.0
+B2-12m-Online-Electrical_Components-Volume_Index_Gamma,12,Online,Electrical Components,total,(total),Volume Index Gamma,0.0536124183,ratio,1e-09
+B2-12m-Online-Electrical_Components-Bridge_Residual,12,Online,Electrical Components,total,(total),Bridge Residual,0.0,money,1.0
+B2-12m-Online-Fasteners_&_Fixings-Gross_Profit_Delta,12,Online,Fasteners & Fixings,total,(total),Gross Profit Delta,-6083.57,money,1.0
+B2-12m-Online-Fasteners_&_Fixings-Price_Effect,12,Online,Fasteners & Fixings,total,(total),Price Effect,28986.4960314375,money,1.0
+B2-12m-Online-Fasteners_&_Fixings-Cost_Effect,12,Online,Fasteners & Fixings,total,(total),Cost Effect,-54500.2471015938,money,1.0
+B2-12m-Online-Fasteners_&_Fixings-Volume_Effect,12,Online,Fasteners & Fixings,total,(total),Volume Effect,25589.8087361899,money,1.0
+B2-12m-Online-Fasteners_&_Fixings-Mix_Effect,12,Online,Fasteners & Fixings,total,(total),Mix Effect,-5022.6976660335,money,1.0
+B2-12m-Online-Fasteners_&_Fixings-New_Products_Effect,12,Online,Fasteners & Fixings,total,(total),New Products Effect,2286.48,money,1.0
+B2-12m-Online-Fasteners_&_Fixings-Discontinued_Effect,12,Online,Fasteners & Fixings,total,(total),Discontinued Effect,-3423.41,money,1.0
+B2-12m-Online-Fasteners_&_Fixings-Volume_Index_Gamma,12,Online,Fasteners & Fixings,total,(total),Volume Index Gamma,0.081717232,ratio,1e-09
+B2-12m-Online-Fasteners_&_Fixings-Bridge_Residual,12,Online,Fasteners & Fixings,total,(total),Bridge Residual,-0.0,money,1.0
+B2-12m-Online-Safety_&_PPE-Gross_Profit_Delta,12,Online,Safety & PPE,total,(total),Gross Profit Delta,29996.32,money,1.0
+B2-12m-Online-Safety_&_PPE-Price_Effect,12,Online,Safety & PPE,total,(total),Price Effect,-1823.587105532,money,1.0
+B2-12m-Online-Safety_&_PPE-Cost_Effect,12,Online,Safety & PPE,total,(total),Cost Effect,-2880.6330399167,money,1.0
+B2-12m-Online-Safety_&_PPE-Volume_Effect,12,Online,Safety & PPE,total,(total),Volume Effect,37799.4973693256,money,1.0
+B2-12m-Online-Safety_&_PPE-Mix_Effect,12,Online,Safety & PPE,total,(total),Mix Effect,-7276.9972238769,money,1.0
+B2-12m-Online-Safety_&_PPE-New_Products_Effect,12,Online,Safety & PPE,total,(total),New Products Effect,5076.28,money,1.0
+B2-12m-Online-Safety_&_PPE-Discontinued_Effect,12,Online,Safety & PPE,total,(total),Discontinued Effect,-898.24,money,1.0
+B2-12m-Online-Safety_&_PPE-Volume_Index_Gamma,12,Online,Safety & PPE,total,(total),Volume Index Gamma,0.1139448784,ratio,1e-09
+B2-12m-Online-Safety_&_PPE-Bridge_Residual,12,Online,Safety & PPE,total,(total),Bridge Residual,0.0,money,1.0
+B2-12m-Online-Specialty_Engineered-Gross_Profit_Delta,12,Online,Specialty Engineered,total,(total),Gross Profit Delta,26202.5699999999,money,1.0
+B2-12m-Online-Specialty_Engineered-Price_Effect,12,Online,Specialty Engineered,total,(total),Price Effect,-2760.7502288503,money,1.0
+B2-12m-Online-Specialty_Engineered-Cost_Effect,12,Online,Specialty Engineered,total,(total),Cost Effect,-0.2826920663,money,1.0
+B2-12m-Online-Specialty_Engineered-Volume_Effect,12,Online,Specialty Engineered,total,(total),Volume Effect,20152.5486556525,money,1.0
+B2-12m-Online-Specialty_Engineered-Mix_Effect,12,Online,Specialty Engineered,total,(total),Mix Effect,-250.225734736,money,1.0
+B2-12m-Online-Specialty_Engineered-New_Products_Effect,12,Online,Specialty Engineered,total,(total),New Products Effect,13045.68,money,1.0
+B2-12m-Online-Specialty_Engineered-Discontinued_Effect,12,Online,Specialty Engineered,total,(total),Discontinued Effect,-3984.4,money,1.0
+B2-12m-Online-Specialty_Engineered-Volume_Index_Gamma,12,Online,Specialty Engineered,total,(total),Volume Index Gamma,0.0369656828,ratio,1e-09
+B2-12m-Online-Specialty_Engineered-Bridge_Residual,12,Online,Specialty Engineered,total,(total),Bridge Residual,-0.0,money,1.0
+B2-12m-Online-Tools_&_Equipment-Gross_Profit_Delta,12,Online,Tools & Equipment,total,(total),Gross Profit Delta,61864.06,money,1.0
+B2-12m-Online-Tools_&_Equipment-Price_Effect,12,Online,Tools & Equipment,total,(total),Price Effect,-3001.9009131061,money,1.0
+B2-12m-Online-Tools_&_Equipment-Cost_Effect,12,Online,Tools & Equipment,total,(total),Cost Effect,-8140.7638351901,money,1.0
+B2-12m-Online-Tools_&_Equipment-Volume_Effect,12,Online,Tools & Equipment,total,(total),Volume Effect,80684.9102811673,money,1.0
+B2-12m-Online-Tools_&_Equipment-Mix_Effect,12,Online,Tools & Equipment,total,(total),Mix Effect,-7357.0455328711,money,1.0
+B2-12m-Online-Tools_&_Equipment-New_Products_Effect,12,Online,Tools & Equipment,total,(total),New Products Effect,1988.13,money,1.0
+B2-12m-Online-Tools_&_Equipment-Discontinued_Effect,12,Online,Tools & Equipment,total,(total),Discontinued Effect,-2309.27,money,1.0
+B2-12m-Online-Tools_&_Equipment-Volume_Index_Gamma,12,Online,Tools & Equipment,total,(total),Volume Index Gamma,0.1882524278,ratio,1e-09
+B2-12m-Online-Tools_&_Equipment-Bridge_Residual,12,Online,Tools & Equipment,total,(total),Bridge Residual,-0.0,money,1.0
+B2-6m-(all)-(all)-Gross_Profit_Delta,6,(all),(all),total,(total),Gross Profit Delta,-265305.9000000004,money,1.0
+B2-6m-(all)-(all)-Price_Effect,6,(all),(all),total,(total),Price Effect,-235975.5722456558,money,1.0
+B2-6m-(all)-(all)-Cost_Effect,6,(all),(all),total,(total),Cost Effect,-306255.8912610012,money,1.0
+B2-6m-(all)-(all)-Volume_Effect,6,(all),(all),total,(total),Volume Effect,309333.0883771499,money,1.0
+B2-6m-(all)-(all)-Mix_Effect,6,(all),(all),total,(total),Mix Effect,-80511.3948704932,money,1.0
+B2-6m-(all)-(all)-New_Products_Effect,6,(all),(all),total,(total),New Products Effect,61588.07,money,1.0
+B2-6m-(all)-(all)-Discontinued_Effect,6,(all),(all),total,(total),Discontinued Effect,-13484.2,money,1.0
+B2-6m-(all)-(all)-Volume_Index_Gamma,6,(all),(all),total,(total),Volume Index Gamma,0.0661988898,ratio,1e-09
+B2-6m-(all)-(all)-Bridge_Residual,6,(all),(all),total,(total),Bridge Residual,-2e-10,money,1.0
+B2-6m-(all)-Commodity_Consumables-Gross_Profit_Delta,6,(all),Commodity Consumables,total,(total),Gross Profit Delta,12471.6299999998,money,1.0
+B2-6m-(all)-Commodity_Consumables-Price_Effect,6,(all),Commodity Consumables,total,(total),Price Effect,-79622.0112309186,money,1.0
+B2-6m-(all)-Commodity_Consumables-Cost_Effect,6,(all),Commodity Consumables,total,(total),Cost Effect,-14857.017414851,money,1.0
+B2-6m-(all)-Commodity_Consumables-Volume_Effect,6,(all),Commodity Consumables,total,(total),Volume Effect,107965.4639825906,money,1.0
+B2-6m-(all)-Commodity_Consumables-Mix_Effect,6,(all),Commodity Consumables,total,(total),Mix Effect,-3317.4253368212,money,1.0
+B2-6m-(all)-Commodity_Consumables-New_Products_Effect,6,(all),Commodity Consumables,total,(total),New Products Effect,5044.71,money,1.0
+B2-6m-(all)-Commodity_Consumables-Discontinued_Effect,6,(all),Commodity Consumables,total,(total),Discontinued Effect,-2742.09,money,1.0
+B2-6m-(all)-Commodity_Consumables-Volume_Index_Gamma,6,(all),Commodity Consumables,total,(total),Volume Index Gamma,0.1771486956,ratio,1e-09
+B2-6m-(all)-Commodity_Consumables-Bridge_Residual,6,(all),Commodity Consumables,total,(total),Bridge Residual,-0.0,money,1.0
+B2-6m-(all)-Electrical_Components-Gross_Profit_Delta,6,(all),Electrical Components,total,(total),Gross Profit Delta,-105250.7100000001,money,1.0
+B2-6m-(all)-Electrical_Components-Price_Effect,6,(all),Electrical Components,total,(total),Price Effect,12281.224555909,money,1.0
+B2-6m-(all)-Electrical_Components-Cost_Effect,6,(all),Electrical Components,total,(total),Cost Effect,-125740.189388139,money,1.0
+B2-6m-(all)-Electrical_Components-Volume_Effect,6,(all),Electrical Components,total,(total),Volume Effect,10120.2879407251,money,1.0
+B2-6m-(all)-Electrical_Components-Mix_Effect,6,(all),Electrical Components,total,(total),Mix Effect,-6227.0131084951,money,1.0
+B2-6m-(all)-Electrical_Components-New_Products_Effect,6,(all),Electrical Components,total,(total),New Products Effect,6135.27,money,1.0
+B2-6m-(all)-Electrical_Components-Discontinued_Effect,6,(all),Electrical Components,total,(total),Discontinued Effect,-1820.29,money,1.0
+B2-6m-(all)-Electrical_Components-Volume_Index_Gamma,6,(all),Electrical Components,total,(total),Volume Index Gamma,0.0167032159,ratio,1e-09
+B2-6m-(all)-Electrical_Components-Bridge_Residual,6,(all),Electrical Components,total,(total),Bridge Residual,-1e-10,money,1.0
+B2-6m-(all)-Fasteners_&_Fixings-Gross_Profit_Delta,6,(all),Fasteners & Fixings,total,(total),Gross Profit Delta,-100434.6499999999,money,1.0
+B2-6m-(all)-Fasteners_&_Fixings-Price_Effect,6,(all),Fasteners & Fixings,total,(total),Price Effect,15304.1196567897,money,1.0
+B2-6m-(all)-Fasteners_&_Fixings-Cost_Effect,6,(all),Fasteners & Fixings,total,(total),Cost Effect,-136925.1138176778,money,1.0
+B2-6m-(all)-Fasteners_&_Fixings-Volume_Effect,6,(all),Fasteners & Fixings,total,(total),Volume Effect,22633.678846766,money,1.0
+B2-6m-(all)-Fasteners_&_Fixings-Mix_Effect,6,(all),Fasteners & Fixings,total,(total),Mix Effect,-3697.864685878,money,1.0
+B2-6m-(all)-Fasteners_&_Fixings-New_Products_Effect,6,(all),Fasteners & Fixings,total,(total),New Products Effect,4112.48,money,1.0
+B2-6m-(all)-Fasteners_&_Fixings-Discontinued_Effect,6,(all),Fasteners & Fixings,total,(total),Discontinued Effect,-1861.95,money,1.0
+B2-6m-(all)-Fasteners_&_Fixings-Volume_Index_Gamma,6,(all),Fasteners & Fixings,total,(total),Volume Index Gamma,0.0358811885,ratio,1e-09
+B2-6m-(all)-Fasteners_&_Fixings-Bridge_Residual,6,(all),Fasteners & Fixings,total,(total),Bridge Residual,1e-10,money,1.0
+B2-6m-(all)-Safety_&_PPE-Gross_Profit_Delta,6,(all),Safety & PPE,total,(total),Gross Profit Delta,2834.5600000001,money,1.0
+B2-6m-(all)-Safety_&_PPE-Price_Effect,6,(all),Safety & PPE,total,(total),Price Effect,-50281.9892610309,money,1.0
+B2-6m-(all)-Safety_&_PPE-Cost_Effect,6,(all),Safety & PPE,total,(total),Cost Effect,-7349.7533535567,money,1.0
+B2-6m-(all)-Safety_&_PPE-Volume_Effect,6,(all),Safety & PPE,total,(total),Volume Effect,51024.9239142746,money,1.0
+B2-6m-(all)-Safety_&_PPE-Mix_Effect,6,(all),Safety & PPE,total,(total),Mix Effect,-3216.0912996869,money,1.0
+B2-6m-(all)-Safety_&_PPE-New_Products_Effect,6,(all),Safety & PPE,total,(total),New Products Effect,14314.46,money,1.0
+B2-6m-(all)-Safety_&_PPE-Discontinued_Effect,6,(all),Safety & PPE,total,(total),Discontinued Effect,-1656.99,money,1.0
+B2-6m-(all)-Safety_&_PPE-Volume_Index_Gamma,6,(all),Safety & PPE,total,(total),Volume Index Gamma,0.0717421525,ratio,1e-09
+B2-6m-(all)-Safety_&_PPE-Bridge_Residual,6,(all),Safety & PPE,total,(total),Bridge Residual,1e-10,money,1.0
+B2-6m-(all)-Specialty_Engineered-Gross_Profit_Delta,6,(all),Specialty Engineered,total,(total),Gross Profit Delta,-68775.9400000002,money,1.0
+B2-6m-(all)-Specialty_Engineered-Price_Effect,6,(all),Specialty Engineered,total,(total),Price Effect,-72045.763182521,money,1.0
+B2-6m-(all)-Specialty_Engineered-Cost_Effect,6,(all),Specialty Engineered,total,(total),Cost Effect,-0.1480007699,money,1.0
+B2-6m-(all)-Specialty_Engineered-Volume_Effect,6,(all),Specialty Engineered,total,(total),Volume Effect,-17535.9491260674,money,1.0
+B2-6m-(all)-Specialty_Engineered-Mix_Effect,6,(all),Specialty Engineered,total,(total),Mix Effect,-817.2496906416,money,1.0
+B2-6m-(all)-Specialty_Engineered-New_Products_Effect,6,(all),Specialty Engineered,total,(total),New Products Effect,25597.55,money,1.0
+B2-6m-(all)-Specialty_Engineered-Discontinued_Effect,6,(all),Specialty Engineered,total,(total),Discontinued Effect,-3974.38,money,1.0
+B2-6m-(all)-Specialty_Engineered-Volume_Index_Gamma,6,(all),Specialty Engineered,total,(total),Volume Index Gamma,-0.0148704711,ratio,1e-09
+B2-6m-(all)-Specialty_Engineered-Bridge_Residual,6,(all),Specialty Engineered,total,(total),Bridge Residual,-2e-10,money,1.0
+B2-6m-(all)-Tools_&_Equipment-Gross_Profit_Delta,6,(all),Tools & Equipment,total,(total),Gross Profit Delta,-6150.7899999999,money,1.0
+B2-6m-(all)-Tools_&_Equipment-Price_Effect,6,(all),Tools & Equipment,total,(total),Price Effect,-61611.1527838839,money,1.0
+B2-6m-(all)-Tools_&_Equipment-Cost_Effect,6,(all),Tools & Equipment,total,(total),Cost Effect,-21383.6692860067,money,1.0
+B2-6m-(all)-Tools_&_Equipment-Volume_Effect,6,(all),Tools & Equipment,total,(total),Volume Effect,77841.9722488842,money,1.0
+B2-6m-(all)-Tools_&_Equipment-Mix_Effect,6,(all),Tools & Equipment,total,(total),Mix Effect,-5953.0401789936,money,1.0
+B2-6m-(all)-Tools_&_Equipment-New_Products_Effect,6,(all),Tools & Equipment,total,(total),New Products Effect,6383.6,money,1.0
+B2-6m-(all)-Tools_&_Equipment-Discontinued_Effect,6,(all),Tools & Equipment,total,(total),Discontinued Effect,-1428.5,money,1.0
+B2-6m-(all)-Tools_&_Equipment-Volume_Index_Gamma,6,(all),Tools & Equipment,total,(total),Volume Index Gamma,0.0831498771,ratio,1e-09
+B2-6m-(all)-Tools_&_Equipment-Bridge_Residual,6,(all),Tools & Equipment,total,(total),Bridge Residual,1e-10,money,1.0
+B2-6m-Direct-(all)-Gross_Profit_Delta,6,Direct,(all),total,(total),Gross Profit Delta,11733.5999999999,money,1.0
+B2-6m-Direct-(all)-Price_Effect,6,Direct,(all),total,(total),Price Effect,36636.0137596386,money,1.0
+B2-6m-Direct-(all)-Cost_Effect,6,Direct,(all),total,(total),Cost Effect,-106846.4584356674,money,1.0
+B2-6m-Direct-(all)-Volume_Effect,6,Direct,(all),total,(total),Volume Effect,74049.1009971923,money,1.0
+B2-6m-Direct-(all)-Mix_Effect,6,Direct,(all),total,(total),Mix Effect,-5859.8263211637,money,1.0
+B2-6m-Direct-(all)-New_Products_Effect,6,Direct,(all),total,(total),New Products Effect,25267.91,money,1.0
+B2-6m-Direct-(all)-Discontinued_Effect,6,Direct,(all),total,(total),Discontinued Effect,-11513.14,money,1.0
+B2-6m-Direct-(all)-Volume_Index_Gamma,6,Direct,(all),total,(total),Volume Index Gamma,0.0408525209,ratio,1e-09
+B2-6m-Direct-(all)-Bridge_Residual,6,Direct,(all),total,(total),Bridge Residual,-0.0,money,1.0
+B2-6m-Direct-Commodity_Consumables-Gross_Profit_Delta,6,Direct,Commodity Consumables,total,(total),Gross Profit Delta,23924.7899999999,money,1.0
+B2-6m-Direct-Commodity_Consumables-Price_Effect,6,Direct,Commodity Consumables,total,(total),Price Effect,-3608.0822878707,money,1.0
+B2-6m-Direct-Commodity_Consumables-Cost_Effect,6,Direct,Commodity Consumables,total,(total),Cost Effect,-5102.7723768132,money,1.0
+B2-6m-Direct-Commodity_Consumables-Volume_Effect,6,Direct,Commodity Consumables,total,(total),Volume Effect,28240.5586103597,money,1.0
+B2-6m-Direct-Commodity_Consumables-Mix_Effect,6,Direct,Commodity Consumables,total,(total),Mix Effect,2542.4160543242,money,1.0
+B2-6m-Direct-Commodity_Consumables-New_Products_Effect,6,Direct,Commodity Consumables,total,(total),New Products Effect,7830.36,money,1.0
+B2-6m-Direct-Commodity_Consumables-Discontinued_Effect,6,Direct,Commodity Consumables,total,(total),Discontinued Effect,-5977.69,money,1.0
+B2-6m-Direct-Commodity_Consumables-Volume_Index_Gamma,6,Direct,Commodity Consumables,total,(total),Volume Index Gamma,0.1150729476,ratio,1e-09
+B2-6m-Direct-Commodity_Consumables-Bridge_Residual,6,Direct,Commodity Consumables,total,(total),Bridge Residual,0.0,money,1.0
+B2-6m-Direct-Electrical_Components-Gross_Profit_Delta,6,Direct,Electrical Components,total,(total),Gross Profit Delta,-35326.54,money,1.0
+B2-6m-Direct-Electrical_Components-Price_Effect,6,Direct,Electrical Components,total,(total),Price Effect,22774.8617613838,money,1.0
+B2-6m-Direct-Electrical_Components-Cost_Effect,6,Direct,Electrical Components,total,(total),Cost Effect,-43205.1513379776,money,1.0
+B2-6m-Direct-Electrical_Components-Volume_Effect,6,Direct,Electrical Components,total,(total),Volume Effect,-14584.0142054444,money,1.0
+B2-6m-Direct-Electrical_Components-Mix_Effect,6,Direct,Electrical Components,total,(total),Mix Effect,-1153.4062179618,money,1.0
+B2-6m-Direct-Electrical_Components-New_Products_Effect,6,Direct,Electrical Components,total,(total),New Products Effect,2036.62,money,1.0
+B2-6m-Direct-Electrical_Components-Discontinued_Effect,6,Direct,Electrical Components,total,(total),Discontinued Effect,-1195.45,money,1.0
+B2-6m-Direct-Electrical_Components-Volume_Index_Gamma,6,Direct,Electrical Components,total,(total),Volume Index Gamma,-0.0637499326,ratio,1e-09
+B2-6m-Direct-Electrical_Components-Bridge_Residual,6,Direct,Electrical Components,total,(total),Bridge Residual,-0.0,money,1.0
+B2-6m-Direct-Fasteners_&_Fixings-Gross_Profit_Delta,6,Direct,Fasteners & Fixings,total,(total),Gross Profit Delta,-20157.38,money,1.0
+B2-6m-Direct-Fasteners_&_Fixings-Price_Effect,6,Direct,Fasteners & Fixings,total,(total),Price Effect,24585.6662675829,money,1.0
+B2-6m-Direct-Fasteners_&_Fixings-Cost_Effect,6,Direct,Fasteners & Fixings,total,(total),Cost Effect,-47973.096470508,money,1.0
+B2-6m-Direct-Fasteners_&_Fixings-Volume_Effect,6,Direct,Fasteners & Fixings,total,(total),Volume Effect,3270.8901942386,money,1.0
+B2-6m-Direct-Fasteners_&_Fixings-Mix_Effect,6,Direct,Fasteners & Fixings,total,(total),Mix Effect,-472.7099913134,money,1.0
+B2-6m-Direct-Fasteners_&_Fixings-New_Products_Effect,6,Direct,Fasteners & Fixings,total,(total),New Products Effect,1425.6,money,1.0
+B2-6m-Direct-Fasteners_&_Fixings-Discontinued_Effect,6,Direct,Fasteners & Fixings,total,(total),Discontinued Effect,-993.73,money,1.0
+B2-6m-Direct-Fasteners_&_Fixings-Volume_Index_Gamma,6,Direct,Fasteners & Fixings,total,(total),Volume Index Gamma,0.0134102065,ratio,1e-09
+B2-6m-Direct-Fasteners_&_Fixings-Bridge_Residual,6,Direct,Fasteners & Fixings,total,(total),Bridge Residual,0.0,money,1.0
+B2-6m-Direct-Safety_&_PPE-Gross_Profit_Delta,6,Direct,Safety & PPE,total,(total),Gross Profit Delta,13526.86,money,1.0
+B2-6m-Direct-Safety_&_PPE-Price_Effect,6,Direct,Safety & PPE,total,(total),Price Effect,-1386.850007339,money,1.0
+B2-6m-Direct-Safety_&_PPE-Cost_Effect,6,Direct,Safety & PPE,total,(total),Cost Effect,-2695.4699420983,money,1.0
+B2-6m-Direct-Safety_&_PPE-Volume_Effect,6,Direct,Safety & PPE,total,(total),Volume Effect,11535.8916998533,money,1.0
+B2-6m-Direct-Safety_&_PPE-Mix_Effect,6,Direct,Safety & PPE,total,(total),Mix Effect,2051.5882495839,money,1.0
+B2-6m-Direct-Safety_&_PPE-New_Products_Effect,6,Direct,Safety & PPE,total,(total),New Products Effect,4599.83,money,1.0
+B2-6m-Direct-Safety_&_PPE-Discontinued_Effect,6,Direct,Safety & PPE,total,(total),Discontinued Effect,-578.13,money,1.0
+B2-6m-Direct-Safety_&_PPE-Volume_Index_Gamma,6,Direct,Safety & PPE,total,(total),Volume Index Gamma,0.0410729609,ratio,1e-09
+B2-6m-Direct-Safety_&_PPE-Bridge_Residual,6,Direct,Safety & PPE,total,(total),Bridge Residual,0.0,money,1.0
+B2-6m-Direct-Specialty_Engineered-Gross_Profit_Delta,6,Direct,Specialty Engineered,total,(total),Gross Profit Delta,6759.71,money,1.0
+B2-6m-Direct-Specialty_Engineered-Price_Effect,6,Direct,Specialty Engineered,total,(total),Price Effect,-1162.5348793637,money,1.0
+B2-6m-Direct-Specialty_Engineered-Cost_Effect,6,Direct,Specialty Engineered,total,(total),Cost Effect,0.20324058,money,1.0
+B2-6m-Direct-Specialty_Engineered-Volume_Effect,6,Direct,Specialty Engineered,total,(total),Volume Effect,1693.4442797189,money,1.0
+B2-6m-Direct-Specialty_Engineered-Mix_Effect,6,Direct,Specialty Engineered,total,(total),Mix Effect,-66.2326409352,money,1.0
+B2-6m-Direct-Specialty_Engineered-New_Products_Effect,6,Direct,Specialty Engineered,total,(total),New Products Effect,8153.0,money,1.0
+B2-6m-Direct-Specialty_Engineered-Discontinued_Effect,6,Direct,Specialty Engineered,total,(total),Discontinued Effect,-1858.17,money,1.0
+B2-6m-Direct-Specialty_Engineered-Volume_Index_Gamma,6,Direct,Specialty Engineered,total,(total),Volume Index Gamma,0.0038780729,ratio,1e-09
+B2-6m-Direct-Specialty_Engineered-Bridge_Residual,6,Direct,Specialty Engineered,total,(total),Bridge Residual,0.0,money,1.0
+B2-6m-Direct-Tools_&_Equipment-Gross_Profit_Delta,6,Direct,Tools & Equipment,total,(total),Gross Profit Delta,23006.16,money,1.0
+B2-6m-Direct-Tools_&_Equipment-Price_Effect,6,Direct,Tools & Equipment,total,(total),Price Effect,-4567.0470947547,money,1.0
+B2-6m-Direct-Tools_&_Equipment-Cost_Effect,6,Direct,Tools & Equipment,total,(total),Cost Effect,-7870.1715488502,money,1.0
+B2-6m-Direct-Tools_&_Equipment-Volume_Effect,6,Direct,Tools & Equipment,total,(total),Volume Effect,34986.6023440802,money,1.0
+B2-6m-Direct-Tools_&_Equipment-Mix_Effect,6,Direct,Tools & Equipment,total,(total),Mix Effect,144.2462995246,money,1.0
+B2-6m-Direct-Tools_&_Equipment-New_Products_Effect,6,Direct,Tools & Equipment,total,(total),New Products Effect,1222.5,money,1.0
+B2-6m-Direct-Tools_&_Equipment-Discontinued_Effect,6,Direct,Tools & Equipment,total,(total),Discontinued Effect,-909.97,money,1.0
+B2-6m-Direct-Tools_&_Equipment-Volume_Index_Gamma,6,Direct,Tools & Equipment,total,(total),Volume Index Gamma,0.0928108711,ratio,1e-09
+B2-6m-Direct-Tools_&_Equipment-Bridge_Residual,6,Direct,Tools & Equipment,total,(total),Bridge Residual,0.0,money,1.0
+B2-6m-Distributor-(all)-Gross_Profit_Delta,6,Distributor,(all),total,(total),Gross Profit Delta,-347513.6799999999,money,1.0
+B2-6m-Distributor-(all)-Price_Effect,6,Distributor,(all),total,(total),Price Effect,-298495.6909366771,money,1.0
+B2-6m-Distributor-(all)-Cost_Effect,6,Distributor,(all),total,(total),Cost Effect,-136281.4730129696,money,1.0
+B2-6m-Distributor-(all)-Volume_Effect,6,Distributor,(all),total,(total),Volume Effect,107308.2571386282,money,1.0
+B2-6m-Distributor-(all)-Mix_Effect,6,Distributor,(all),total,(total),Mix Effect,-42643.8031889815,money,1.0
+B2-6m-Distributor-(all)-New_Products_Effect,6,Distributor,(all),total,(total),New Products Effect,26823.91,money,1.0
+B2-6m-Distributor-(all)-Discontinued_Effect,6,Distributor,(all),total,(total),Discontinued Effect,-4224.88,money,1.0
+B2-6m-Distributor-(all)-Volume_Index_Gamma,6,Distributor,(all),total,(total),Volume Index Gamma,0.0637393301,ratio,1e-09
+B2-6m-Distributor-(all)-Bridge_Residual,6,Distributor,(all),total,(total),Bridge Residual,1e-10,money,1.0
+B2-6m-Distributor-Commodity_Consumables-Gross_Profit_Delta,6,Distributor,Commodity Consumables,total,(total),Gross Profit Delta,-61547.5,money,1.0
+B2-6m-Distributor-Commodity_Consumables-Price_Effect,6,Distributor,Commodity Consumables,total,(total),Price Effect,-77558.8083830951,money,1.0
+B2-6m-Distributor-Commodity_Consumables-Cost_Effect,6,Distributor,Commodity Consumables,total,(total),Cost Effect,-6664.9541688314,money,1.0
+B2-6m-Distributor-Commodity_Consumables-Volume_Effect,6,Distributor,Commodity Consumables,total,(total),Volume Effect,30632.166858583,money,1.0
+B2-6m-Distributor-Commodity_Consumables-Mix_Effect,6,Distributor,Commodity Consumables,total,(total),Mix Effect,-8546.8843066565,money,1.0
+B2-6m-Distributor-Commodity_Consumables-New_Products_Effect,6,Distributor,Commodity Consumables,total,(total),New Products Effect,1430.04,money,1.0
+B2-6m-Distributor-Commodity_Consumables-Discontinued_Effect,6,Distributor,Commodity Consumables,total,(total),Discontinued Effect,-839.06,money,1.0
+B2-6m-Distributor-Commodity_Consumables-Volume_Index_Gamma,6,Distributor,Commodity Consumables,total,(total),Volume Index Gamma,0.1610738492,ratio,1e-09
+B2-6m-Distributor-Commodity_Consumables-Bridge_Residual,6,Distributor,Commodity Consumables,total,(total),Bridge Residual,-0.0,money,1.0
+B2-6m-Distributor-Electrical_Components-Gross_Profit_Delta,6,Distributor,Electrical Components,total,(total),Gross Profit Delta,-59732.13,money,1.0
+B2-6m-Distributor-Electrical_Components-Price_Effect,6,Distributor,Electrical Components,total,(total),Price Effect,-19289.2211145591,money,1.0
+B2-6m-Distributor-Electrical_Components-Cost_Effect,6,Distributor,Electrical Components,total,(total),Cost Effect,-56510.4420482839,money,1.0
+B2-6m-Distributor-Electrical_Components-Volume_Effect,6,Distributor,Electrical Components,total,(total),Volume Effect,17223.0411522569,money,1.0
+B2-6m-Distributor-Electrical_Components-Mix_Effect,6,Distributor,Electrical Components,total,(total),Mix Effect,-2740.8979894139,money,1.0
+B2-6m-Distributor-Electrical_Components-New_Products_Effect,6,Distributor,Electrical Components,total,(total),New Products Effect,2210.23,money,1.0
+B2-6m-Distributor-Electrical_Components-Discontinued_Effect,6,Distributor,Electrical Components,total,(total),Discontinued Effect,-624.84,money,1.0
+B2-6m-Distributor-Electrical_Components-Volume_Index_Gamma,6,Distributor,Electrical Components,total,(total),Volume Index Gamma,0.0780657189,ratio,1e-09
+B2-6m-Distributor-Electrical_Components-Bridge_Residual,6,Distributor,Electrical Components,total,(total),Bridge Residual,-0.0,money,1.0
+B2-6m-Distributor-Fasteners_&_Fixings-Gross_Profit_Delta,6,Distributor,Fasteners & Fixings,total,(total),Gross Profit Delta,-62399.84,money,1.0
+B2-6m-Distributor-Fasteners_&_Fixings-Price_Effect,6,Distributor,Fasteners & Fixings,total,(total),Price Effect,-20231.5116183334,money,1.0
+B2-6m-Distributor-Fasteners_&_Fixings-Cost_Effect,6,Distributor,Fasteners & Fixings,total,(total),Cost Effect,-60654.3861138646,money,1.0
+B2-6m-Distributor-Fasteners_&_Fixings-Volume_Effect,6,Distributor,Fasteners & Fixings,total,(total),Volume Effect,15472.1094740957,money,1.0
+B2-6m-Distributor-Fasteners_&_Fixings-Mix_Effect,6,Distributor,Fasteners & Fixings,total,(total),Mix Effect,2471.5782581022,money,1.0
+B2-6m-Distributor-Fasteners_&_Fixings-New_Products_Effect,6,Distributor,Fasteners & Fixings,total,(total),New Products Effect,1381.7,money,1.0
+B2-6m-Distributor-Fasteners_&_Fixings-Discontinued_Effect,6,Distributor,Fasteners & Fixings,total,(total),Discontinued Effect,-839.33,money,1.0
+B2-6m-Distributor-Fasteners_&_Fixings-Volume_Index_Gamma,6,Distributor,Fasteners & Fixings,total,(total),Volume Index Gamma,0.0693412915,ratio,1e-09
+B2-6m-Distributor-Fasteners_&_Fixings-Bridge_Residual,6,Distributor,Fasteners & Fixings,total,(total),Bridge Residual,0.0,money,1.0
+B2-6m-Distributor-Safety_&_PPE-Gross_Profit_Delta,6,Distributor,Safety & PPE,total,(total),Gross Profit Delta,-26611.19,money,1.0
+B2-6m-Distributor-Safety_&_PPE-Price_Effect,6,Distributor,Safety & PPE,total,(total),Price Effect,-47434.342916805,money,1.0
+B2-6m-Distributor-Safety_&_PPE-Cost_Effect,6,Distributor,Safety & PPE,total,(total),Cost Effect,-3188.4686580192,money,1.0
+B2-6m-Distributor-Safety_&_PPE-Volume_Effect,6,Distributor,Safety & PPE,total,(total),Volume Effect,20317.851888023,money,1.0
+B2-6m-Distributor-Safety_&_PPE-Mix_Effect,6,Distributor,Safety & PPE,total,(total),Mix Effect,-1434.3403131987,money,1.0
+B2-6m-Distributor-Safety_&_PPE-New_Products_Effect,6,Distributor,Safety & PPE,total,(total),New Products Effect,5910.03,money,1.0
+B2-6m-Distributor-Safety_&_PPE-Discontinued_Effect,6,Distributor,Safety & PPE,total,(total),Discontinued Effect,-781.92,money,1.0
+B2-6m-Distributor-Safety_&_PPE-Volume_Index_Gamma,6,Distributor,Safety & PPE,total,(total),Volume Index Gamma,0.0781971884,ratio,1e-09
+B2-6m-Distributor-Safety_&_PPE-Bridge_Residual,6,Distributor,Safety & PPE,total,(total),Bridge Residual,0.0,money,1.0
+B2-6m-Distributor-Specialty_Engineered-Gross_Profit_Delta,6,Distributor,Specialty Engineered,total,(total),Gross Profit Delta,-72598.7000000001,money,1.0
+B2-6m-Distributor-Specialty_Engineered-Price_Effect,6,Distributor,Specialty Engineered,total,(total),Price Effect,-70003.5844282924,money,1.0
+B2-6m-Distributor-Specialty_Engineered-Cost_Effect,6,Distributor,Specialty Engineered,total,(total),Cost Effect,-0.2794176856,money,1.0
+B2-6m-Distributor-Specialty_Engineered-Volume_Effect,6,Distributor,Specialty Engineered,total,(total),Volume Effect,-13136.6681396464,money,1.0
+B2-6m-Distributor-Specialty_Engineered-Mix_Effect,6,Distributor,Specialty Engineered,total,(total),Mix Effect,38.7419856244,money,1.0
+B2-6m-Distributor-Specialty_Engineered-New_Products_Effect,6,Distributor,Specialty Engineered,total,(total),New Products Effect,11642.82,money,1.0
+B2-6m-Distributor-Specialty_Engineered-Discontinued_Effect,6,Distributor,Specialty Engineered,total,(total),Discontinued Effect,-1139.73,money,1.0
+B2-6m-Distributor-Specialty_Engineered-Volume_Index_Gamma,6,Distributor,Specialty Engineered,total,(total),Volume Index Gamma,-0.0288851122,ratio,1e-09
+B2-6m-Distributor-Specialty_Engineered-Bridge_Residual,6,Distributor,Specialty Engineered,total,(total),Bridge Residual,-0.0,money,1.0
+B2-6m-Distributor-Tools_&_Equipment-Gross_Profit_Delta,6,Distributor,Tools & Equipment,total,(total),Gross Profit Delta,-64624.32,money,1.0
+B2-6m-Distributor-Tools_&_Equipment-Price_Effect,6,Distributor,Tools & Equipment,total,(total),Price Effect,-63978.2224755921,money,1.0
+B2-6m-Distributor-Tools_&_Equipment-Cost_Effect,6,Distributor,Tools & Equipment,total,(total),Cost Effect,-9262.9426062849,money,1.0
+B2-6m-Distributor-Tools_&_Equipment-Volume_Effect,6,Distributor,Tools & Equipment,total,(total),Volume Effect,7941.7155478628,money,1.0
+B2-6m-Distributor-Tools_&_Equipment-Mix_Effect,6,Distributor,Tools & Equipment,total,(total),Mix Effect,-3573.9604659857,money,1.0
+B2-6m-Distributor-Tools_&_Equipment-New_Products_Effect,6,Distributor,Tools & Equipment,total,(total),New Products Effect,4249.09,money,1.0
+B2-6m-Distributor-Tools_&_Equipment-Discontinued_Effect,6,Distributor,Tools & Equipment,total,(total),Discontinued Effect,0.0,money,1.0
+B2-6m-Distributor-Tools_&_Equipment-Volume_Index_Gamma,6,Distributor,Tools & Equipment,total,(total),Volume Index Gamma,0.0237063986,ratio,1e-09
+B2-6m-Distributor-Tools_&_Equipment-Bridge_Residual,6,Distributor,Tools & Equipment,total,(total),Bridge Residual,-0.0,money,1.0
+B2-6m-Online-(all)-Gross_Profit_Delta,6,Online,(all),total,(total),Gross Profit Delta,70474.1800000002,money,1.0
+B2-6m-Online-(all)-Price_Effect,6,Online,(all),total,(total),Price Effect,22579.4552367967,money,1.0
+B2-6m-Online-(all)-Cost_Effect,6,Online,(all),total,(total),Cost Effect,-62514.8536645035,money,1.0
+B2-6m-Online-(all)-Volume_Effect,6,Online,(all),total,(total),Volume Effect,112088.1478999286,money,1.0
+B2-6m-Online-(all)-Mix_Effect,6,Online,(all),total,(total),Mix Effect,-32197.0394722218,money,1.0
+B2-6m-Online-(all)-New_Products_Effect,6,Online,(all),total,(total),New Products Effect,37323.11,money,1.0
+B2-6m-Online-(all)-Discontinued_Effect,6,Online,(all),total,(total),Discontinued Effect,-6804.64,money,1.0
+B2-6m-Online-(all)-Volume_Index_Gamma,6,Online,(all),total,(total),Volume Index Gamma,0.0966089896,ratio,1e-09
+B2-6m-Online-(all)-Bridge_Residual,6,Online,(all),total,(total),Bridge Residual,1e-10,money,1.0
+B2-6m-Online-Commodity_Consumables-Gross_Profit_Delta,6,Online,Commodity Consumables,total,(total),Gross Profit Delta,50094.34,money,1.0
+B2-6m-Online-Commodity_Consumables-Price_Effect,6,Online,Commodity Consumables,total,(total),Price Effect,-1739.6433291108,money,1.0
+B2-6m-Online-Commodity_Consumables-Cost_Effect,6,Online,Commodity Consumables,total,(total),Cost Effect,-2986.2338881803,money,1.0
+B2-6m-Online-Commodity_Consumables-Volume_Effect,6,Online,Commodity Consumables,total,(total),Volume Effect,51011.1586756476,money,1.0
+B2-6m-Online-Commodity_Consumables-Mix_Effect,6,Online,Commodity Consumables,total,(total),Mix Effect,2432.3385416435,money,1.0
+B2-6m-Online-Commodity_Consumables-New_Products_Effect,6,Online,Commodity Consumables,total,(total),New Products Effect,2347.72,money,1.0
+B2-6m-Online-Commodity_Consumables-Discontinued_Effect,6,Online,Commodity Consumables,total,(total),Discontinued Effect,-971.0,money,1.0
+B2-6m-Online-Commodity_Consumables-Volume_Index_Gamma,6,Online,Commodity Consumables,total,(total),Volume Index Gamma,0.3020625573,ratio,1e-09
+B2-6m-Online-Commodity_Consumables-Bridge_Residual,6,Online,Commodity Consumables,total,(total),Bridge Residual,-0.0,money,1.0
+B2-6m-Online-Electrical_Components-Gross_Profit_Delta,6,Online,Electrical Components,total,(total),Gross Profit Delta,-10192.04,money,1.0
+B2-6m-Online-Electrical_Components-Price_Effect,6,Online,Electrical Components,total,(total),Price Effect,13791.435562477,money,1.0
+B2-6m-Online-Electrical_Components-Cost_Effect,6,Online,Electrical Components,total,(total),Cost Effect,-25815.1166458493,money,1.0
+B2-6m-Online-Electrical_Components-Volume_Effect,6,Online,Electrical Components,total,(total),Volume Effect,1975.4702499216,money,1.0
+B2-6m-Online-Electrical_Components-Mix_Effect,6,Online,Electrical Components,total,(total),Mix Effect,-2165.6091665493,money,1.0
+B2-6m-Online-Electrical_Components-New_Products_Effect,6,Online,Electrical Components,total,(total),New Products Effect,3146.63,money,1.0
+B2-6m-Online-Electrical_Components-Discontinued_Effect,6,Online,Electrical Components,total,(total),Discontinued Effect,-1124.85,money,1.0
+B2-6m-Online-Electrical_Components-Volume_Index_Gamma,6,Online,Electrical Components,total,(total),Volume Index Gamma,0.0126307576,ratio,1e-09
+B2-6m-Online-Electrical_Components-Bridge_Residual,6,Online,Electrical Components,total,(total),Bridge Residual,-0.0,money,1.0
+B2-6m-Online-Fasteners_&_Fixings-Gross_Profit_Delta,6,Online,Fasteners & Fixings,total,(total),Gross Profit Delta,-17877.4299999999,money,1.0
+B2-6m-Online-Fasteners_&_Fixings-Price_Effect,6,Online,Fasteners & Fixings,total,(total),Price Effect,14811.0971922428,money,1.0
+B2-6m-Online-Fasteners_&_Fixings-Cost_Effect,6,Online,Fasteners & Fixings,total,(total),Cost Effect,-28088.1191786684,money,1.0
+B2-6m-Online-Fasteners_&_Fixings-Volume_Effect,6,Online,Fasteners & Fixings,total,(total),Volume Effect,2779.6809585834,money,1.0
+B2-6m-Online-Fasteners_&_Fixings-Mix_Effect,6,Online,Fasteners & Fixings,total,(total),Mix Effect,-5768.4289721578,money,1.0
+B2-6m-Online-Fasteners_&_Fixings-New_Products_Effect,6,Online,Fasteners & Fixings,total,(total),New Products Effect,1305.18,money,1.0
+B2-6m-Online-Fasteners_&_Fixings-Discontinued_Effect,6,Online,Fasteners & Fixings,total,(total),Discontinued Effect,-2916.84,money,1.0
+B2-6m-Online-Fasteners_&_Fixings-Volume_Index_Gamma,6,Online,Fasteners & Fixings,total,(total),Volume Index Gamma,0.0170512076,ratio,1e-09
+B2-6m-Online-Fasteners_&_Fixings-Bridge_Residual,6,Online,Fasteners & Fixings,total,(total),Bridge Residual,1e-10,money,1.0
+B2-6m-Online-Safety_&_PPE-Gross_Profit_Delta,6,Online,Safety & PPE,total,(total),Gross Profit Delta,15918.89,money,1.0
+B2-6m-Online-Safety_&_PPE-Price_Effect,6,Online,Safety & PPE,total,(total),Price Effect,-925.3058064574,money,1.0
+B2-6m-Online-Safety_&_PPE-Cost_Effect,6,Online,Safety & PPE,total,(total),Cost Effect,-1424.6489014429,money,1.0
+B2-6m-Online-Safety_&_PPE-Volume_Effect,6,Online,Safety & PPE,total,(total),Volume Effect,10664.0878907359,money,1.0
+B2-6m-Online-Safety_&_PPE-Mix_Effect,6,Online,Safety & PPE,total,(total),Mix Effect,-2609.3831828356,money,1.0
+B2-6m-Online-Safety_&_PPE-New_Products_Effect,6,Online,Safety & PPE,total,(total),New Products Effect,10511.08,money,1.0
+B2-6m-Online-Safety_&_PPE-Discontinued_Effect,6,Online,Safety & PPE,total,(total),Discontinued Effect,-296.94,money,1.0
+B2-6m-Online-Safety_&_PPE-Volume_Index_Gamma,6,Online,Safety & PPE,total,(total),Volume Index Gamma,0.0636924676,ratio,1e-09
+B2-6m-Online-Safety_&_PPE-Bridge_Residual,6,Online,Safety & PPE,total,(total),Bridge Residual,-0.0,money,1.0
+B2-6m-Online-Specialty_Engineered-Gross_Profit_Delta,6,Online,Specialty Engineered,total,(total),Gross Profit Delta,-2936.95,money,1.0
+B2-6m-Online-Specialty_Engineered-Price_Effect,6,Online,Specialty Engineered,total,(total),Price Effect,-1891.8327040428,money,1.0
+B2-6m-Online-Specialty_Engineered-Cost_Effect,6,Online,Specialty Engineered,total,(total),Cost Effect,-0.0870914033,money,1.0
+B2-6m-Online-Specialty_Engineered-Volume_Effect,6,Online,Specialty Engineered,total,(total),Volume Effect,-13703.0205485932,money,1.0
+B2-6m-Online-Specialty_Engineered-Mix_Effect,6,Online,Specialty Engineered,total,(total),Mix Effect,325.3803440394,money,1.0
+B2-6m-Online-Specialty_Engineered-New_Products_Effect,6,Online,Specialty Engineered,total,(total),New Products Effect,13309.09,money,1.0
+B2-6m-Online-Specialty_Engineered-Discontinued_Effect,6,Online,Specialty Engineered,total,(total),Discontinued Effect,-976.48,money,1.0
+B2-6m-Online-Specialty_Engineered-Volume_Index_Gamma,6,Online,Specialty Engineered,total,(total),Volume Index Gamma,-0.0482476829,ratio,1e-09
+B2-6m-Online-Specialty_Engineered-Bridge_Residual,6,Online,Specialty Engineered,total,(total),Bridge Residual,0.0,money,1.0
+B2-6m-Online-Tools_&_Equipment-Gross_Profit_Delta,6,Online,Tools & Equipment,total,(total),Gross Profit Delta,35467.37,money,1.0
+B2-6m-Online-Tools_&_Equipment-Price_Effect,6,Online,Tools & Equipment,total,(total),Price Effect,-1466.2956783121,money,1.0
+B2-6m-Online-Tools_&_Equipment-Cost_Effect,6,Online,Tools & Equipment,total,(total),Cost Effect,-4200.6479589593,money,1.0
+B2-6m-Online-Tools_&_Equipment-Volume_Effect,6,Online,Tools & Equipment,total,(total),Volume Effect,37967.7309493033,money,1.0
+B2-6m-Online-Tools_&_Equipment-Mix_Effect,6,Online,Tools & Equipment,total,(total),Mix Effect,-3018.2973120319,money,1.0
+B2-6m-Online-Tools_&_Equipment-New_Products_Effect,6,Online,Tools & Equipment,total,(total),New Products Effect,6703.41,money,1.0
+B2-6m-Online-Tools_&_Equipment-Discontinued_Effect,6,Online,Tools & Equipment,total,(total),Discontinued Effect,-518.53,money,1.0
+B2-6m-Online-Tools_&_Equipment-Volume_Index_Gamma,6,Online,Tools & Equipment,total,(total),Volume Index Gamma,0.172202886,ratio,1e-09
+B2-6m-Online-Tools_&_Equipment-Bridge_Residual,6,Online,Tools & Equipment,total,(total),Bridge Residual,-0.0,money,1.0
+B2-3m-(all)-(all)-Gross_Profit_Delta,3,(all),(all),total,(total),Gross Profit Delta,-130010.8100000005,money,1.0
+B2-3m-(all)-(all)-Price_Effect,3,(all),(all),total,(total),Price Effect,-113402.0343045601,money,1.0
+B2-3m-(all)-(all)-Cost_Effect,3,(all),(all),total,(total),Cost Effect,-146347.2516157559,money,1.0
+B2-3m-(all)-(all)-Volume_Effect,3,(all),(all),total,(total),Volume Effect,141818.5895541091,money,1.0
+B2-3m-(all)-(all)-Mix_Effect,3,(all),(all),total,(total),Mix Effect,-38983.653633793,money,1.0
+B2-3m-(all)-(all)-New_Products_Effect,3,(all),(all),total,(total),New Products Effect,29182.15,money,1.0
+B2-3m-(all)-(all)-Discontinued_Effect,3,(all),(all),total,(total),Discontinued Effect,-2278.61,money,1.0
+B2-3m-(all)-(all)-Volume_Index_Gamma,3,(all),(all),total,(total),Volume Index Gamma,0.0634752037,ratio,1e-09
+B2-3m-(all)-(all)-Bridge_Residual,3,(all),(all),total,(total),Bridge Residual,-6e-10,money,1.0
+B2-3m-(all)-Commodity_Consumables-Gross_Profit_Delta,3,(all),Commodity Consumables,total,(total),Gross Profit Delta,-419.8200000001,money,1.0
+B2-3m-(all)-Commodity_Consumables-Price_Effect,3,(all),Commodity Consumables,total,(total),Price Effect,-43080.2435151817,money,1.0
+B2-3m-(all)-Commodity_Consumables-Cost_Effect,3,(all),Commodity Consumables,total,(total),Cost Effect,-7062.1302496627,money,1.0
+B2-3m-(all)-Commodity_Consumables-Volume_Effect,3,(all),Commodity Consumables,total,(total),Volume Effect,49225.4113675246,money,1.0
+B2-3m-(all)-Commodity_Consumables-Mix_Effect,3,(all),Commodity Consumables,total,(total),Mix Effect,-1058.9976026802,money,1.0
+B2-3m-(all)-Commodity_Consumables-New_Products_Effect,3,(all),Commodity Consumables,total,(total),New Products Effect,2171.43,money,1.0
+B2-3m-(all)-Commodity_Consumables-Discontinued_Effect,3,(all),Commodity Consumables,total,(total),Discontinued Effect,-615.29,money,1.0
+B2-3m-(all)-Commodity_Consumables-Volume_Index_Gamma,3,(all),Commodity Consumables,total,(total),Volume Index Gamma,0.1700544153,ratio,1e-09
+B2-3m-(all)-Commodity_Consumables-Bridge_Residual,3,(all),Commodity Consumables,total,(total),Bridge Residual,-0.0,money,1.0
+B2-3m-(all)-Electrical_Components-Gross_Profit_Delta,3,(all),Electrical Components,total,(total),Gross Profit Delta,-43061.19,money,1.0
+B2-3m-(all)-Electrical_Components-Price_Effect,3,(all),Electrical Components,total,(total),Price Effect,11045.5119876238,money,1.0
+B2-3m-(all)-Electrical_Components-Cost_Effect,3,(all),Electrical Components,total,(total),Cost Effect,-60229.9222694278,money,1.0
+B2-3m-(all)-Electrical_Components-Volume_Effect,3,(all),Electrical Components,total,(total),Volume Effect,7741.9774384862,money,1.0
+B2-3m-(all)-Electrical_Components-Mix_Effect,3,(all),Electrical Components,total,(total),Mix Effect,-4075.0671566822,money,1.0
+B2-3m-(all)-Electrical_Components-New_Products_Effect,3,(all),Electrical Components,total,(total),New Products Effect,2767.99,money,1.0
+B2-3m-(all)-Electrical_Components-Discontinued_Effect,3,(all),Electrical Components,total,(total),Discontinued Effect,-311.68,money,1.0
+B2-3m-(all)-Electrical_Components-Volume_Index_Gamma,3,(all),Electrical Components,total,(total),Volume Index Gamma,0.0265166789,ratio,1e-09
+B2-3m-(all)-Electrical_Components-Bridge_Residual,3,(all),Electrical Components,total,(total),Bridge Residual,0.0,money,1.0
+B2-3m-(all)-Fasteners_&_Fixings-Gross_Profit_Delta,3,(all),Fasteners & Fixings,total,(total),Gross Profit Delta,-52196.49,money,1.0
+B2-3m-(all)-Fasteners_&_Fixings-Price_Effect,3,(all),Fasteners & Fixings,total,(total),Price Effect,8049.4231393341,money,1.0
+B2-3m-(all)-Fasteners_&_Fixings-Cost_Effect,3,(all),Fasteners & Fixings,total,(total),Cost Effect,-65334.4671226373,money,1.0
+B2-3m-(all)-Fasteners_&_Fixings-Volume_Effect,3,(all),Fasteners & Fixings,total,(total),Volume Effect,7265.7631248367,money,1.0
+B2-3m-(all)-Fasteners_&_Fixings-Mix_Effect,3,(all),Fasteners & Fixings,total,(total),Mix Effect,-3606.6291415335,money,1.0
+B2-3m-(all)-Fasteners_&_Fixings-New_Products_Effect,3,(all),Fasteners & Fixings,total,(total),New Products Effect,1944.31,money,1.0
+B2-3m-(all)-Fasteners_&_Fixings-Discontinued_Effect,3,(all),Fasteners & Fixings,total,(total),Discontinued Effect,-514.89,money,1.0
+B2-3m-(all)-Fasteners_&_Fixings-Volume_Index_Gamma,3,(all),Fasteners & Fixings,total,(total),Volume Index Gamma,0.0240300597,ratio,1e-09
+B2-3m-(all)-Fasteners_&_Fixings-Bridge_Residual,3,(all),Fasteners & Fixings,total,(total),Bridge Residual,-0.0,money,1.0
+B2-3m-(all)-Safety_&_PPE-Gross_Profit_Delta,3,(all),Safety & PPE,total,(total),Gross Profit Delta,-1438.03,money,1.0
+B2-3m-(all)-Safety_&_PPE-Price_Effect,3,(all),Safety & PPE,total,(total),Price Effect,-24556.8480350548,money,1.0
+B2-3m-(all)-Safety_&_PPE-Cost_Effect,3,(all),Safety & PPE,total,(total),Cost Effect,-3520.6161056964,money,1.0
+B2-3m-(all)-Safety_&_PPE-Volume_Effect,3,(all),Safety & PPE,total,(total),Volume Effect,21723.8790264433,money,1.0
+B2-3m-(all)-Safety_&_PPE-Mix_Effect,3,(all),Safety & PPE,total,(total),Mix Effect,-1710.4248856922,money,1.0
+B2-3m-(all)-Safety_&_PPE-New_Products_Effect,3,(all),Safety & PPE,total,(total),New Products Effect,6804.0,money,1.0
+B2-3m-(all)-Safety_&_PPE-Discontinued_Effect,3,(all),Safety & PPE,total,(total),Discontinued Effect,-178.02,money,1.0
+B2-3m-(all)-Safety_&_PPE-Volume_Index_Gamma,3,(all),Safety & PPE,total,(total),Volume Index Gamma,0.0638622993,ratio,1e-09
+B2-3m-(all)-Safety_&_PPE-Bridge_Residual,3,(all),Safety & PPE,total,(total),Bridge Residual,-0.0,money,1.0
+B2-3m-(all)-Specialty_Engineered-Gross_Profit_Delta,3,(all),Specialty Engineered,total,(total),Gross Profit Delta,-29949.35,money,1.0
+B2-3m-(all)-Specialty_Engineered-Price_Effect,3,(all),Specialty Engineered,total,(total),Price Effect,-33680.7217428264,money,1.0
+B2-3m-(all)-Specialty_Engineered-Cost_Effect,3,(all),Specialty Engineered,total,(total),Cost Effect,-0.0970950217,money,1.0
+B2-3m-(all)-Specialty_Engineered-Volume_Effect,3,(all),Specialty Engineered,total,(total),Volume Effect,-8369.868687789,money,1.0
+B2-3m-(all)-Specialty_Engineered-Mix_Effect,3,(all),Specialty Engineered,total,(total),Mix Effect,410.0175256371,money,1.0
+B2-3m-(all)-Specialty_Engineered-New_Products_Effect,3,(all),Specialty Engineered,total,(total),New Products Effect,12350.05,money,1.0
+B2-3m-(all)-Specialty_Engineered-Discontinued_Effect,3,(all),Specialty Engineered,total,(total),Discontinued Effect,-658.73,money,1.0
+B2-3m-(all)-Specialty_Engineered-Volume_Index_Gamma,3,(all),Specialty Engineered,total,(total),Volume Index Gamma,-0.0148540155,ratio,1e-09
+B2-3m-(all)-Specialty_Engineered-Bridge_Residual,3,(all),Specialty Engineered,total,(total),Bridge Residual,-0.0,money,1.0
+B2-3m-(all)-Tools_&_Equipment-Gross_Profit_Delta,3,(all),Tools & Equipment,total,(total),Gross Profit Delta,-2945.9299999999,money,1.0
+B2-3m-(all)-Tools_&_Equipment-Price_Effect,3,(all),Tools & Equipment,total,(total),Price Effect,-31179.1561384551,money,1.0
+B2-3m-(all)-Tools_&_Equipment-Cost_Effect,3,(all),Tools & Equipment,total,(total),Cost Effect,-10200.01877331,money,1.0
+B2-3m-(all)-Tools_&_Equipment-Volume_Effect,3,(all),Tools & Equipment,total,(total),Volume Effect,38021.3739264124,money,1.0
+B2-3m-(all)-Tools_&_Equipment-Mix_Effect,3,(all),Tools & Equipment,total,(total),Mix Effect,-2732.4990146472,money,1.0
+B2-3m-(all)-Tools_&_Equipment-New_Products_Effect,3,(all),Tools & Equipment,total,(total),New Products Effect,3144.37,money,1.0
+B2-3m-(all)-Tools_&_Equipment-Discontinued_Effect,3,(all),Tools & Equipment,total,(total),Discontinued Effect,0.0,money,1.0
+B2-3m-(all)-Tools_&_Equipment-Volume_Index_Gamma,3,(all),Tools & Equipment,total,(total),Volume Index Gamma,0.0850976357,ratio,1e-09
+B2-3m-(all)-Tools_&_Equipment-Bridge_Residual,3,(all),Tools & Equipment,total,(total),Bridge Residual,0.0,money,1.0
+B2-3m-Direct-(all)-Gross_Profit_Delta,3,Direct,(all),total,(total),Gross Profit Delta,33155.4999999999,money,1.0
+B2-3m-Direct-(all)-Price_Effect,3,Direct,(all),total,(total),Price Effect,16998.5026850798,money,1.0
+B2-3m-Direct-(all)-Cost_Effect,3,Direct,(all),total,(total),Cost Effect,-51399.6994571712,money,1.0
+B2-3m-Direct-(all)-Volume_Effect,3,Direct,(all),total,(total),Volume Effect,48962.5617621889,money,1.0
+B2-3m-Direct-(all)-Mix_Effect,3,Direct,(all),total,(total),Mix Effect,3958.7750099025,money,1.0
+B2-3m-Direct-(all)-New_Products_Effect,3,Direct,(all),total,(total),New Products Effect,20926.13,money,1.0
+B2-3m-Direct-(all)-Discontinued_Effect,3,Direct,(all),total,(total),Discontinued Effect,-6290.77,money,1.0
+B2-3m-Direct-(all)-Volume_Index_Gamma,3,Direct,(all),total,(total),Volume Index Gamma,0.0561301539,ratio,1e-09
+B2-3m-Direct-(all)-Bridge_Residual,3,Direct,(all),total,(total),Bridge Residual,-1e-10,money,1.0
+B2-3m-Direct-Commodity_Consumables-Gross_Profit_Delta,3,Direct,Commodity Consumables,total,(total),Gross Profit Delta,582.73,money,1.0
+B2-3m-Direct-Commodity_Consumables-Price_Effect,3,Direct,Commodity Consumables,total,(total),Price Effect,-1381.2727149287,money,1.0
+B2-3m-Direct-Commodity_Consumables-Cost_Effect,3,Direct,Commodity Consumables,total,(total),Cost Effect,-2445.5157335329,money,1.0
+B2-3m-Direct-Commodity_Consumables-Volume_Effect,3,Direct,Commodity Consumables,total,(total),Volume Effect,2909.9387533137,money,1.0
+B2-3m-Direct-Commodity_Consumables-Mix_Effect,3,Direct,Commodity Consumables,total,(total),Mix Effect,-3614.5103048521,money,1.0
+B2-3m-Direct-Commodity_Consumables-New_Products_Effect,3,Direct,Commodity Consumables,total,(total),New Products Effect,5511.91,money,1.0
+B2-3m-Direct-Commodity_Consumables-Discontinued_Effect,3,Direct,Commodity Consumables,total,(total),Discontinued Effect,-397.82,money,1.0
+B2-3m-Direct-Commodity_Consumables-Volume_Index_Gamma,3,Direct,Commodity Consumables,total,(total),Volume Index Gamma,0.0252915229,ratio,1e-09
+B2-3m-Direct-Commodity_Consumables-Bridge_Residual,3,Direct,Commodity Consumables,total,(total),Bridge Residual,0.0,money,1.0
+B2-3m-Direct-Electrical_Components-Gross_Profit_Delta,3,Direct,Electrical Components,total,(total),Gross Profit Delta,-3803.18,money,1.0
+B2-3m-Direct-Electrical_Components-Price_Effect,3,Direct,Electrical Components,total,(total),Price Effect,11200.6321438571,money,1.0
+B2-3m-Direct-Electrical_Components-Cost_Effect,3,Direct,Electrical Components,total,(total),Cost Effect,-21089.7279888168,money,1.0
+B2-3m-Direct-Electrical_Components-Volume_Effect,3,Direct,Electrical Components,total,(total),Volume Effect,4226.2040514153,money,1.0
+B2-3m-Direct-Electrical_Components-Mix_Effect,3,Direct,Electrical Components,total,(total),Mix Effect,543.7917935444,money,1.0
+B2-3m-Direct-Electrical_Components-New_Products_Effect,3,Direct,Electrical Components,total,(total),New Products Effect,2005.4,money,1.0
+B2-3m-Direct-Electrical_Components-Discontinued_Effect,3,Direct,Electrical Components,total,(total),Discontinued Effect,-689.48,money,1.0
+B2-3m-Direct-Electrical_Components-Volume_Index_Gamma,3,Direct,Electrical Components,total,(total),Volume Index Gamma,0.0376357877,ratio,1e-09
+B2-3m-Direct-Electrical_Components-Bridge_Residual,3,Direct,Electrical Components,total,(total),Bridge Residual,-0.0,money,1.0
+B2-3m-Direct-Fasteners_&_Fixings-Gross_Profit_Delta,3,Direct,Fasteners & Fixings,total,(total),Gross Profit Delta,-3982.67,money,1.0
+B2-3m-Direct-Fasteners_&_Fixings-Price_Effect,3,Direct,Fasteners & Fixings,total,(total),Price Effect,11154.8596794644,money,1.0
+B2-3m-Direct-Fasteners_&_Fixings-Cost_Effect,3,Direct,Fasteners & Fixings,total,(total),Cost Effect,-22681.651062294,money,1.0
+B2-3m-Direct-Fasteners_&_Fixings-Volume_Effect,3,Direct,Fasteners & Fixings,total,(total),Volume Effect,9152.9090450533,money,1.0
+B2-3m-Direct-Fasteners_&_Fixings-Mix_Effect,3,Direct,Fasteners & Fixings,total,(total),Mix Effect,588.0923377763,money,1.0
+B2-3m-Direct-Fasteners_&_Fixings-New_Products_Effect,3,Direct,Fasteners & Fixings,total,(total),New Products Effect,2259.05,money,1.0
+B2-3m-Direct-Fasteners_&_Fixings-Discontinued_Effect,3,Direct,Fasteners & Fixings,total,(total),Discontinued Effect,-4455.93,money,1.0
+B2-3m-Direct-Fasteners_&_Fixings-Volume_Index_Gamma,3,Direct,Fasteners & Fixings,total,(total),Volume Index Gamma,0.0800688753,ratio,1e-09
+B2-3m-Direct-Fasteners_&_Fixings-Bridge_Residual,3,Direct,Fasteners & Fixings,total,(total),Bridge Residual,0.0,money,1.0
+B2-3m-Direct-Safety_&_PPE-Gross_Profit_Delta,3,Direct,Safety & PPE,total,(total),Gross Profit Delta,4871.09,money,1.0
+B2-3m-Direct-Safety_&_PPE-Price_Effect,3,Direct,Safety & PPE,total,(total),Price Effect,-708.2374573897,money,1.0
+B2-3m-Direct-Safety_&_PPE-Cost_Effect,3,Direct,Safety & PPE,total,(total),Cost Effect,-1312.4416403226,money,1.0
+B2-3m-Direct-Safety_&_PPE-Volume_Effect,3,Direct,Safety & PPE,total,(total),Volume Effect,2040.7901769412,money,1.0
+B2-3m-Direct-Safety_&_PPE-Mix_Effect,3,Direct,Safety & PPE,total,(total),Mix Effect,-710.9910792289,money,1.0
+B2-3m-Direct-Safety_&_PPE-New_Products_Effect,3,Direct,Safety & PPE,total,(total),New Products Effect,6080.47,money,1.0
+B2-3m-Direct-Safety_&_PPE-Discontinued_Effect,3,Direct,Safety & PPE,total,(total),Discontinued Effect,-518.5,money,1.0
+B2-3m-Direct-Safety_&_PPE-Volume_Index_Gamma,3,Direct,Safety & PPE,total,(total),Volume Index Gamma,0.0148426425,ratio,1e-09
+B2-3m-Direct-Safety_&_PPE-Bridge_Residual,3,Direct,Safety & PPE,total,(total),Bridge Residual,0.0,money,1.0
+B2-3m-Direct-Specialty_Engineered-Gross_Profit_Delta,3,Direct,Specialty Engineered,total,(total),Gross Profit Delta,28914.95,money,1.0
+B2-3m-Direct-Specialty_Engineered-Price_Effect,3,Direct,Specialty Engineered,total,(total),Price Effect,-428.2853139295,money,1.0
+B2-3m-Direct-Specialty_Engineered-Cost_Effect,3,Direct,Specialty Engineered,total,(total),Cost Effect,0.0645548278,money,1.0
+B2-3m-Direct-Specialty_Engineered-Volume_Effect,3,Direct,Specialty Engineered,total,(total),Volume Effect,25124.9894695907,money,1.0
+B2-3m-Direct-Specialty_Engineered-Mix_Effect,3,Direct,Specialty Engineered,total,(total),Mix Effect,509.1312895109,money,1.0
+B2-3m-Direct-Specialty_Engineered-New_Products_Effect,3,Direct,Specialty Engineered,total,(total),New Products Effect,3938.09,money,1.0
+B2-3m-Direct-Specialty_Engineered-Discontinued_Effect,3,Direct,Specialty Engineered,total,(total),Discontinued Effect,-229.04,money,1.0
+B2-3m-Direct-Specialty_Engineered-Volume_Index_Gamma,3,Direct,Specialty Engineered,total,(total),Volume Index Gamma,0.1217299064,ratio,1e-09
+B2-3m-Direct-Specialty_Engineered-Bridge_Residual,3,Direct,Specialty Engineered,total,(total),Bridge Residual,-0.0,money,1.0
+B2-3m-Direct-Tools_&_Equipment-Gross_Profit_Delta,3,Direct,Tools & Equipment,total,(total),Gross Profit Delta,6572.58,money,1.0
+B2-3m-Direct-Tools_&_Equipment-Price_Effect,3,Direct,Tools & Equipment,total,(total),Price Effect,-2839.1936519938,money,1.0
+B2-3m-Direct-Tools_&_Equipment-Cost_Effect,3,Direct,Tools & Equipment,total,(total),Cost Effect,-3870.4275870328,money,1.0
+B2-3m-Direct-Tools_&_Equipment-Volume_Effect,3,Direct,Tools & Equipment,total,(total),Volume Effect,9156.2409884325,money,1.0
+B2-3m-Direct-Tools_&_Equipment-Mix_Effect,3,Direct,Tools & Equipment,total,(total),Mix Effect,2994.7502505941,money,1.0
+B2-3m-Direct-Tools_&_Equipment-New_Products_Effect,3,Direct,Tools & Equipment,total,(total),New Products Effect,1131.21,money,1.0
+B2-3m-Direct-Tools_&_Equipment-Discontinued_Effect,3,Direct,Tools & Equipment,total,(total),Discontinued Effect,0.0,money,1.0
+B2-3m-Direct-Tools_&_Equipment-Volume_Index_Gamma,3,Direct,Tools & Equipment,total,(total),Volume Index Gamma,0.0490297926,ratio,1e-09
+B2-3m-Direct-Tools_&_Equipment-Bridge_Residual,3,Direct,Tools & Equipment,total,(total),Bridge Residual,0.0,money,1.0
+B2-3m-Distributor-(all)-Gross_Profit_Delta,3,Distributor,(all),total,(total),Gross Profit Delta,-156683.4800000001,money,1.0
+B2-3m-Distributor-(all)-Price_Effect,3,Distributor,(all),total,(total),Price Effect,-133262.308679494,money,1.0
+B2-3m-Distributor-(all)-Cost_Effect,3,Distributor,(all),total,(total),Cost Effect,-64366.5368757994,money,1.0
+B2-3m-Distributor-(all)-Volume_Effect,3,Distributor,(all),total,(total),Volume Effect,58891.6434829805,money,1.0
+B2-3m-Distributor-(all)-Mix_Effect,3,Distributor,(all),total,(total),Mix Effect,-24374.4379276871,money,1.0
+B2-3m-Distributor-(all)-New_Products_Effect,3,Distributor,(all),total,(total),New Products Effect,16159.8,money,1.0
+B2-3m-Distributor-(all)-Discontinued_Effect,3,Distributor,(all),total,(total),Discontinued Effect,-9731.64,money,1.0
+B2-3m-Distributor-(all)-Volume_Index_Gamma,3,Distributor,(all),total,(total),Volume Index Gamma,0.0737281363,ratio,1e-09
+B2-3m-Distributor-(all)-Bridge_Residual,3,Distributor,(all),total,(total),Bridge Residual,-1e-10,money,1.0
+B2-3m-Distributor-Commodity_Consumables-Gross_Profit_Delta,3,Distributor,Commodity Consumables,total,(total),Gross Profit Delta,-18715.83,money,1.0
+B2-3m-Distributor-Commodity_Consumables-Price_Effect,3,Distributor,Commodity Consumables,total,(total),Price Effect,-36568.5407716593,money,1.0
+B2-3m-Distributor-Commodity_Consumables-Cost_Effect,3,Distributor,Commodity Consumables,total,(total),Cost Effect,-3127.2653357172,money,1.0
+B2-3m-Distributor-Commodity_Consumables-Volume_Effect,3,Distributor,Commodity Consumables,total,(total),Volume Effect,23356.7750786788,money,1.0
+B2-3m-Distributor-Commodity_Consumables-Mix_Effect,3,Distributor,Commodity Consumables,total,(total),Mix Effect,899.4610286977,money,1.0
+B2-3m-Distributor-Commodity_Consumables-New_Products_Effect,3,Distributor,Commodity Consumables,total,(total),New Products Effect,656.74,money,1.0
+B2-3m-Distributor-Commodity_Consumables-Discontinued_Effect,3,Distributor,Commodity Consumables,total,(total),Discontinued Effect,-3933.0,money,1.0
+B2-3m-Distributor-Commodity_Consumables-Volume_Index_Gamma,3,Distributor,Commodity Consumables,total,(total),Volume Index Gamma,0.2565816846,ratio,1e-09
+B2-3m-Distributor-Commodity_Consumables-Bridge_Residual,3,Distributor,Commodity Consumables,total,(total),Bridge Residual,0.0,money,1.0
+B2-3m-Distributor-Electrical_Components-Gross_Profit_Delta,3,Distributor,Electrical Components,total,(total),Gross Profit Delta,-34500.45,money,1.0
+B2-3m-Distributor-Electrical_Components-Price_Effect,3,Distributor,Electrical Components,total,(total),Price Effect,-6743.4598436708,money,1.0
+B2-3m-Distributor-Electrical_Components-Cost_Effect,3,Distributor,Electrical Components,total,(total),Cost Effect,-26962.9927411058,money,1.0
+B2-3m-Distributor-Electrical_Components-Volume_Effect,3,Distributor,Electrical Components,total,(total),Volume Effect,1810.9479967529,money,1.0
+B2-3m-Distributor-Electrical_Components-Mix_Effect,3,Distributor,Electrical Components,total,(total),Mix Effect,-3777.7154119764,money,1.0
+B2-3m-Distributor-Electrical_Components-New_Products_Effect,3,Distributor,Electrical Components,total,(total),New Products Effect,1172.77,money,1.0
+B2-3m-Distributor-Electrical_Components-Discontinued_Effect,3,Distributor,Electrical Components,total,(total),Discontinued Effect,0.0,money,1.0
+B2-3m-Distributor-Electrical_Components-Volume_Index_Gamma,3,Distributor,Electrical Components,total,(total),Volume Index Gamma,0.0172310237,ratio,1e-09
+B2-3m-Distributor-Electrical_Components-Bridge_Residual,3,Distributor,Electrical Components,total,(total),Bridge Residual,0.0,money,1.0
+B2-3m-Distributor-Fasteners_&_Fixings-Gross_Profit_Delta,3,Distributor,Fasteners & Fixings,total,(total),Gross Profit Delta,-27285.6,money,1.0
+B2-3m-Distributor-Fasteners_&_Fixings-Price_Effect,3,Distributor,Fasteners & Fixings,total,(total),Price Effect,-6604.5583507828,money,1.0
+B2-3m-Distributor-Fasteners_&_Fixings-Cost_Effect,3,Distributor,Fasteners & Fixings,total,(total),Cost Effect,-28487.0437383625,money,1.0
+B2-3m-Distributor-Fasteners_&_Fixings-Volume_Effect,3,Distributor,Fasteners & Fixings,total,(total),Volume Effect,4534.5099723125,money,1.0
+B2-3m-Distributor-Fasteners_&_Fixings-Mix_Effect,3,Distributor,Fasteners & Fixings,total,(total),Mix Effect,251.2921168329,money,1.0
+B2-3m-Distributor-Fasteners_&_Fixings-New_Products_Effect,3,Distributor,Fasteners & Fixings,total,(total),New Products Effect,3327.25,money,1.0
+B2-3m-Distributor-Fasteners_&_Fixings-Discontinued_Effect,3,Distributor,Fasteners & Fixings,total,(total),Discontinued Effect,-307.05,money,1.0
+B2-3m-Distributor-Fasteners_&_Fixings-Volume_Index_Gamma,3,Distributor,Fasteners & Fixings,total,(total),Volume Index Gamma,0.0434250142,ratio,1e-09
+B2-3m-Distributor-Fasteners_&_Fixings-Bridge_Residual,3,Distributor,Fasteners & Fixings,total,(total),Bridge Residual,0.0,money,1.0
+B2-3m-Distributor-Safety_&_PPE-Gross_Profit_Delta,3,Distributor,Safety & PPE,total,(total),Gross Profit Delta,-10477.55,money,1.0
+B2-3m-Distributor-Safety_&_PPE-Price_Effect,3,Distributor,Safety & PPE,total,(total),Price Effect,-21715.48433287,money,1.0
+B2-3m-Distributor-Safety_&_PPE-Cost_Effect,3,Distributor,Safety & PPE,total,(total),Cost Effect,-1509.8790523231,money,1.0
+B2-3m-Distributor-Safety_&_PPE-Volume_Effect,3,Distributor,Safety & PPE,total,(total),Volume Effect,13931.9675986079,money,1.0
+B2-3m-Distributor-Safety_&_PPE-Mix_Effect,3,Distributor,Safety & PPE,total,(total),Mix Effect,15.4957865852,money,1.0
+B2-3m-Distributor-Safety_&_PPE-New_Products_Effect,3,Distributor,Safety & PPE,total,(total),New Products Effect,2965.46,money,1.0
+B2-3m-Distributor-Safety_&_PPE-Discontinued_Effect,3,Distributor,Safety & PPE,total,(total),Discontinued Effect,-4165.11,money,1.0
+B2-3m-Distributor-Safety_&_PPE-Volume_Index_Gamma,3,Distributor,Safety & PPE,total,(total),Volume Index Gamma,0.1133512125,ratio,1e-09
+B2-3m-Distributor-Safety_&_PPE-Bridge_Residual,3,Distributor,Safety & PPE,total,(total),Bridge Residual,-0.0,money,1.0
+B2-3m-Distributor-Specialty_Engineered-Gross_Profit_Delta,3,Distributor,Specialty Engineered,total,(total),Gross Profit Delta,-43226.0399999999,money,1.0
+B2-3m-Distributor-Specialty_Engineered-Price_Effect,3,Distributor,Specialty Engineered,total,(total),Price Effect,-31800.5695413653,money,1.0
+B2-3m-Distributor-Specialty_Engineered-Cost_Effect,3,Distributor,Specialty Engineered,total,(total),Cost Effect,-0.1105486658,money,1.0
+B2-3m-Distributor-Specialty_Engineered-Volume_Effect,3,Distributor,Specialty Engineered,total,(total),Volume Effect,-15747.1129165592,money,1.0
+B2-3m-Distributor-Specialty_Engineered-Mix_Effect,3,Distributor,Specialty Engineered,total,(total),Mix Effect,-674.4969934097,money,1.0
+B2-3m-Distributor-Specialty_Engineered-New_Products_Effect,3,Distributor,Specialty Engineered,total,(total),New Products Effect,6322.73,money,1.0
+B2-3m-Distributor-Specialty_Engineered-Discontinued_Effect,3,Distributor,Specialty Engineered,total,(total),Discontinued Effect,-1326.48,money,1.0
+B2-3m-Distributor-Specialty_Engineered-Volume_Index_Gamma,3,Distributor,Specialty Engineered,total,(total),Volume Index Gamma,-0.0707841677,ratio,1e-09
+B2-3m-Distributor-Specialty_Engineered-Bridge_Residual,3,Distributor,Specialty Engineered,total,(total),Bridge Residual,1e-10,money,1.0
+B2-3m-Distributor-Tools_&_Equipment-Gross_Profit_Delta,3,Distributor,Tools & Equipment,total,(total),Gross Profit Delta,-22478.01,money,1.0
+B2-3m-Distributor-Tools_&_Equipment-Price_Effect,3,Distributor,Tools & Equipment,total,(total),Price Effect,-29829.6958391458,money,1.0
+B2-3m-Distributor-Tools_&_Equipment-Cost_Effect,3,Distributor,Tools & Equipment,total,(total),Cost Effect,-4279.245459625,money,1.0
+B2-3m-Distributor-Tools_&_Equipment-Volume_Effect,3,Distributor,Tools & Equipment,total,(total),Volume Effect,9658.9477224858,money,1.0
+B2-3m-Distributor-Tools_&_Equipment-Mix_Effect,3,Distributor,Tools & Equipment,total,(total),Mix Effect,257.1335762851,money,1.0
+B2-3m-Distributor-Tools_&_Equipment-New_Products_Effect,3,Distributor,Tools & Equipment,total,(total),New Products Effect,1714.85,money,1.0
+B2-3m-Distributor-Tools_&_Equipment-Discontinued_Effect,3,Distributor,Tools & Equipment,total,(total),Discontinued Effect,0.0,money,1.0
+B2-3m-Distributor-Tools_&_Equipment-Volume_Index_Gamma,3,Distributor,Tools & Equipment,total,(total),Volume Index Gamma,0.063196075,ratio,1e-09
+B2-3m-Distributor-Tools_&_Equipment-Bridge_Residual,3,Distributor,Tools & Equipment,total,(total),Bridge Residual,0.0,money,1.0
+B2-3m-Online-(all)-Gross_Profit_Delta,3,Online,(all),total,(total),Gross Profit Delta,-6482.8300000001,money,1.0
+B2-3m-Online-(all)-Price_Effect,3,Online,(all),total,(total),Price Effect,10181.2621764985,money,1.0
+B2-3m-Online-(all)-Cost_Effect,3,Online,(all),total,(total),Cost Effect,-27384.4461474104,money,1.0
+B2-3m-Online-(all)-Volume_Effect,3,Online,(all),total,(total),Volume Effect,23154.9927827529,money,1.0
+B2-3m-Online-(all)-Mix_Effect,3,Online,(all),total,(total),Mix Effect,-17026.078811841,money,1.0
+B2-3m-Online-(all)-New_Products_Effect,3,Online,(all),total,(total),New Products Effect,43370.91,money,1.0
+B2-3m-Online-(all)-Discontinued_Effect,3,Online,(all),total,(total),Discontinued Effect,-38779.47,money,1.0
+B2-3m-Online-(all)-Volume_Index_Gamma,3,Online,(all),total,(total),Volume Index Gamma,0.0450930544,ratio,1e-09
+B2-3m-Online-(all)-Bridge_Residual,3,Online,(all),total,(total),Bridge Residual,-1e-10,money,1.0
+B2-3m-Online-Commodity_Consumables-Gross_Profit_Delta,3,Online,Commodity Consumables,total,(total),Gross Profit Delta,17713.28,money,1.0
+B2-3m-Online-Commodity_Consumables-Price_Effect,3,Online,Commodity Consumables,total,(total),Price Effect,-982.5231071761,money,1.0
+B2-3m-Online-Commodity_Consumables-Cost_Effect,3,Online,Commodity Consumables,total,(total),Cost Effect,-1361.0280319474,money,1.0
+B2-3m-Online-Commodity_Consumables-Volume_Effect,3,Online,Commodity Consumables,total,(total),Volume Effect,19695.4099260202,money,1.0
+B2-3m-Online-Commodity_Consumables-Mix_Effect,3,Online,Commodity Consumables,total,(total),Mix Effect,3296.6612131032,money,1.0
+B2-3m-Online-Commodity_Consumables-New_Products_Effect,3,Online,Commodity Consumables,total,(total),New Products Effect,1833.55,money,1.0
+B2-3m-Online-Commodity_Consumables-Discontinued_Effect,3,Online,Commodity Consumables,total,(total),Discontinued Effect,-4768.79,money,1.0
+B2-3m-Online-Commodity_Consumables-Volume_Index_Gamma,3,Online,Commodity Consumables,total,(total),Volume Index Gamma,0.254365806,ratio,1e-09
+B2-3m-Online-Commodity_Consumables-Bridge_Residual,3,Online,Commodity Consumables,total,(total),Bridge Residual,-0.0,money,1.0
+B2-3m-Online-Electrical_Components-Gross_Profit_Delta,3,Online,Electrical Components,total,(total),Gross Profit Delta,-4757.56,money,1.0
+B2-3m-Online-Electrical_Components-Price_Effect,3,Online,Electrical Components,total,(total),Price Effect,6116.0835807139,money,1.0
+B2-3m-Online-Electrical_Components-Cost_Effect,3,Online,Electrical Components,total,(total),Cost Effect,-11086.7243643815,money,1.0
+B2-3m-Online-Electrical_Components-Volume_Effect,3,Online,Electrical Components,total,(total),Volume Effect,-4564.0945704134,money,1.0
+B2-3m-Online-Electrical_Components-Mix_Effect,3,Online,Electrical Components,total,(total),Mix Effect,-887.2546459189,money,1.0
+B2-3m-Online-Electrical_Components-New_Products_Effect,3,Online,Electrical Components,total,(total),New Products Effect,8852.47,money,1.0
+B2-3m-Online-Electrical_Components-Discontinued_Effect,3,Online,Electrical Components,total,(total),Discontinued Effect,-3188.04,money,1.0
+B2-3m-Online-Electrical_Components-Volume_Index_Gamma,3,Online,Electrical Components,total,(total),Volume Index Gamma,-0.0666948048,ratio,1e-09
+B2-3m-Online-Electrical_Components-Bridge_Residual,3,Online,Electrical Components,total,(total),Bridge Residual,0.0,money,1.0
+B2-3m-Online-Fasteners_&_Fixings-Gross_Profit_Delta,3,Online,Fasteners & Fixings,total,(total),Gross Profit Delta,-20928.22,money,1.0
+B2-3m-Online-Fasteners_&_Fixings-Price_Effect,3,Online,Fasteners & Fixings,total,(total),Price Effect,6708.6447956268,money,1.0
+B2-3m-Online-Fasteners_&_Fixings-Cost_Effect,3,Online,Fasteners & Fixings,total,(total),Cost Effect,-12388.2783091794,money,1.0
+B2-3m-Online-Fasteners_&_Fixings-Volume_Effect,3,Online,Fasteners & Fixings,total,(total),Volume Effect,-7326.6905398465,money,1.0
+B2-3m-Online-Fasteners_&_Fixings-Mix_Effect,3,Online,Fasteners & Fixings,total,(total),Mix Effect,-2491.4959466009,money,1.0
+B2-3m-Online-Fasteners_&_Fixings-New_Products_Effect,3,Online,Fasteners & Fixings,total,(total),New Products Effect,3835.95,money,1.0
+B2-3m-Online-Fasteners_&_Fixings-Discontinued_Effect,3,Online,Fasteners & Fixings,total,(total),Discontinued Effect,-9266.35,money,1.0
+B2-3m-Online-Fasteners_&_Fixings-Volume_Index_Gamma,3,Online,Fasteners & Fixings,total,(total),Volume Index Gamma,-0.1002235181,ratio,1e-09
+B2-3m-Online-Fasteners_&_Fixings-Bridge_Residual,3,Online,Fasteners & Fixings,total,(total),Bridge Residual,0.0,money,1.0
+B2-3m-Online-Safety_&_PPE-Gross_Profit_Delta,3,Online,Safety & PPE,total,(total),Gross Profit Delta,4168.43,money,1.0
+B2-3m-Online-Safety_&_PPE-Price_Effect,3,Online,Safety & PPE,total,(total),Price Effect,-620.0850211801,money,1.0
+B2-3m-Online-Safety_&_PPE-Cost_Effect,3,Online,Safety & PPE,total,(total),Cost Effect,-597.8370395187,money,1.0
+B2-3m-Online-Safety_&_PPE-Volume_Effect,3,Online,Safety & PPE,total,(total),Volume Effect,11217.2357560455,money,1.0
+B2-3m-Online-Safety_&_PPE-Mix_Effect,3,Online,Safety & PPE,total,(total),Mix Effect,-1576.2836953468,money,1.0
+B2-3m-Online-Safety_&_PPE-New_Products_Effect,3,Online,Safety & PPE,total,(total),New Products Effect,3921.83,money,1.0
+B2-3m-Online-Safety_&_PPE-Discontinued_Effect,3,Online,Safety & PPE,total,(total),Discontinued Effect,-8176.43,money,1.0
+B2-3m-Online-Safety_&_PPE-Volume_Index_Gamma,3,Online,Safety & PPE,total,(total),Volume Index Gamma,0.1577113877,ratio,1e-09
+B2-3m-Online-Safety_&_PPE-Bridge_Residual,3,Online,Safety & PPE,total,(total),Bridge Residual,-0.0,money,1.0
+B2-3m-Online-Specialty_Engineered-Gross_Profit_Delta,3,Online,Specialty Engineered,total,(total),Gross Profit Delta,-15638.26,money,1.0
+B2-3m-Online-Specialty_Engineered-Price_Effect,3,Online,Specialty Engineered,total,(total),Price Effect,-567.0252584002,money,1.0
+B2-3m-Online-Specialty_Engineered-Cost_Effect,3,Online,Specialty Engineered,total,(total),Cost Effect,-0.0484439602,money,1.0
+B2-3m-Online-Specialty_Engineered-Volume_Effect,3,Online,Specialty Engineered,total,(total),Volume Effect,-17897.9724665246,money,1.0
+B2-3m-Online-Specialty_Engineered-Mix_Effect,3,Online,Specialty Engineered,total,(total),Mix Effect,-71.273831115,money,1.0
+B2-3m-Online-Specialty_Engineered-New_Products_Effect,3,Online,Specialty Engineered,total,(total),New Products Effect,15179.1,money,1.0
+B2-3m-Online-Specialty_Engineered-Discontinued_Effect,3,Online,Specialty Engineered,total,(total),Discontinued Effect,-12281.04,money,1.0
+B2-3m-Online-Specialty_Engineered-Volume_Index_Gamma,3,Online,Specialty Engineered,total,(total),Volume Index Gamma,-0.147542255,ratio,1e-09
+B2-3m-Online-Specialty_Engineered-Bridge_Residual,3,Online,Specialty Engineered,total,(total),Bridge Residual,-0.0,money,1.0
+B2-3m-Online-Tools_&_Equipment-Gross_Profit_Delta,3,Online,Tools & Equipment,total,(total),Gross Profit Delta,12959.5,money,1.0
+B2-3m-Online-Tools_&_Equipment-Price_Effect,3,Online,Tools & Equipment,total,(total),Price Effect,-473.8328130858,money,1.0
+B2-3m-Online-Tools_&_Equipment-Cost_Effect,3,Online,Tools & Equipment,total,(total),Cost Effect,-1950.5299584232,money,1.0
+B2-3m-Online-Tools_&_Equipment-Volume_Effect,3,Online,Tools & Equipment,total,(total),Volume Effect,13043.8668254979,money,1.0
+B2-3m-Online-Tools_&_Equipment-Mix_Effect,3,Online,Tools & Equipment,total,(total),Mix Effect,-6309.1940539889,money,1.0
+B2-3m-Online-Tools_&_Equipment-New_Products_Effect,3,Online,Tools & Equipment,total,(total),New Products Effect,9748.01,money,1.0
+B2-3m-Online-Tools_&_Equipment-Discontinued_Effect,3,Online,Tools & Equipment,total,(total),Discontinued Effect,-1098.82,money,1.0
+B2-3m-Online-Tools_&_Equipment-Volume_Index_Gamma,3,Online,Tools & Equipment,total,(total),Volume Index Gamma,0.1277613993,ratio,1e-09
+B2-3m-Online-Tools_&_Equipment-Bridge_Residual,3,Online,Tools & Equipment,total,(total),Bridge Residual,-0.0,money,1.0
